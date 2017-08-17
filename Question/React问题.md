@@ -7,7 +7,7 @@
   >**state：一般用于组件内部的状态维护，更新组件内部的数据、状态，更新组件的props等。**
 
 ### 2.什么时候class创建组件，什么时候用一个函数创建
->* 需要使用state时，使用class创建组件，而无状态的组件，使用函数创建即可 *
+>* 需要使用state时，使用class创建组件，而无状态的组件，使用函数创建即可
 
 ### 3.什么是shouldComponentUpdate？有啥作用？
 >* 它是react生命周期的一员， 用于告诉组件什么时候不需要更新。render和shouldComponentUpdate函数，是react生命周期中唯二两个要求返回结果的函数。shouldComponentUpdate使用得当，可大大提升组件的性能  * [shouldComponentUpdate示例参考](http://blog.csdn.net/liwusen/article/details/53908266)
