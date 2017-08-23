@@ -96,3 +96,12 @@ x && b(--x);
 };
 alert(a);
 ```
+
+## 题目三
+```javascript
+function a() {
+return 1 ;
+}
+var a;
+alert(a);
+```
