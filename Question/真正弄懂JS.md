@@ -1,6 +1,6 @@
 ## 了解javascript的基本概览
 
-### 题目一
+## 题目一
 ```javascript
 if (!("a" in window)) {
    var a = 1;
@@ -43,11 +43,7 @@ alert(a);
 这样，题目的意思就非常清楚了：首先声明a，然后判断a是否在存在，如果不存在就赋值为1，很明显a永远在window里存在，这个赋值语句永远不会执行，所以结果是undefined。
 提前这个词语显得有点迷惑了，你可以理解为：预编译。
 
-
-
-
-
-### 题目二
+## 题目二
 ```javascript
 var a = 1,
 b = function a(x) {
@@ -86,9 +82,6 @@ alert(typeof value); //"function"
 function value(){
 return 1;
 }
-
-
-
 var value = 1;
 alert(typeof value); //"number"
 ```
