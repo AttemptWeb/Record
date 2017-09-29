@@ -1,0 +1,45 @@
+# 排序总结
+
+## 冒泡排序
+
+作为最简单的排序算法之一，每次都在第一页第一位，所以最熟悉。。。
+
+**什么时候最快(Best Cases):**
+
+当输入的数据已经是正序时（都已经是正序了，我还要你冒泡排序有何用啊。。。。）
+
+**什么时候最慢(Worst Cases)**
+
+当输入的数据是反序时（写一个for循环反序输出数据不就行了，干嘛要用你冒泡排序呢，我是闲的吗。。。）
+```javascript
+var arr = [99,24,10,1,123,23]
+for(i=0;i<arr.length-1;i++){
+    for(j=0;j<arr.length-1-i;j++){
+        if(arr[j]>arr[j+1]){  //相邻元素两两对比
+            var temp=arr[j];  //元素交换
+            arr[j]=arr[j+1];
+            arr[j+1]=temp;
+        }
+    }
+    console.log(arr)
+}
+```
+****
+
+## 选择排序
+
+在时间复杂度上表现最稳定的排序算法之一，因为无论什么数据进去都是O(n²)的时间复杂度。。。所以用到它的时候，数据规模越小越好。唯一的好处可能就是不占用额外的内存空间了吧。
+
+```javascript
+var arr = [99,24,10,1,123,23]
+for(var i=0;i<arr.length;i++){
+	for(var j=i+1;j<arr.length;j++){
+		if(arr[i]>arr[j]){
+			var temp = arr[i];
+			arr[i] = arr[j];
+			arr[j] = temp
+		}
+	}
+	console.log(arr)
+}
+```
