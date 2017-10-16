@@ -1,5 +1,6 @@
 # React组件的生命周期
 
+
 **生命周期共提供了10个不同的API。**
 
 **首次实例化**
@@ -41,6 +42,7 @@
 在完成首次渲染之前调用，此时仍可以修改组件的state。
 
 ## render
+
 必选的方法，创建虚拟DOM，该方法具有特殊的规则：
 只能通过this.props和this.state访问数据
 可以返回null、false或任何React组件
@@ -49,6 +51,7 @@
 不能修改DOM的输出
 
 ## componentDidMount
+
 真实的DOM被渲染出来后调用，在该方法中可通过this.getDOMNode()访问到真实的DOM元素。此时已可以使用其他类库来操作这个DOM。
 在服务端中，该方法不会被调用。
 
