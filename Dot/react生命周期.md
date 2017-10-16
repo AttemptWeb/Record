@@ -59,7 +59,7 @@
 componentWillReceiveProps: function(nextProps) {
 if (nextProps.bool) {
 this.setState({
-    bool: true
+bool: true
 });
 }
 }
