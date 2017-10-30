@@ -18,6 +18,21 @@
 ### 5.为什么利用循环产生的组件中药用上key这个特殊的prop
 
 ### 6.setState可以接受函数为参数吗？有啥作用？
+```javascript
+(prevState, props) => stateChange
+
+prevState是对以前状态的引用。不应该直接突变。相反，应该根据来自prevState和的输入构建一个新对象来表示更改props。例如，假设我们想增加一个状态值props.step：
+
+this.setState((prevState, props) => {
+  return {counter: prevState.counter + props.step};
+});
+
+如果下一个状态取决于以前的状态，我们建议使用updater函数形式：
+this.setState((prevState) => {
+  return {counter: prevState.quantity + 1};
+});
+```
+参考：[setState](https://reactjs.org/docs/react-component.html#setstate)
 
 ### 7.什么是HoC(Higher-Order-Component)适合那些场景?
 >* 高阶组件HoC。它不是react提供的某种API，而是使用react的一种模式，用于增强组件功能  。可应用场景: 操作prop、访问ref、抽取状态、包装组件 
