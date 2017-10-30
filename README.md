@@ -13,14 +13,13 @@
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
 
-* [基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用][1]
-* [基于 node.js + Mongodb 构建电商后台系统][2]
-* [Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址][3]
+* [基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用][30]
+* [基于 node.js + Mongodb 构建电商后台系统][31]
+* [Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址][32]
 
-
-  [1](https://github.com/bailicangdu/vue2-elm)
-  [2](https://github.com/bailicangdu/node-elm)
-  [3](https://pan.baidu.com/s/1geQIWHt?qq-pf-to=pcqq.group&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2FVue%202.0%20%E9%AB%98%E7%BA%A7%E5%AE%9E%E6%88%98-%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E4%B9%90WebApp)
+  [30]:(https://github.com/bailicangdu/vue2-elm)
+  [31]:(https://github.com/bailicangdu/node-elm)
+  [32]:(https://pan.baidu.com/s/1geQIWHt?qq-pf-to=pcqq.group&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2FVue%202.0%20%E9%AB%98%E7%BA%A7%E5%AE%9E%E6%88%98-%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E4%B9%90WebApp)
 
 ## react参考
 
@@ -83,3 +82,4 @@
   [27]: https://github.com/rajaraodv/react-redux-blog
   [28]: https://github.com/vhtml/webpack-MultiplePage
   [29]: https://gist.github.com/acdlite/a68433004f9d6b4cbc83b5cc3990c194
+  
