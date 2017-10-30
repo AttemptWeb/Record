@@ -1,5 +1,6 @@
 # React组件的生命周期
 
+![react生命周期](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/react_live.png)
 
 **生命周期共提供了10个不同的API。**
 
