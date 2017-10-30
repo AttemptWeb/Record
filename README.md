@@ -12,9 +12,10 @@
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
-[基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用][1]
-[基于 node.js + Mongodb 构建电商后台系统][2]
-[Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址][3]
+
+* [基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用][1]
+* [基于 node.js + Mongodb 构建电商后台系统][2]
+* [Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址][3]
 
 
   [1](https://github.com/bailicangdu/vue2-elm)
@@ -23,34 +24,34 @@
 
 ## react参考
 
-[ react webpack es6 环境配置代码][1]
-[ react-router 方法整理][2]
-[ react-router 深入学习][3]
-[react移动端 总结][4]
-[es5 es6 对照写法][5]
-[react 全面技术盏 ][6]
-[reflux 源码][7]
-[react中文文档][8]
-[全盏学习][9]
-[react 部署][10]
-[ react相关网址][11]
-[react-native][12]
-[react深入学习][13]
-[react 好用的组件][14]
-[React开发中最好用的脚手架。][15]
-[react 脚手架 ][16]
-[使用 webpack + react + redux + es6 开发组件化前端项目][17]
-[react rouer 按需加载][18]
-[react rouer 按需加载][19]
-[react rouer 按需加载  ][20]
-[我个人使用的是 redux-saga ，一个完美替代 redux-thunk 的方案，][21]
-[router按需加载跟带动画的路由切换][22]
-[router按需加载 实例教学][23]
-[router按需加载 实例教学][24]
-[ react 初学者注意九点][25]
-[ redux介绍][26]
-[官方例子redux-saga 学习资料][27]
-[webpack实现多页面打包][28]
+* [ react webpack es6 环境配置代码][1]
+* [ react-router 方法整理][2]
+* [ react-router 深入学习][3]
+* [react移动端 总结][4]
+* [es5 es6 对照写法][5]
+* [react 全面技术盏 ][6]
+* [reflux 源码][7]
+* [react中文文档][8]
+* [全盏学习][9]
+* [react 部署][10]
+* [ react相关网址][11]
+* [react-native][12]
+* [react深入学习][13]
+* [react 好用的组件][14]
+* [React开发中最好用的脚手架。][15]
+* [react 脚手架 ][16]
+* [使用 webpack + react + redux + es6 开发组件化前端项目][17]
+* [react rouer 按需加载][18]
+* [react rouer 按需加载][19]
+* [react rouer 按需加载  ][20]
+* [我个人使用的是 redux-saga ，一个完美替代 redux-thunk 的方案，][21]
+* [router按需加载跟带动画的路由切换][22]
+* [router按需加载 实例教学][23]
+* [router按需加载 实例教学][24]
+* [ react 初学者注意九点][25]
+* [ redux介绍][26]
+* [官方例子redux-saga 学习资料][27]
+* [webpack实现多页面打包][28]
 
 
   [1]: http://my.oschina.net/u/1403181/blog/672501
