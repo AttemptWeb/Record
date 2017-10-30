@@ -17,9 +17,9 @@
 * [基于 node.js + Mongodb 构建电商后台系统][31]
 * [Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址][32]
 
-  [30]:(https://github.com/bailicangdu/vue2-elm)
-  [31]:(https://github.com/bailicangdu/node-elm)
-  [32]:(https://pan.baidu.com/s/1geQIWHt?qq-pf-to=pcqq.group&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2FVue%202.0%20%E9%AB%98%E7%BA%A7%E5%AE%9E%E6%88%98-%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E4%B9%90WebApp)
+  [30]: https://github.com/bailicangdu/vue2-elm
+  [31]: https://github.com/bailicangdu/node-elm
+  [32]: https://pan.baidu.com/s/1geQIWHt?qq-pf-to=pcqq.group&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2FVue%202.0%20%E9%AB%98%E7%BA%A7%E5%AE%9E%E6%88%98-%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E4%B9%90WebApp
 
 ## react参考
 
