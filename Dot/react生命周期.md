@@ -83,3 +83,21 @@ bool: true
 ## componentWillUnmount
 
 组件被移除之前被调用，可以用于做一些清理工作，在componentDidMount方法中添加的所有任务都需要在该方法中撤销，比如创建的定时器或添加的事件监听器。
+
+## 更新方式
+
+**在react中，触发render的有4条路径。**
+
+以下假设shouldComponentUpdate都是按照默认返回true的方式。
+
+> 1.首次渲染Initial Render
+
+> 2.调用this.setState
+
+> 3.父组件发生更新
+
+> 4.调用this.forceUpdate
+
+下面是我对React组件四条更新路径地总结：
+
+![](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/react_Update.png)
