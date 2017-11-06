@@ -1,4 +1,4 @@
-## 配置(#jump)
+## 配置
 
 > 1.添加环境变量 如 D:\MongoDB\bin
 
@@ -9,7 +9,7 @@
 > 4.MongoDB 客户端，命令行输入 : **mongo**
 
 ## mongodb配置文件
-在这里我们可以直接使用<a id="jump">配置</a>中第三项启动mongodb服务，当然也可使用配置Mongodb.conf启动mongodb服务:
+在这里我们可以直接使用**配置**中第三项启动mongodb服务，当然也可使用配置Mongodb.conf启动mongodb服务:
 
 > 创建D:\MongoDB\log\Mongodb.log 文件 存放日志记录,创建即可
 
