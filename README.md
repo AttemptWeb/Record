@@ -21,6 +21,9 @@
   [31]: https://github.com/bailicangdu/node-elm
   [32]: https://pan.baidu.com/s/1geQIWHt?qq-pf-to=pcqq.group&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2FVue%202.0%20%E9%AB%98%E7%BA%A7%E5%AE%9E%E6%88%98-%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E4%B9%90WebApp
 
+## 后台管理系统模解决方案
+* [开箱即用的中台前端/设计解决方案]: https://pro.ant.design/
+
 ## react参考
 
 * [ react webpack es6 环境配置代码][1]
