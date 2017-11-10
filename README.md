@@ -23,6 +23,7 @@
 
 ## 后台管理系统解决方案
 * [开箱即用的中台前端/设计解决方案](https://pro.ant.design/)
+* [基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案](http://blog.gdfengshuo.com/example/work/#/readme)
 
 ## react参考
 
