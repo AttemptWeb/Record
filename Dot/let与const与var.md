@@ -59,4 +59,61 @@ const type = "ACTION"
 
 const虽然是常量，不允许修改默认赋值，但如果定义的是对象，那么可以修改对象内部的属性值。
 
+### let 与 var 的区别
+不同点在于作用域， var关键词的作用域是最近的函数作用域（如果在函数体的外部就是全局作用域）. let 关键词的作用域是最接近的块作用域（如果在任何块意外就是全局作用域），这将会比函数作用域更小.
 
+* 声明后未赋值，表现相同
+```
+'use strict';
+
+(function() {
+  var varTest;
+  let letTest;
+  console.log(varTest); //输出undefined
+  console.log(letTest); //输出undefined
+}());
+```
+
+* 使用未声明的变量，表现不同:
+```
+(function() {
+  console.log(varTest); //输出undefined(注意要注释掉下面一行才能运行)
+  console.log(letTest); //直接报错：ReferenceError: letTest is not defined
+
+  var varTest = 'test var OK.';
+  let letTest = 'test let OK.';
+}());
+
+* 重复声明同一个变量时，表现不同：
+```
+'use strict';
+
+(function() {
+  var varTest = 'test var OK.';
+  let letTest = 'test let OK.';
+
+  var varTest = 'varTest changed.';
+  let letTest = 'letTest changed.'; //直接报错：SyntaxError: Identifier 'letTest' has already been declared
+
+  console.log(varTest); //输出varTest changed.(注意要注释掉上面letTest变量的重复声明才能运行)
+  console.log(letTest);
+}());
+```
+
+* 变量作用范围，表现不同
+```
+'use strict';
+
+(function() {
+  var varTest = 'test var OK.';
+  let letTest = 'test let OK.';
+
+  {
+    var varTest = 'varTest changed.';
+    let letTest = 'letTest changed.';
+  }
+
+  console.log(varTest); //输出"varTest changed."，内部"{}"中声明的varTest变量覆盖外部的letTest声明
+  console.log(letTest); //输出"test let OK."，内部"{}"中声明的letTest和外部的letTest不是同一个变量
+}());
+```
