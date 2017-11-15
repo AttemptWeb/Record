@@ -49,11 +49,9 @@
 * [react-native][12]
 * [react深入学习][13]
 * [react 好用的组件][14]
-* [React开发中最好用的脚手架。][15]
 * [react 脚手架 ][16]
 * [使用 webpack + react + redux + es6 开发组件化前端项目][17]
 * [react rouer 按需加载][18]
-* [react rouer 按需加载][19]
 * [react rouer 按需加载  ][20]
 * [我个人使用的是 redux-saga ，一个完美替代 redux-thunk 的方案，][21]
 * [router按需加载跟带动画的路由切换][22]
@@ -79,11 +77,9 @@
   [12]: https://github.com/reactnativecn/react-native-guide
   [13]: https://github.com/zhangmengxue/React-Learning
   [14]: https://www.zhihu.com/question/39452825?sort=created
-  [15]: https://github.com/bodyno/react-starter-kit
   [16]: https://github.com/minooo/React-Study
   [17]: https://segmentfault.com/a/1190000005969488
   [18]: https://github.com/chyingp/react-router-load-on-demand
-  [19]: https://github.com/rackt/react-router/tree/master/examples/auth-with-shared-root
   [20]: https://github.com/luqin/react-router-loader
   [21]: https://github.com/reactjs/redux/tree/9487db8be7f5453bde952bf9a6b5c4c0e1748c7f/examples/real-world
   [22]: http://www.cnblogs.com/BestMePeng/p/React_Router.html
