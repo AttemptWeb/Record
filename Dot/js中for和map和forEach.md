@@ -1,8 +1,8 @@
-Js中的map和forEach和for...in
+# Js中的map和forEach和for...in
 
 今天遇到的有些坑，之前一直没有注意，我反正是服了。
 
-## for...in循环
+# for...in循环
 
 ### 函数表达式
 在**函数表达式**使用for...in语句时，会需要退出循环体。在 我们**可以使用return、break结束整个循环，continue结束当前循环**。
@@ -37,7 +37,7 @@ for(var i in a){
 
 参考:     [MDN中for...in的阐述](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...in)
 
-## forEach
+# forEach
 
 先来段代码,在chrome下运行
 ```javascript
@@ -60,7 +60,7 @@ for(var i in a){
 
 [forEach参考](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
-## map
+# map
 map和forEach大致一样，但是还是存在细微的差别.
 ```javascript
 [1,2,3,5].map(
