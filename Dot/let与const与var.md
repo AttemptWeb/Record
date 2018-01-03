@@ -66,8 +66,8 @@ const虽然是常量，不允许修改默认赋值，但如果定义的是对象
 不同点在于作用域， var关键词的作用域是最近的函数作用域（如果在函数体的外部就是全局作用域）. let 关键词的作用域是最接近的块作用域（如果在任何块意外就是全局作用域），这将会比函数作用域更小.
 
 * 声明后未赋值，表现相同
-```
-'use strict';
+```javascript
+use strict;
 
 (function() {
   var varTest;
@@ -78,7 +78,7 @@ const虽然是常量，不允许修改默认赋值，但如果定义的是对象
 ```
 
 * 使用未声明的变量，表现不同:
-```
+```javascript
 (function() {
   console.log(varTest); //输出undefined(注意要注释掉下面一行才能运行)
   console.log(letTest); //直接报错：ReferenceError: letTest is not defined
@@ -104,7 +104,7 @@ use strict;
 ```
 
 * 变量作用范围，表现不同
-```jacascript
+```javascript
 use strict;
 
 (function() {
