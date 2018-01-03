@@ -88,8 +88,8 @@ const虽然是常量，不允许修改默认赋值，但如果定义的是对象
 }());
 
 * 重复声明同一个变量时，表现不同：
-```
-'use strict';
+```jacascript
+use strict;
 
 (function() {
   var varTest = 'test var OK.';
@@ -104,8 +104,8 @@ const虽然是常量，不允许修改默认赋值，但如果定义的是对象
 ```
 
 * 变量作用范围，表现不同
-```
-'use strict';
+```jacascript
+use strict;
 
 (function() {
   var varTest = 'test var OK.';
