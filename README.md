@@ -8,6 +8,7 @@
 * [js中基本类型和引用类型](https://github.com/HerryLo/Knowledge/blob/master/Dot/js%E4%B8%AD%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B.md)
 * [let与const与var的区别](https://github.com/HerryLo/Knowledge/blob/master/Dot/let%E4%B8%8Econst%E4%B8%8Evar.md)
 * [js的this指向问题](https://github.com/HerryLo/Knowledge/blob/master/Dot/js%E4%B8%ADthis%E7%9A%84%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98.md)
+* [js中的forEach和map](https://github.com/HerryLo/Knowledge/blob/master/Dot/js%E4%B8%ADfor%E5%92%8Cmap%E5%92%8CforEach.md)
 
 ## react 
 * [react组件生命周期](https://github.com/HerryLo/Knowledge/blob/master/Dot/react%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
