@@ -24,11 +24,11 @@
 	- 开始编译 ```# make```
 	- 继续编译 ```# make install```
 	- 查看nginx安装的目录 ```# whereis nginx``` 它会告诉你nginx在哪，nginx的命令在/usr/local/nginx/sbin目录下
-	- nginx命令```# ./nginx 
-		# ./nginx -s stop
-		# ./nginx -s quit
-		# ./nginx -s reload
-		```
+	- nginx命令```# ./nginx ```
+		```# ./nginx -s stop```
+		```# ./nginx -s quit```
+		```# ./nginx -s reload```
+		
 	- 开启nginx ```# ./nginx ``` 必须在nginx的安装目录下的sbi文件开启，当然也可全局配置
 	- 查看是否开启nginx ```# ps aux|grep nginx```
 
@@ -38,44 +38,44 @@
 
 ```
 server {
-        listen       80;
-        server_name  www.didiheng.com;
+    listen       80;
+    server_name  www.didiheng.com;
 
-        #charset koi8-r;
+    #charset koi8-r;
 
-        #access_log  logs/host.access.log  main;
+    #access_log  logs/host.access.log  main;
 
-		access_log off; #缓存日志关闭
-		server_tokens off;
-		tcp_nopush on;
-		tcp_nodelay on;
+	access_log off; #缓存日志关闭
+	server_tokens off;
+	tcp_nopush on;
+	tcp_nodelay on;
 
-		gzip  on; #gzip开启
-		gzip_comp_level 6; #gzip比率
-		gzip_types text/css text/xml application/javascript;
+	gzip  on; #gzip开启
+	gzip_comp_level 6; #gzip比率
+	gzip_types text/css text/xml application/javascript;
 
-		proxy_connect_timeout 5;  #缓存链接
-		proxy_read_timeout 60;	
-		proxy_send_timeout 5;  
-		proxy_buffer_size 16k;  
-		proxy_buffers 4 64k;  
-		proxy_busy_buffers_size 128k;  
-		proxy_temp_file_write_size 128k;     
+	proxy_connect_timeout 5;  #缓存链接
+	proxy_read_timeout 60;	
+	proxy_send_timeout 5;  
+	proxy_buffer_size 16k;  
+	proxy_buffers 4 64k;  
+	proxy_busy_buffers_size 128k;  
+	proxy_temp_file_write_size 128k;     
 
-		location / {
-            root   /www; #此处绝对地址
-            index  index.html index.htm;
-        }
-
-        #error_page  404              /404.html;
-
-        # redirect server error pages to the static page /50x.html
-        #
-        error_page   500 502 503 504  /50x.html;
-        location = /50x.html {
-            root   html;
-        }
+	location / {
+        root   /www; #此处绝对地址
+        index  index.html index.htm;
     }
+
+    #error_page  404              /404.html;
+
+    # redirect server error pages to the static page /50x.html
+    #
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   html;
+    }
+}
 ```
 
 修改之后重启nginx ``` # ./nginx```
