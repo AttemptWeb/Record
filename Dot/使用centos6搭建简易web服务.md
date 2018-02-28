@@ -24,10 +24,10 @@
 	- 开始编译 ```# make```
 	- 继续编译 ```# make install```
 	- 查看nginx安装的目录 ```# whereis nginx``` 它会告诉你nginx在哪，nginx的命令在/usr/local/nginx/sbin目录下
-	- nginx命令```# ./nginx ```
-		```# ./nginx -s stop```
+	- nginx命令```开启# ./nginx ```
+		```停止# ./nginx -s stop```
 		```# ./nginx -s quit```
-		```# ./nginx -s reload```
+		```重启# ./nginx -s reload```
 		
 	- 开启nginx ```# ./nginx ``` 必须在nginx的安装目录下的sbi文件开启，当然也可全局配置
 	- 查看是否开启nginx ```# ps aux|grep nginx```
