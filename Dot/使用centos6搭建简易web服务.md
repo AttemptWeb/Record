@@ -13,7 +13,7 @@
 - 使用xshell连接上云服务器，使用超级管理员root登录
 
 * 登录完成之后安装nginx
-	- 首先安装wget # ```yum install wget```
+	- 首先安装wget # yum install wget
 	- 因为Nginx以来与gcc的编译环境 # yum install gcc-c++
 	- Nginx的http模块需要使用pcre来解析正则表达式 # yum -y install pcre pcre-devel
 	- 依赖的解压包 # yum -y install zlib zlib-devel
