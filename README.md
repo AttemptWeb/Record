@@ -1,3 +1,16 @@
+# 知识总结
+
+  个人希望将一些东西整理出来，一是我自己的一个记录，二就是分享了
+
+## markdown 索引
+
+- [问题](#问题)
+- [react](#react)
+- [Mongodb](#Mongodb)
+- [计算机](#计算机)
+- [好的项目示例](#好的项目示例)
+- [后台管理系统解决方案](#后台管理系统解决方案)
+
 ## 问题
 
 * [React面试问题](https://github.com/HerryLo/Knowledge/blob/master/Question/React%E9%97%AE%E9%A2%98.md)
@@ -15,7 +28,7 @@
 * [js中基本类型和引用类型](https://github.com/HerryLo/Knowledge/blob/master/Dot/js%E4%B8%AD%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B.md)
 * [mongodb基本配置与操作](https://github.com/HerryLo/Knowledge/blob/master/Dot/mongodb%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)
 
-## mogodb
+## Mongodb
 * [mongodb基本配置与操作](https://github.com/HerryLo/Knowledge/blob/master/Dot/mongodb%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)
 
 ## 计算机
@@ -35,62 +48,3 @@
 ## 后台管理系统解决方案
 * [开箱即用的中台前端/设计解决方案](https://pro.ant.design/)
 * [基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案](http://blog.gdfengshuo.com/example/work/#/readme)
-
-## react参考
-
-* [ react webpack es6 环境配置代码][1]
-* [ react-router 方法整理][2]
-* [ react-router 深入学习][3]
-* [react移动端 总结][4]
-* [es5 es6 对照写法][5]
-* [react 全面技术盏 ][6]
-* [reflux 源码][7]
-* [react中文文档][8]
-* [全盏学习][9]
-* [react 部署][10]
-* [ react相关网址][11]
-* [react-native][12]
-* [react深入学习][13]
-* [react 好用的组件][14]
-* [react 脚手架 ][16]
-* [使用 webpack + react + redux + es6 开发组件化前端项目][17]
-* [react rouer 按需加载][18]
-* [react rouer 按需加载  ][20]
-* [我个人使用的是 redux-saga ，一个完美替代 redux-thunk 的方案，][21]
-* [router按需加载跟带动画的路由切换][22]
-* [router按需加载 实例教学][23]
-* [router按需加载 实例教学][24]
-* [ react 初学者注意九点][25]
-* [ redux介绍][26]
-* [官方例子redux-saga 学习资料][27]
-* [webpack实现多页面打包][28]
-
-
-  [1]: http://my.oschina.net/u/1403181/blog/672501
-  [2]: http://www.cnblogs.com/BestMePeng/p/React_Router.html
-  [3]: http://www.tuicool.com/articles/iAvmyuj
-  [4]: https://segmentfault.com/a/1190000005044324
-  [5]: http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8
-  [6]: http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html
-  [7]: https://github.com/ittce/dragon-ui
-  [8]: http://www.css88.com/react/docs/clone-with-props.html
-  [9]: http://www.jser.com/
-  [10]: https://github.com/gaearon/react-hot-boilerplate
-  [11]: https://github.com/LeuisKen/react-collection
-  [12]: https://github.com/reactnativecn/react-native-guide
-  [13]: https://github.com/zhangmengxue/React-Learning
-  [14]: https://www.zhihu.com/question/39452825?sort=created
-  [16]: https://github.com/minooo/React-Study
-  [17]: https://segmentfault.com/a/1190000005969488
-  [18]: https://github.com/chyingp/react-router-load-on-demand
-  [20]: https://github.com/luqin/react-router-loader
-  [21]: https://github.com/reactjs/redux/tree/9487db8be7f5453bde952bf9a6b5c4c0e1748c7f/examples/real-world
-  [22]: http://www.cnblogs.com/BestMePeng/p/React_Router.html
-  [23]: http://www.cnblogs.com/tianheila/p/5445441.html
-  [24]: https://segmentfault.com/a/1190000007141049
-  [25]: http://www.oschina.net/news/75530/9-things-every-reactjs-beginner-should-know
-  [26]: http://www.zcfy.cc/article/you-might-not-need-redux-medium-1299.html
-  [27]: https://github.com/rajaraodv/react-redux-blog
-  [28]: https://github.com/vhtml/webpack-MultiplePage
-  [29]: https://gist.github.com/acdlite/a68433004f9d6b4cbc83b5cc3990c194
-  
