@@ -47,7 +47,7 @@ console.log(B.prototype, typeof B.prototype)
 
 对象并不具有prototype属性，只有函数才有prototype属性。这就证明声明2的说法是正确的。
 
-##总结
+## 总结
 
 - js里所有的对象都有proto属性(对象，函数)，指向构造该对象的构造函数的原型。
 - 只有函数function才具有prototype属性。这个属性是一个指针，指向一个对象，这个对象的用途就是包含所有实例共享的属性和方法（我们把这个对象叫做原型对象）。原型对象也有一个属性，叫做constructor，这个属性包含了一个指针，指回原构造函数。
