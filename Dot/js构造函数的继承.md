@@ -28,7 +28,8 @@ console.log(fn.name, fn.age) // 'dili',40
 ```
 以上明显看出fn函数继承了parent函数的属性，此处是最常见的实例化对象。
 	
-	此处可以思考 fn.__proto__和parent.prototype的指向(可以参考[令人炸裂的_proto_和prototype](https://github.com/HerryLo/Knowledge/blob/master/Dot/%E4%BB%A4%E4%BA%BA%E7%82%B8%E8%A3%82%E7%9A%84_proto_%E5%92%8Cprototype.md))
+	此处可以思考 fn.__proto__和parent.prototype的指向
+* 可以参考[令人炸裂的_proto_和prototype](https://github.com/HerryLo/Knowledge/blob/master/Dot/%E4%BB%A4%E4%BA%BA%E7%82%B8%E8%A3%82%E7%9A%84_proto_%E5%92%8Cprototype.md)
 
 ## 函数之间的继承
 
