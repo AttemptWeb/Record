@@ -33,7 +33,7 @@ console.log(fn.name, fn.age) // 'dili',40
 
 ## 函数之间的继承
 
-```
+```javascript
 function parent() {}
 parent.prototype.name = 'dili';
 parent.prototype.age =40;
