@@ -25,6 +25,7 @@
 ## react 
 * [react组件生命周期](https://github.com/HerryLo/Knowledge/blob/master/Dot/react%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
 * [React面试问题](https://github.com/HerryLo/Knowledge/blob/master/Question/React%E9%97%AE%E9%A2%98.md)
+* [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
 
 ## Mongodb
 * [mongodb基本配置与操作](https://github.com/HerryLo/Knowledge/blob/master/Dot/mongodb%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)
