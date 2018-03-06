@@ -34,17 +34,22 @@ console.log(fn.name, fn.age) // 'dili',40
 ## 函数之间的继承
 
 ```javascript
-function parent() {}
+function parent(x) {
+	this.x = x;
+}
 parent.prototype.name = 'dili';
 parent.prototype.age =40;
 
-function child() {}
+function child(x) {
+	parent.call(this, x);
+}
 child.prototype.age = 23 
 
-chlid.prototype = new parent(); // child原型对象指向parent的实例化对象
-chlid.prototype.constructor = chlid; // child原型构造函数指向child
+child.prototype = new parent(); // child原型对象指向parent的实例化对象
+// 或者 child.prototype = Object.create(parent.prototype);
+child.prototype.constructor = child; // child原型构造函数指向child
 
-const fn = new chlid();
+const fn = new child('x');
 console.log(fn.name, fn.age) // 'dili',23
 
 ```
