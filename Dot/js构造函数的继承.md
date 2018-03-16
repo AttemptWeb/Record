@@ -41,12 +41,11 @@ parent.prototype.name = 'dili';
 parent.prototype.age =40;
 
 function child(x) {
-	parent.call(this, x);
+	parent.call(this, x); //继承属性
 }
 child.prototype.age = 23 
 
-child.prototype = new parent(); // child原型对象指向parent的实例化对象
-// 或者 child.prototype = Object.create(parent.prototype);
+child.prototype = new parent; // child原型对象指向parent的实例化对象
 child.prototype.constructor = child; // child原型构造函数指向child
 
 const fn = new child('x');
@@ -54,3 +53,16 @@ console.log(fn.name, fn.age) // 'dili',23
 
 ```
 使用以上方法可以实现多层函数的继承，但并不影响构造函数的指向。
+
+```
+fn.__proto__ === child.prototype;
+
+//child.__proto__ === Function.prototype
+child.prototype.__proto__ === parent.prototype
+
+//parent.__proto__ === Function.prototype
+parent.prototype.__proto__ == Object.prototype
+
+//Function.__proto__ === Function.prototype
+//Function.prototype.__protope === Object.prototype
+```
