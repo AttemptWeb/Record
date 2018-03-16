@@ -45,7 +45,7 @@ function child(x) {
 }
 child.prototype.age = 23 
 
-child.prototype = new parent; // child原型对象指向parent的实例化对象
+child.prototype = Object.create(parent.prototype); // child原型对象指向parent的实例化对象
 child.prototype.constructor = child; // child原型构造函数指向child
 
 const fn = new child('x');
