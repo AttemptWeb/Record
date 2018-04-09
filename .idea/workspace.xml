@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c9fa4d-9000-46ff-a3da-18116915a2bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/server/CentOS6命令行.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/CentOS6命令行.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/CentOS6命令行.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,16 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CentOS6命令行.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CentOS6命令行.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/CentOS6命令行.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="55">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -79,8 +77,8 @@
         <option value="$PROJECT_DIR$/other/git.md" />
         <option value="$PROJECT_DIR$/server/Mysql常见操作.md" />
         <option value="$PROJECT_DIR$/server/Mac连接服务.md" />
-        <option value="$PROJECT_DIR$/server/CentOS6命令行.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/CentOS6命令行.md" />
       </list>
     </option>
   </component>
@@ -163,12 +161,12 @@
       <workItem from="1506700451974" duration="847000" />
       <workItem from="1521548362255" duration="1569000" />
       <workItem from="1523260414929" duration="1460000" />
-      <workItem from="1523263764003" duration="820000" />
+      <workItem from="1523263764003" duration="1871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4696000" />
+    <option name="totallyTimeSpent" value="5747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -305,17 +303,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/CentOS6命令行.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/CentOS6命令行.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

@@ -14,6 +14,26 @@ $ ssh -p [port] name@serverIP地址
 
 ```
 
+同时也可以配置ssh中的config文件
+```
+$ cd ~/.ssh
+
+$ ls // 查看是否存在config文件
+
+$ vim conf // 若不存在config文件，使用vim创建即可
+
+<!--将一下复制到config文件，修改HostName User Port成你自己的即可-->
+Host demohost
+  HostName 192.168.1.1
+  User username
+  Port 10022
+
+
+<!-- 在iterm中 -->
+$ ssh demohost
+```
+
+
 ## window下连接CentOS6
 
 直接下载xshell工具即可，按照步骤即可连接服务。
