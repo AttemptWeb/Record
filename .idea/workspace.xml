@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c9fa4d-9000-46ff-a3da-18116915a2bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/other/git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Mysql常见操作.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/mongodb基本配置与操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/mongodb基本配置与操作.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Mysql常见操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/Mysql常见操作.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="git.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="git.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other/git.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="451">
               <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mysql常见操作.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mysql常见操作.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/Mysql常见操作.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="220">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -58,9 +55,9 @@
         <option value="$PROJECT_DIR$/Dot/常见的面试题.md" />
         <option value="$PROJECT_DIR$/Dot/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/server/Mysql常见操作.md" />
         <option value="$PROJECT_DIR$/server/mongodb基本配置与操作.md" />
         <option value="$PROJECT_DIR$/other/git.md" />
+        <option value="$PROJECT_DIR$/server/Mysql常见操作.md" />
       </list>
     </option>
   </component>
@@ -143,12 +140,12 @@
       <updated>1506700445589</updated>
       <workItem from="1506700451974" duration="847000" />
       <workItem from="1521548362255" duration="1569000" />
-      <workItem from="1523260414929" duration="966000" />
+      <workItem from="1523260414929" duration="1113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3382000" />
+    <option name="totallyTimeSpent" value="3529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -277,13 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/Mysql常见操作.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/mongodb基本配置与操作.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -293,8 +283,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/other/git.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="451">
           <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Mysql常见操作.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>

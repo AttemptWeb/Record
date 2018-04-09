@@ -8,7 +8,7 @@
 >   将 **D:\Mysql\bin**    添加到环境变量 **path** 中
 
 ****
->  1. 命令执行 **mysqld --initialize --user=mysql --console**
+> 1. 命令执行 **mysqld --initialize --user=mysql --console**
 >   * 获得一个临时密码，需要记录，之后会用到。**最后locahost一串字符**
 >   * 清除生成的随机密码，进入mysql---> 命令 mysql > ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
 
