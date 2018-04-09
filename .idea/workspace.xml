@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c9fa4d-9000-46ff-a3da-18116915a2bb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/other/git.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/Mysql常见操作.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/js中for和map和forEach.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/js中for和map和forEach.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/js中this的指向问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/js中this的指向问题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/js中基本类型和引用类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/js中基本类型和引用类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/js构造函数的继承.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/js构造函数的继承.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/let与const与var.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/let与const与var.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/mongodb基本配置与操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/mongodb基本配置与操作.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/react生命周期.md" beforeDir="false" afterPath="$PROJECT_DIR$/frame/react生命周期.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/令人炸裂的_proto_和prototype.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/令人炸裂的_proto_和prototype.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/使用centos6搭建简易web服务.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/使用centos6搭建简易web服务.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/常见的面试题.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/常见的面试题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/微信小程序编辑器.md" beforeDir="false" afterPath="$PROJECT_DIR$/other/微信小程序编辑器.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/正则表达式.md" beforeDir="false" afterPath="$PROJECT_DIR$/other/正则表达式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/真正弄懂JS.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/真正弄懂JS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/知识体系的整理.md" beforeDir="false" afterPath="$PROJECT_DIR$/other/知识体系的整理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dot/进程与线程.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question/React问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/frame/React问题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question/ajax传递参数时_非法字符替换.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax传递参数时_非法字符替换.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/mongodb基本配置与操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/mongodb基本配置与操作.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="git.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/git.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state relative-caret-position="462">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mysql常见操作.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/Mysql常见操作.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongodb基本配置与操作.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/mongodb基本配置与操作.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -56,6 +58,9 @@
         <option value="$PROJECT_DIR$/Dot/常见的面试题.md" />
         <option value="$PROJECT_DIR$/Dot/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/server/Mysql常见操作.md" />
+        <option value="$PROJECT_DIR$/server/mongodb基本配置与操作.md" />
+        <option value="$PROJECT_DIR$/other/git.md" />
       </list>
     </option>
   </component>
@@ -83,6 +88,16 @@
             <path>
               <item name="Knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Knowledge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,15 +143,15 @@
       <updated>1506700445589</updated>
       <workItem from="1506700451974" duration="847000" />
       <workItem from="1521548362255" duration="1569000" />
-      <workItem from="1523260414929" duration="529000" />
+      <workItem from="1523260414929" duration="966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2945000" />
+    <option name="totallyTimeSpent" value="3382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16180556" />
@@ -250,8 +265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ajax传递参数时_非法字符替换.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="66">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -259,6 +274,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Mysql常见操作.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mongodb基本配置与操作.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/git.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -121,3 +121,20 @@ db.集合名.replaceOne(
 db.集合名.deleteMany({  key: values}) 多个
 db.集合名.deleteOne( { key: values} )  单个
 ```
+
+## 符号的含义
+```javascript
+$lt 小于
+$lte 小于等于
+$gt 大于
+$gte 大于等于
+$ne 不等于
+$or 或者
+```
+
+## 账号
+```
+MongoDb Atlas  MongoDB云集群
+账号 13995578046@qq.com
+密码同qq
+```
