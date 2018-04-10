@@ -37,7 +37,7 @@
       <file leaf-file-name="CentOS6命令行.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/CentOS6命令行.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
+            <state relative-caret-position="330">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -161,12 +161,12 @@
       <workItem from="1506700451974" duration="847000" />
       <workItem from="1521548362255" duration="1569000" />
       <workItem from="1523260414929" duration="1460000" />
-      <workItem from="1523263764003" duration="1871000" />
+      <workItem from="1523263764003" duration="1938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5747000" />
+    <option name="totallyTimeSpent" value="5814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -312,7 +312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/CentOS6命令行.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
+        <state relative-caret-position="330">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>

@@ -8,7 +8,7 @@
 
 安装iTerm工具 ，打开iTerm
 ```
-$ ssh -p [port] name@serverIP地址
+# ssh -p [port] name@serverIP地址
 
 之后输入 VPS的密码，就连接完成了。如果要进行文件上传使用FTP即可。
 
@@ -16,11 +16,11 @@ $ ssh -p [port] name@serverIP地址
 
 同时也可以配置ssh中的config文件
 ```
-$ cd ~/.ssh
+# cd ~/.ssh
 
-$ ls // 查看是否存在config文件
+# ls // 查看是否存在config文件
 
-$ vim conf // 若不存在config文件，使用vim创建即可
+# vim conf // 若不存在config文件，使用vim创建即可
 
 <!--将一下复制到config文件，修改HostName User Port成你自己的即可-->
 Host demohost
@@ -38,3 +38,13 @@ $ ssh demohost
 
 直接下载xshell工具即可，按照步骤即可连接服务。
 
+
+## 常见命令行
+
+```cmd
+<!-- 查看进程 -->
+# ps -af | grep nginx
+
+
+
+```
