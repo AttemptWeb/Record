@@ -125,4 +125,4 @@ server {
 修改之后重启nginx 
 ``` # ./nginx -s reload```
 
-使用serverIP 访问
+使用serverIP或域名访问 访问
