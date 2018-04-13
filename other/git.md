@@ -17,6 +17,9 @@ $ git stash
 
 4.从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。
 $ git stash pop
+
+5.查看commit后但是未push的记录
+$ git show 
 ```
 
 ****
