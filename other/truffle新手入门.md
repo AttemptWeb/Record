@@ -1,6 +1,6 @@
 # truffle新手实验
 
->	属于 HelloWorld的级别
+>	属于区块链truffle框架的HelloWorld的级别，😄
 
 **安装要求**
 
