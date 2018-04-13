@@ -123,7 +123,7 @@ $ hw.balance.call().then(console.log())
 
 第五：改变balance的值，状态
 
-![改变banlance](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/changeHWFile.png.png)
+![改变banlance](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/changeHWFile.png)
 
 创建一个deposit函数，重新compile 和 migrate, 务必加上--reset参数
 
