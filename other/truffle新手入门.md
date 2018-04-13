@@ -29,7 +29,7 @@ $ truffle init
 ```
 
 目录如下
-![文件目录]()
+![文件目录](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/FileDir.png)
 
 truffle 会自动安装一个样例工程，我们只需在此基础上进行开发，极大地提升了工作效率。这个样例工程是MetaCoin，一个简单的辅币合约contract。
 
@@ -37,7 +37,7 @@ truffle 会自动安装一个样例工程，我们只需在此基础上进行开
 //  开启testrpc
 $ testrsp
 ```
-![开启testRsp]()
+![开启testRsp](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/testRsp.png)
 
 
 待testrpc运行后，你可在终端中输入
@@ -61,7 +61,7 @@ module.exports = {
   }
 };
 ```
-![truffle.js配置]()
+![truffle.js配置](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/truffle配置.png)
 
 
 ## helloword
@@ -71,11 +71,11 @@ $ truffle create contract helloworld
 
 定义一个balance变量，在构造函数中赋值
 ```
-![创建hellowworld]()
+![创建hellowworld](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/CreateHW.png)
 
 编译 ```truffle complie``` ，生成helloworld.json文件
 
-![生成json文件]()
+![生成json文件](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/compJson.png)
 
 第二步是migration
 
@@ -83,7 +83,7 @@ $ truffle create contract helloworld
 
 创建编辑 2_deploy_contracts.js 文件
 
-![创建deplay文件]()
+![创建deplay文件](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/deplay.png)
 ```
 var helloworld = artifacts.require("./helloworld.sol");
 
@@ -97,13 +97,13 @@ deployer.deploy(helloworld);
 ```
 $ truffle migrate --reset
 ```
-![migrate]()
+![migrate](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/migrate.png)
 
 第三 truffle console
 
 ```$ helloworld.deployed()``` 输出一系列contract的配置和参数
 
-![console]()
+![console](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/console.png)
 
 第四：获取balance：
 
@@ -112,7 +112,7 @@ $ var hw
 $ helloworld.deployed().then(function(instance){hw = instance})
 $ hw.balance.call().then(console.log())
 ```
-![获取balance]
+![获取balance](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/balance.png)
 
 有两种方式与blockchain发生交互：
 
@@ -122,7 +122,7 @@ $ hw.balance.call().then(console.log())
 
 第五：改变balance的值，状态
 
-![改变banlance]()
+![改变banlance](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/changeBalance.png)
 
 创建一个deposit函数，重新compile 和 migrate, 务必加上--reset参数
 
@@ -131,7 +131,7 @@ $ truffle migrate --reset
 ```
 获取账户信息：accounts[0] 账户拥有998507 ether
 
-![查看账户]()
+![查看账户](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/lookUser.png)
 
 给这个helloworld 本身增加500 balance
 
@@ -140,7 +140,7 @@ $ helloworld.deployed().then(function(instance) {return instance.deposit(500)}).
 
 ```
 
-![]()
+![changeBalance](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/changeBalance.png)
 
 此交易完成：有一个交易的hash码，同时helloworld本身变成1500 balance。
 非常明显此交易改变了blockchain的状态，因此必然消耗了gas，因此我们看到accounts[0]的ether变为998480。消耗998507 - 998480 = 27
