@@ -37,6 +37,7 @@
 以下是nginx配置的部分参考
 
 ```
+# http server
 server {
     listen       80;
     server_name  www.didiheng.com;
@@ -63,9 +64,11 @@ server {
 	proxy_temp_file_write_size 128k;     
 
 	location / {
-        root   /www; #此处绝对地址
-        index  index.html index.htm;
-    }
+		root   /www; #此处绝对地址
+		index  index.html index.htm;
+		try_files $uri $uri/ /index.html;  //使用客户端路由需配置
+		rewrite ^(.*)$  https://$host$1 permanent;  /强制定向https  	
+	}
 
     #error_page  404              /404.html;
 
@@ -75,9 +78,51 @@ server {
     location = /50x.html {
         root   html;
     }
+    
+    #https server
+    server {
+    	listen       443 ssl;
+        server_name  www.didiheng.com;
+
+        ssl_certificate      server.crt;
+        ssl_certificate_key  server.key;
+
+        ssl_session_cache    shared:SSL:1m;
+        ssl_session_timeout  5m;
+
+        ssl_ciphers  HIGH:!aNULL:!MD5;
+        ssl_prefer_server_ciphers  on;
+
+        access_log off;
+        server_tokens off;
+
+        tcp_nopush on;
+        tcp_nodelay on;
+
+        expires epoch;
+	gzip  on;
+        gzip_comp_level 6;
+        gzip_types text/xml application/javascript text/css;
+
+        proxy_connect_timeout 5;
+        proxy_read_timeout 60;
+        proxy_send_timeout 5;
+        proxy_buffer_size 16k;
+        proxy_buffers 4 64k;
+        proxy_busy_buffers_size 128k;
+        proxy_temp_file_write_size 128k;
+
+        location / {
+            root   /www;
+            index  index.html index.htm;
+            try_files $uri $uri/ /index.html;
+        }
+    }
+    
 }
 ```
 
-修改之后重启nginx ``` # ./nginx```
+修改之后重启nginx 
+``` # ./nginx -s reload```
 
-使用serverIP 访问
+使用serverIP或域名访问 访问
