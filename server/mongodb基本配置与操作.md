@@ -134,8 +134,8 @@ $or 或者
 
 ## centOS 配置mongoDB
 
-  默认安装成功mongodb
-  
+>  默认安装成功mongodb, 目录为/usr/local/mongodb
+  
 1. /usr/local/mongodb/bin下新建配置
 ```cmd
 vi mongodb.conf
@@ -160,8 +160,6 @@ mongod -f mongodb.conf 或 ./mongod -f mongodb.conf
 ```cmd
 mongod -f ./mongodb.conf --shutdown  或./mongod -f ./mongodb.conf --shutdown
 ```
-
-mongod -f mongodb.conf 或 ./mongod -f mongodb.conf
 
 ## 账号
 ```
