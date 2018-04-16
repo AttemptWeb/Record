@@ -132,6 +132,37 @@ $ne 不等于
 $or 或者
 ```
 
+## centOS 配置mongoDB
+
+  默认安装成功mongodb
+  
+1. /usr/local/mongodb/bin下新建配置
+```cmd
+vi mongodb.conf
+
+// 复制如下文件 若无data logs 文件 记得创建
+dbpath = /usr/local/mongodb/data #数据文件存放目录
+logpath = /usr/local/mongodb/logs/mongodb.log #日志文件存放目录
+port = 27017  #端口
+fork = true  #以守护程序的方式启用，即在后台运行
+nohttpinterface = true
+auth=true
+bind_ip=0.0.0.0
+```
+
+2.启动
+在/usr/local/mongodb/bin下
+```cmd
+mongod -f mongodb.conf 或 ./mongod -f mongodb.conf
+```
+
+3.关闭
+```cmd
+mongod -f ./mongodb.conf --shutdown  或./mongod -f ./mongodb.conf --shutdown
+```
+
+mongod -f mongodb.conf 或 ./mongod -f mongodb.conf
+
 ## 账号
 ```
 MongoDb Atlas  MongoDB云集群
