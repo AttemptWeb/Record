@@ -43,7 +43,7 @@ $ ssh demohost
 
 ```cmd
 <!-- 查看进程 -->
-# ps -af | grep nginx
+# ps aux|grep nginx
 
 
 
