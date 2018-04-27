@@ -34,6 +34,7 @@
 ## server方面
 * [mongodb基本配置与操作](https://github.com/HerryLo/Knowledge/blob/master/server/mongodb%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)
 * [使用CentOS 6搭建简易web服务器](https://github.com/HerryLo/Knowledge/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
+* [一点小小的的server总结](https://github.com/HerryLo/Knowledge/tree/master/server)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
