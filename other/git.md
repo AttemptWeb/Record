@@ -32,6 +32,8 @@ $   git branch   //查询本地分支
 
 $   git branch [分支名] //  创建本地分支
 
+$   git branch --all //查看全部分支
+
 $   git checkout [分支名] //切换分支
 
 $   git branch --set-upstream-to=origin/dev dev //把push和pull的默认分支设置为dev
