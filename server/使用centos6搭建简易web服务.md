@@ -127,6 +127,7 @@ server {
     
 }
 ```
+**在以上配置中我直接将https开启了，若没有相关的ssl配置，请将https服务注释 使用 # 即可**
 
 修改之后重启nginx 
 ``` # ./nginx -s reload```
