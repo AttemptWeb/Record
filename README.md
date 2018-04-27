@@ -8,7 +8,9 @@
 
 - [问题](#问题)
 - [react](#react)
+- [server方面](#server方面)
 - [JS基础知识点](#JS基础知识点)
+
 
 ## 问题
 * [ajax传递参数时_非法字符替换.md](https://github.com/HerryLo/Knowledge/blob/master/js/ajax%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%E6%97%B6_%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6%E6%9B%BF%E6%8D%A2.md)
@@ -29,7 +31,7 @@
 * [React面试问题](https://github.com/HerryLo/Knowledge/blob/master/frame/React%E9%97%AE%E9%A2%98.md)
 * [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
 
-## Mongodb
+## server方面
 * [mongodb基本配置与操作](https://github.com/HerryLo/Knowledge/blob/master/server/mongodb%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)
 * [使用CentOS 6搭建简易web服务器](https://github.com/HerryLo/Knowledge/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
 
