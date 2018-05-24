@@ -39,12 +39,15 @@ $ ssh demohost
 直接下载xshell工具即可，按照步骤即可连接服务。
 
 
-## 常见命令行
+### 常见命令行
 
+#### 查看进程
 ```cmd
-<!-- 查看进程 -->
 # ps aux|grep nginx
+```
+#### 清理内存缓存
+```
+# free -m                                     查看内存
 
-
-
+# echo 1 > /proc/sys/vm/drop_caches           清理缓存
 ```
