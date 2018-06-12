@@ -164,5 +164,4 @@ $or 或者
 ```
 MongoDb Atlas  MongoDB云集群
 账号 13995578046@qq.com
-密码同qq
 ```
