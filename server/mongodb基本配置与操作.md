@@ -1,4 +1,4 @@
-## 配置
+## window 配置mongoDB
 
 > 1.添加环境变量 如 D:\MongoDB\bin
 
@@ -8,8 +8,7 @@
 
 > 4.MongoDB 客户端，命令行输入 : **mongo**
 
-## mongodb配置文件
-在这里我们可以直接使用**配置**中第三项启动mongodb服务，当然也可使用配置Mongodb.conf启动mongodb服务:
+* 在这里我们可以直接使用**配置**中第三项启动mongodb服务，当然也可使用配置Mongodb.conf启动mongodb服务:
 
 > 创建D:\MongoDB\log\Mongodb.log 文件 存放日志记录,创建即可
 
@@ -37,6 +36,35 @@ profile=1
 启动即可MongoDB可用: ** mongod -f D:\MongoDB\conf\Mongodb.conf**
 
 [conf文件配置参数参考](http://blog.csdn.net/zhu_tianwei/article/details/44261235)
+
+## centOS 配置mongoDB
+
+>  默认安装成功mongodb, 目录为/usr/local/mongodb
+  
+1. /usr/local/mongodb/bin下新建配置
+```cmd
+vi mongodb.conf
+
+// 复制如下文件 若无data logs 文件 记得创建
+dbpath = /usr/local/mongodb/data #数据文件存放目录
+logpath = /usr/local/mongodb/logs/mongodb.log #日志文件存放目录
+port = 27017  #端口
+fork = true  #以守护程序的方式启用，即在后台运行
+nohttpinterface = true
+auth=true
+bind_ip=0.0.0.0
+```
+
+2.启动
+在/usr/local/mongodb/bin下
+```cmd
+mongod -f mongodb.conf 或 ./mongod -f mongodb.conf
+```
+
+3.关闭
+```cmd
+mongod -f ./mongodb.conf --shutdown  或./mongod -f ./mongodb.conf --shutdown
+```
 
 ## Mongodb操作
 
@@ -130,35 +158,6 @@ $gt 大于
 $gte 大于等于
 $ne 不等于
 $or 或者
-```
-
-## centOS 配置mongoDB
-
->  默认安装成功mongodb, 目录为/usr/local/mongodb
-  
-1. /usr/local/mongodb/bin下新建配置
-```cmd
-vi mongodb.conf
-
-// 复制如下文件 若无data logs 文件 记得创建
-dbpath = /usr/local/mongodb/data #数据文件存放目录
-logpath = /usr/local/mongodb/logs/mongodb.log #日志文件存放目录
-port = 27017  #端口
-fork = true  #以守护程序的方式启用，即在后台运行
-nohttpinterface = true
-auth=true
-bind_ip=0.0.0.0
-```
-
-2.启动
-在/usr/local/mongodb/bin下
-```cmd
-mongod -f mongodb.conf 或 ./mongod -f mongodb.conf
-```
-
-3.关闭
-```cmd
-mongod -f ./mongodb.conf --shutdown  或./mongod -f ./mongodb.conf --shutdown
 ```
 
 ## 账号
