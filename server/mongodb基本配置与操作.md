@@ -41,7 +41,7 @@ profile=1
 
 >  默认安装成功mongodb, 目录为/usr/local/mongodb
   
-1. /usr/local/mongodb/bin下新建配置
+1. /usr/local/mongodb下新建配置
 ```cmd
 vi mongodb.conf
 
@@ -56,14 +56,14 @@ bind_ip=0.0.0.0
 ```
 
 2.启动
-在/usr/local/mongodb/bin下
+在/usr/local/mongodb下
 ```cmd
-mongod -f mongodb.conf 或 ./mongod -f mongodb.conf
+./bin/mongod -f mongodb.conf
 ```
 
 3.关闭
 ```cmd
-mongod -f ./mongodb.conf --shutdown  或./mongod -f ./mongodb.conf --shutdown
+./bin/mongod -f mongodb.conf --shutdown
 ```
 
 ## Mongodb操作
