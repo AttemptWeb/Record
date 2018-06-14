@@ -51,3 +51,12 @@ $ ssh demohost
 
 # echo 1 > /proc/sys/vm/drop_caches           清理缓存
 ```
+
+#### 修改环境变量
+```
+# cd /etc/
+
+# vi profile                修改profile文件， 添加环境变量
+
+# source profile            重新生成
+```
