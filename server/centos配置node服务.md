@@ -5,7 +5,7 @@
 * 安装npm包时，注意Centos上node版本
 
 ## 安装nginx
-[查看ngin配置](https://github.com/HerryLo/Knowledge/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
+[查看nginx配置文件](https://github.com/HerryLo/Knowledge/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
 
 ## 安装nodejs
 ```
