@@ -38,6 +38,7 @@
 * [使用CentOS 6搭建简易web服务器](https://github.com/HerryLo/Knowledge/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
 * [一点小小的的server总结](https://github.com/HerryLo/Knowledge/tree/master/server)
 * [centos的 node服务](https://github.com/HerryLo/Knowledge/blob/master/server/centos%E9%85%8D%E7%BD%AEnode%E6%9C%8D%E5%8A%A1.md)
+* [centos 命令行操作](https://github.com/HerryLo/Knowledge/blob/master/server/CentOS6%E5%91%BD%E4%BB%A4%E8%A1%8C.md)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
