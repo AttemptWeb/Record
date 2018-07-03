@@ -39,6 +39,7 @@
 * [一点小小的的server总结](https://github.com/HerryLo/Knowledge/tree/master/server)
 * [centos的 node服务](https://github.com/HerryLo/Knowledge/blob/master/server/centos%E9%85%8D%E7%BD%AEnode%E6%9C%8D%E5%8A%A1.md)
 * [centos 命令行操作](https://github.com/HerryLo/Knowledge/blob/master/server/CentOS6%E5%91%BD%E4%BB%A4%E8%A1%8C.md)
+* [koa2部署最佳实践--安全篇](https://cnodejs.org/topic/5a41c3829807389a1809f6e0)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
