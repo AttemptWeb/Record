@@ -2,7 +2,7 @@
 
 在搬瓦工买的VPS，使用的是centOS6系统，顺便也当VPN用，可以搭载简易的web 服务
 
-[我自己搭建的简易web 服务](http://97.64.18.58)，使用的是nginx映射。
+[我自己搭建的简易web 服务](http://www.didiheng.com)，使用的是nginx映射。
 
 ## mac下连接centOS6
 
@@ -39,12 +39,24 @@ $ ssh demohost
 直接下载xshell工具即可，按照步骤即可连接服务。
 
 
-## 常见命令行
+### 常见命令行
 
+#### 查看进程
 ```cmd
-<!-- 查看进程 -->
-# ps -af | grep nginx
+# ps aux|grep nginx
+```
+#### 清理内存缓存
+```
+# free -m                                     查看内存
 
+# echo 1 > /proc/sys/vm/drop_caches           清理缓存
+```
 
+#### 修改环境变量
+```
+# cd /etc/
 
+# vi profile                修改profile文件， 添加环境变量
+
+# source profile            重新生成
 ```

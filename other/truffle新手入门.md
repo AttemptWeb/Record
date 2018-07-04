@@ -1,6 +1,6 @@
 # truffle新手实验
 
->	属于 HelloWorld的级别
+>	属于区块链truffle框架的HelloWorld的级别，😄
 
 **安装要求**
 
@@ -29,6 +29,7 @@ $ truffle init
 ```
 
 目录如下
+
 ![文件目录](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/FileDir.png)
 
 truffle 会自动安装一个样例工程，我们只需在此基础上进行开发，极大地提升了工作效率。这个样例工程是MetaCoin，一个简单的辅币合约contract。
@@ -64,7 +65,7 @@ module.exports = {
 ![truffle.js配置](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/truffle配置.png)
 
 
-## helloword
+## 开始hello World
 创建新的目录
 ```cmd
 $ truffle create contract helloworld
@@ -122,7 +123,7 @@ $ hw.balance.call().then(console.log())
 
 第五：改变balance的值，状态
 
-![改变banlance](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/changeBalance.png)
+![改变banlance](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/changeHWFile.png)
 
 创建一个deposit函数，重新compile 和 migrate, 务必加上--reset参数
 
@@ -144,6 +145,8 @@ $ helloworld.deployed().then(function(instance) {return instance.deposit(500)}).
 
 此交易完成：有一个交易的hash码，同时helloworld本身变成1500 balance。
 非常明显此交易改变了blockchain的状态，因此必然消耗了gas，因此我们看到accounts[0]的ether变为998480。消耗998507 - 998480 = 27
+
+****
 
 参考：
 

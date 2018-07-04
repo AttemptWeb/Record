@@ -17,6 +17,9 @@ $ git stash
 
 4.从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。
 $ git stash pop
+
+5.查看commit后但是未push的记录
+$ git show 
 ```
 
 ****
@@ -28,6 +31,8 @@ $ git stash pop
 $   git branch   //查询本地分支
 
 $   git branch [分支名] //  创建本地分支
+
+$   git branch --all //查看全部分支
 
 $   git checkout [分支名] //切换分支
 
@@ -60,6 +65,13 @@ $ git reset --hard origin/master // 远程分支名称
 <!--git fetch 只是下载远程的库的内容，不做任何的合并 git reset 把HEAD指向刚刚下载的最新的版本-->
 ```
 
+**git撤销或者回退**
+----------------
+```javascript
+$ git reset --hard [commit版本号] //回退版本
+
+$ git merge --about //撤销当前合并，回到合并之前
+```
 
 
 

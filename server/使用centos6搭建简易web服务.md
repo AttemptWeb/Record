@@ -1,6 +1,6 @@
 # 利用CentOS6搭建建议的web服务
 
-	提示: 其中没有涉及到MySQl、MongoDB的安装和使用,包括docker容器等
+	提示: 其中没有涉及到MySQl、MongoDB的安装和使用,包括docker容器等,使用nginx反向代理静态服务
 
 ## centOS服务器
 
@@ -13,17 +13,23 @@
 - 使用xshell连接上云服务器，使用超级管理员root登录
 
 * 登录完成之后安装nginx
+
+- 下面是需要下载的文件：
 	- 首先安装wget ```# yum install wget```
 	- nginx以来与gcc的编译环境 ```# yum install gcc-c++```
 	- nginx的http模块需要使用pcre来解析正则表达式 ```# yum -y install pcre pcre-devel```
 	- 依赖的解压包 ```# yum -y install zlib zlib-devel```
 	- 下载nginx压缩包 ```# wget -c https://nginx.org/download/nginx-1.10.3.tar.gz```
+	
+- 解压与安装：
 	- 解压nginx ```# tar -zxvf nginx-1.10.3.tar.gz```
 	- 进入nginx目录 ```#cd nginx-1.10.3```
 	- 对nginx的源码进行编译 ```# ./configure```
 	- 开始编译 ```# make```
 	- 继续编译 ```# make install```
 	- 查看nginx安装的目录 ```# whereis nginx``` 它会告诉你nginx在哪，nginx的命令在/usr/local/nginx/sbin目录下
+	
+- nginx命令：
 	- nginx命令```开启# ./nginx ```
 		```停止# ./nginx -s stop```
 		```# ./nginx -s quit```
@@ -121,6 +127,7 @@ server {
     
 }
 ```
+**在以上配置中我直接将https开启了，若没有相关的ssl配置，请将https服务注释 使用 # 即可**
 
 修改之后重启nginx 
 ``` # ./nginx -s reload```

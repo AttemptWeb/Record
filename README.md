@@ -8,11 +8,14 @@
 
 - [问题](#问题)
 - [react](#react)
+- [server方面](#server方面)
 - [JS基础知识点](#JS基础知识点)
+
 
 ## 问题
 * [ajax传递参数时_非法字符替换.md](./js/ajax传递参数时_非法字符替换.md)
 * [饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
+* [webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
 
 ## JS基础知识点
 * [JS的基本概念](./js/真正弄懂JS.md)
@@ -24,13 +27,18 @@
 * [js构造函数的继承](./js/js构造函数的继承.md)
 
 ## react 
+* [个人关于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
 * [react组件生命周期](./frame/react生命周期.md)
 * [React面试问题](./frame/React问题.md)
 * [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
 
-## Mongodb
+## server方面
 * [mongodb基本配置与操作](./server/mongodb基本配置与操作.md)
 * [使用CentOS 6搭建简易web服务器](./server/使用centos6搭建简易web服务.md)
+* [一点小小的的server总结](https://github.com/HerryLo/Knowledge/tree/master/server)
+* [centos的 node服务](./server/centos配置node服务.md)
+* [centos 命令行操作](./server/CentOS6命令行.md)
+* [koa2部署最佳实践--安全篇](https://cnodejs.org/topic/5a41c3829807389a1809f6e0)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
@@ -45,4 +53,3 @@
 
 ## 后台管理系统解决方案
 * [开箱即用的中台前端/设计解决方案](https://pro.ant.design/)
-* [基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案](http://blog.gdfengshuo.com/example/work/#/readme)
