@@ -63,8 +63,3 @@ mysql> create table runoob_tbl(
 用于主键，数值会自动加1。
 *   primary key关键字用于定义列为主键。 您可以使用多列来定义主键，列间以逗号分隔。
 ```
-
-
-****
-Oracle
-账号 1169170165@qq.com 密码首字母大写L

@@ -160,8 +160,3 @@ $ne 不等于
 $or 或者
 ```
 
-## 账号
-```
-MongoDb Atlas  MongoDB云集群
-账号 13995578046@qq.com
-```
