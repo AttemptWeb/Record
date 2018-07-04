@@ -19,6 +19,8 @@
 
 ## JS基础知识点
 * [JS的基本概念](https://github.com/HerryLo/Knowledge/blob/master/js/%E7%9C%9F%E6%AD%A3%E5%BC%84%E6%87%82JS.md)
+* [JS的基本概念](https://github.com/HerryLo/Knowledge/blob/master/js/%E7%9C%9F%E6%AD%A3%E5%BC%84%E6%87%82JS.md)
+* [](./js/真正弄懂JS.md)
 * [js中基本类型和引用类型](https://github.com/HerryLo/Knowledge/blob/master/js/js%E4%B8%AD%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B.md)
 * [let与const与var的区别](https://github.com/HerryLo/Knowledge/blob/master/js/let%E4%B8%8Econst%E4%B8%8Evar.md)
 * [js的this指向问题](https://github.com/HerryLo/Knowledge/blob/master/js/js%E4%B8%ADthis%E7%9A%84%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98.md)
