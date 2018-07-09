@@ -60,3 +60,8 @@ $ ssh demohost
 
 # source profile            重新生成
 ```
+
+### 刷新swap缓存
+```
+# swapoff -a && swapon -a
+```
