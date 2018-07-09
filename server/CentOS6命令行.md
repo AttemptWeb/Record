@@ -41,6 +41,14 @@ $ ssh demohost
 
 ### 常见命令行
 
+#### 查看内核
+```
+系统环境
+# cat /etc/redhat-release
+
+# uname -a
+```
+
 #### 查看进程
 ```cmd
 # ps aux|grep nginx
