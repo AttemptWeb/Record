@@ -57,7 +57,7 @@ profile=1
 ```cmd
 vi mongodb.conf
 
-// 复制如下文件 若无data logs 文件 记得创建
+# 复制如下文件 若无data logs 文件 记得创建
 dbpath = /usr/local/mongodb/data #数据文件存放目录
 logpath = /usr/local/mongodb/logs/mongodb.log #日志文件存放目录
 port = 27017  #端口
