@@ -41,6 +41,14 @@ $ ssh demohost
 
 ### 常见命令行
 
+#### 查看内核
+```
+系统环境
+# cat /etc/redhat-release
+
+# uname -a
+```
+
 #### 查看进程
 ```cmd
 # ps aux|grep nginx
@@ -59,4 +67,9 @@ $ ssh demohost
 # vi profile                修改profile文件， 添加环境变量
 
 # source profile            重新生成
+```
+
+### 刷新swap缓存
+```
+# swapoff -a && swapon -a
 ```

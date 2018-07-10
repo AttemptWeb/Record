@@ -1,4 +1,4 @@
-# 利用CentOS6搭建建议的web服务
+# 利用CentOS6搭建简易的web服务
 
 	提示: 其中没有涉及到MySQl、MongoDB的安装和使用,包括docker容器等,使用nginx反向代理静态服务
 
@@ -59,7 +59,7 @@ server {
 
 	gzip  on; #gzip开启
 	gzip_comp_level 6; #gzip比率
-	gzip_types text/css text/xml application/javascript;
+	gzip_types text/plain application/x-javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/gif image/png;
 
 	proxy_connect_timeout 5;  #缓存链接
 	proxy_read_timeout 60;	
@@ -108,7 +108,7 @@ server {
         expires epoch;
 	gzip  on;
         gzip_comp_level 6;
-        gzip_types text/xml application/javascript text/css;
+        gzip_types text/plain application/x-javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/gif image/png;
 
         proxy_connect_timeout 5;
         proxy_read_timeout 60;

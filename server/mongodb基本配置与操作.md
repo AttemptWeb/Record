@@ -1,3 +1,15 @@
+
+## centos6.8安装mongodb
+```
+1. 下载安装包
+# wget  https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-amazon-3.4.0.tgz
+
+2. 解压
+# tar -zxvf mongodb-linux-x86_64-amazon-3.4.0.tgz
+
+解压完成即成功
+```
+
 ## window 配置mongoDB
 
 > 1.添加环境变量 如 D:\MongoDB\bin
@@ -45,7 +57,7 @@ profile=1
 ```cmd
 vi mongodb.conf
 
-// 复制如下文件 若无data logs 文件 记得创建
+# 复制如下文件 若无data logs 文件 记得创建
 dbpath = /usr/local/mongodb/data #数据文件存放目录
 logpath = /usr/local/mongodb/logs/mongodb.log #日志文件存放目录
 port = 27017  #端口
