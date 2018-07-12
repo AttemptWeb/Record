@@ -15,7 +15,7 @@
 ## node刷阅读量
 
 安装依赖:
-    - node
+    - 需要安装 nodejs
 
 [代码](https://github.com/HerryLo/JavascriptCode/blob/master/node_learn/src/request.js)
 
