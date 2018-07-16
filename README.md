@@ -29,6 +29,7 @@
 * [令人炸裂的_proto_和prototype](./js/令人炸裂的_proto_和prototype.md)
 * [js构造函数的继承](./js/js构造函数的继承.md)
 * [node爬虫](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
+* [nodejs邮件发送就是这么简单](https://cnodejs.org/topic/572021b2fa48138c41110e4f)
 
 ## css
 * [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
