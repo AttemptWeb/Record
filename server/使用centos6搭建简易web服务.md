@@ -44,13 +44,14 @@
 
 ```
 # http server
-server {
-    listen       80;
-    server_name  www.didiheng.com;
+http{
+    server {
+        listen       80;
+        server_name  www.didiheng.com;
 
-    #charset koi8-r;
+        #charset koi8-r;
 
-    #access_log  logs/host.access.log  main;
+        #access_log  logs/host.access.log  main;
 
 	access_log off; #缓存日志关闭
 	server_tokens off;
@@ -69,12 +70,12 @@ server {
 	proxy_busy_buffers_size 128k;  
 	proxy_temp_file_write_size 128k;     
 
-	location / {
-		root   /www; #此处绝对地址
-		index  index.html index.htm;
-		try_files $uri $uri/ /index.html;  //使用客户端路由需配置
-		rewrite ^(.*)$  https://$host$1 permanent;  /强制定向https  	
-	}
+    location / {
+	root   /www; #此处绝对地址
+	index  index.html index.htm;
+	try_files $uri $uri/ /index.html;  //使用客户端路由需配置
+	rewrite ^(.*)$  https://$host$1 permanent;  /强制定向https  	
+    }
 
     #error_page  404              /404.html;
 
@@ -83,6 +84,22 @@ server {
     error_page   500 502 503 504  /50x.html;
     location = /50x.html {
         root   html;
+    }
+   }
+    
+    #node server
+    server {
+    	listen      7777;
+        server_name  www.didiheng.com; # 域名地址
+    
+    	location / {
+            proxy_set_header    X-Real-IP $remote_addr;
+            proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header    Host  $http_host;
+            proxy_set_header    X-Nginx-Proxy true;
+            proxy_set_header    Connection "";
+            proxy_pass http://localhost:12345;	
+	}
     }
     
     #https server
