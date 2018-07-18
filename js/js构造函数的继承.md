@@ -54,6 +54,7 @@ console.log(fn.name, fn.age) // 'dili',23
 ```
 使用以上方法可以实现多层函数的继承，但并不影响构造函数的指向。
 
+
 ```
 fn.__proto__ === child.prototype;
 
@@ -66,3 +67,4 @@ parent.prototype.__proto__ == Object.prototype
 //Function.__proto__ === Function.prototype
 //Function.prototype.__protope === Object.prototype
 ```
+由以上可以看出，原型链的生成，继承父类方法和属性的同时，原型对象指向上一级。
