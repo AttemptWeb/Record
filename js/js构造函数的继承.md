@@ -67,4 +67,4 @@ parent.prototype.__proto__ == Object.prototype
 //Function.__proto__ === Function.prototype
 //Function.prototype.__protope === Object.prototype
 ```
-由以上可以看出，原型链的生成，继承父类方法和属性的同时，原型对象指向上一级。
+由以上可以看出，原型链的生成，继承父类方法和属性的同时，原型对象指向上一级，__proto__对原型链起着重要的作用。
