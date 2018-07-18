@@ -1,5 +1,6 @@
 # __proto__和protype
 	一直在试图理解js的原型，这次希望将自己的理解记录下来
+谈__proto__和protype，就不得不从说到 function和Object
 
 ## function和Object
 
