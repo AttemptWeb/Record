@@ -38,7 +38,7 @@ console.log结果如下：
 
 ![图片](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/20180301112422.png)
 
-所以重点 **隐式原型（proto）指向构造该对象的构造函数的原型**。因为function是特殊的对象，A.proto就指向了构造该函数的一个函数（随意起个名字 C）,C的proto就指向了和B对象一样的proto。
+所以重点 **隐式原型（proto）指向构造该对象的构造函数的原型**。因为function是特殊的对象，A.__proto__就指向了构造该函数的一个函数（随意起个名字 C）,C的proto就指向了和B对象一样的proto。
 
 ### prototype
 
