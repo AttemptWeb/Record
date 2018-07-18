@@ -67,4 +67,4 @@ parent.prototype.__proto__ == Object.prototype
 //Function.__proto__ === Function.prototype
 //Function.prototype.__protope === Object.prototype
 ```
-由以上可以看出，__proto__ 构成原型链。
+由以上可以看出，__proto__ 构成原型链。__proto__ 指向构造该对象的构造函数的原型
