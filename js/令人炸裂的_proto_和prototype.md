@@ -51,7 +51,7 @@ console.log(B.prototype, typeof B.prototype)
 
 ![图片](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/20180301113203.png)
 
-对象并不具有prototype属性，只有函数才有prototype属性。这就证明声明2的说法是正确的。
+**对象并不具有prototype属性，只有函数才有prototype属性**。这就证明声明2的说法是正确的。
 
 ## 总结
 
