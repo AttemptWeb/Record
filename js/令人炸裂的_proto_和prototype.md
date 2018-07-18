@@ -9,7 +9,6 @@
 - Function 这个特殊的对象，除了和其他对象一样有上述proto属性之外，还有自己特有的属性——原型属性（prototype），这个属性是一个指针，指向一个对象，这个对象的用途就是包含所有实例共享的属性和方法（我们把这个对象叫做原型对象）。原型对象也有一个属性，叫做constructor，这个属性包含了一个指针，指回原构造函数
 
 ### __proto__
-****
 
 ```javascript
 var A = function () {};
@@ -41,7 +40,6 @@ console.log结果如下：
 所以重点 **隐式原型（proto）指向构造该对象的构造函数的原型**。因为function是特殊的对象，A.proto就指向了构造该函数的一个函数（随意起个名字 C）,C的proto就指向了和B对象一样的proto。
 
 ### prototype
-****
 
 ```javascript
 var A = function () {};
