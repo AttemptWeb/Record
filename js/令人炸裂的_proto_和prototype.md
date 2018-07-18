@@ -3,7 +3,7 @@
 谈__proto__和protype，就不得不从说到 function和Object
 
 ## function和Object
-
+- 对象具有属性__proto__，可称为隐式原型，一个对象的隐式原型指向构造该对象的构造函数的原型，这也保证了实例能够访问在构造函数原型中定义的属性和方法。
 - 函数 也是对象，函数的原型(Function.prototype)是对象。
 因此，它们都会具有对象共有的特点。即对象具有属性proto，可称为隐式原型，一个对象的隐式原型指向构造该对象的构造函数的原型，这也保证了实例能够访问在构造函数原型中定义的属性和方法
 
@@ -30,7 +30,7 @@ console.log(B.__proto__, typeof B.__proto__)
 ```javascript
 var A = function () {};
 var B ={};
-console.log(A.__proto__.__proto__)
+console.log(A.prototype.__proto__)
 console.log(B.__proto__)
 ```
 
@@ -38,7 +38,7 @@ console.log结果如下：
 
 ![图片](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/20180301112422.png)
 
-所以重点 **隐式原型（proto）指向构造该对象的构造函数的原型**。因为function是特殊的对象，A.__proto__就指向了构造该函数的一个函数（随意起个名字 C）,C的proto就指向了和B对象一样的proto。
+所以重点 **隐式原型（proto）指向构造该对象的构造函数的原型**。因为function是特殊的对象，A.prototype 就指向了函数A的原型对象（随意起个名字 C）,C的proto就指向了和B对象一样的proto。
 
 ### prototype
 
