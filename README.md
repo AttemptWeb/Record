@@ -51,6 +51,9 @@
 
 # git
 * [git命令行](./other/git.md)
+* [git pro实践 参考资料](http://iissnan.com/progit/)
+* [webpack 参考资料](https://doc.webpack-china.org/concepts/)
+* [puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
