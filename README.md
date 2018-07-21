@@ -32,6 +32,7 @@
 * [js中的forEach和map](./js/js中for和map和forEach.md)
 * [令人炸裂的_proto_和prototype](./js/令人炸裂的_proto_和prototype.md)
 * [js构造函数的继承](./js/js构造函数的继承.md)
+* [js闭包](./js/闭包.md)
 
 ## react 
 * [个人关于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
