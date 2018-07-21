@@ -57,5 +57,7 @@
 参考:
 
 [JavaScript单线程和异步机制](https://www.cnblogs.com/sxz2008/p/6513619.html)
+
 [MDN 并发模型与事件循环](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
+
 [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
