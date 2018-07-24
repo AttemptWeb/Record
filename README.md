@@ -9,6 +9,7 @@
 - [问题](#问题)
 - [工具](#工具)
 - [css](#css)
+- [小程序](#小程序)
 - [react](#react)
 - [server方面](#server方面)
 - [JS基础知识点](#js基础知识点)
@@ -35,6 +36,11 @@
 * [js构造函数的继承](./js/js构造函数的继承.md)
 * [js闭包](./js/闭包.md)
 * [js运行机制和事件循环.md](./js/js运行机制和事件循环.md)
+
+## 小程序
+* [小程序公开课记录](./other/小程序公开课记录.md)
+* [小程序开发](./other/小程序开发.md)
+* [小程序组件问题](./other/小程序组件问题.md)
 
 ## react 
 * [个人关于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
