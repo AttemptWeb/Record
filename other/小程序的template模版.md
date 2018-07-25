@@ -22,7 +22,7 @@ template的方法对于一些重复的简单的模版比较适用。在之前的
 
 ![im3](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/1532528038421.jpg)
 
-使用import引入模版，使用template调用，其中data中就是传入的参数。**在template模版中中wxml文件使用的变量，在引入时的data中传入**。
+使用import引入模版，使用template调用，其中data中就是传入的参数。**在template模版中中wxml文件使用的变量，在引入时的data中传入，此时的data既可以是数据，也可以是方法函数**。
 
 **4.在page中引入模版方法:**
 
