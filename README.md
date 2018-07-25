@@ -7,10 +7,12 @@
 ## 目录索引
 
 - [问题](#问题)
+- [工具](#工具)
+- [css](#css)
+- [小程序](#小程序)
 - [react](#react)
 - [server方面](#server方面)
 - [JS基础知识点](#js基础知识点)
-- [css](#css)
 - [好的项目示例](#好的项目示例)
 - [后台管理系统解决方案](#后台管理系统解决方案)
 
@@ -19,6 +21,10 @@
 * [ajax传递参数时_非法字符替换.md](./js/ajax传递参数时_非法字符替换.md)
 * [饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
+* [console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
+
+## css
+* [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
 
 ## js基础知识点
 * [JS的基本概念](./js/真正弄懂JS.md)
@@ -28,9 +34,13 @@
 * [js中的forEach和map](./js/js中for和map和forEach.md)
 * [令人炸裂的_proto_和prototype](./js/令人炸裂的_proto_和prototype.md)
 * [js构造函数的继承](./js/js构造函数的继承.md)
+* [js闭包](./js/闭包.md)
+* [js运行机制和事件循环.md](./js/js运行机制和事件循环.md)
 
-## css
-* [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
+## 小程序
+* [小程序公开课记录](./other/小程序公开课记录.md)
+* [小程序开发](./other/小程序开发.md)
+* [小程序组件问题](./other/小程序组件问题.md)
 
 ## react 
 * [个人关于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
@@ -47,6 +57,13 @@
 * [koa2部署最佳实践--安全篇](https://cnodejs.org/topic/5a41c3829807389a1809f6e0)
 * [node爬虫](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
 * [nodejs邮件发送就是这么简单](https://cnodejs.org/topic/572021b2fa48138c41110e4f)
+
+# 工具
+* [git命令行](./other/git.md)
+* [git pro实践 参考资料](http://iissnan.com/progit/)
+* [webpack 参考资料](https://doc.webpack-china.org/concepts/)
+* [puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
+* [Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
