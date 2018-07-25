@@ -1,7 +1,7 @@
 ## 小程序的template
 
 template的方法对于一些重复的简单的模版比较适用。在之前的文章中大致讲解了小程序 [小程序开发](https://github.com/HerryLo/Record/blob/master/other/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91.md)
-，现在这里专门讲解template模版
+，现在这里专门讲解怎么调用template模版
 ## 创建template
 
 **1.template模版目录:**
@@ -39,3 +39,5 @@ template的方法对于一些重复的简单的模版比较适用。在之前的
 **6.点击按钮调用template模版**
 
 ![img6](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/1532529149915.jpg)
+
+模版调用成功。这里只写出了调用的方法，记录下来，可以时刻回顾。
