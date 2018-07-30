@@ -24,6 +24,7 @@
 * [console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
 * [web性能](https://github.com/laoqiren/web-performance)
 * [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
+* [vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
 
 ## css
 * [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
