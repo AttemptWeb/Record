@@ -1,5 +1,5 @@
 有爬取过一些网站的图片，或者爬取网站的信息的需求，对于开发人员来说，ProxyIP是必不可少的。当然，
-不是每个人都愿意去花钱来买代理IP，那么当然剩下一个好的方法，直接使用网络爬虫爬取ProxyIP。
+不是每个人都愿意去花钱来买代理IP，那么当然剩下一个好的方法，直接使用**网络爬虫爬取ProxyIP**。
 
 基于node的爬虫获取proxy IP：
 
@@ -15,9 +15,10 @@
 |:-----|:-------:|:-----|
 |不限     |   node  |  [request](https://www.npmjs.com/package/request)、[cheerio](https://www.npmjs.com/package/cheerio)、[bluebird](https://www.npmjs.com/package/bluebird) |
  
- 
- 这里我展示部分代码
- ```javascript
+有兴趣的可以了解，[github源码地址](https://github.com/HerryLo/proxyIP)
+
+展示部分代码
+```javascript
 /**
  * 筛选有效IP
  * @param {*} data 数据IP
@@ -56,4 +57,5 @@ async function check(data) {
         console.log(err)
     }
 }
- ```
+```
+后面会持续的迭代，[github源码地址](https://github.com/HerryLo/proxyIP)，如果代码有问题，可以直接[issues](https://github.com/HerryLo/Record/issues)。
