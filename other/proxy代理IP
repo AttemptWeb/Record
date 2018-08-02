@@ -17,7 +17,7 @@
  
  
  这里我展示部分代码
- ```
+ ```javascript
 /**
  * 筛选有效IP
  * @param {*} data 数据IP
