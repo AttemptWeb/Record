@@ -70,7 +70,7 @@ $ git reset --hard origin/master // 远程分支名称
 ```javascript
 $ git reset --hard [commit版本号] //回退版本
 
-$ git merge --about //撤销当前合并，回到合并之前
+$ git merge --abort //撤销当前合并，回到合并之前
 ```
 
 
