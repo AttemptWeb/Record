@@ -103,3 +103,21 @@ j();
 　　**this永远指向的是最后调用它的对象**，也就是看它执行的时候是谁调用的，例子4中虽然函数fn是被对象b所引用，但是在将fn赋值给变量j的时候并没有执行所以最终指向的是window，这和例子3是不一样的，例子3是直接执行了fn。
 
 　　this讲来讲去其实就是那么一回事，只不过在不同的情况下指向的会有些不同，上面的总结每个地方都有些小错误，也不能说是错误，而是在不同环境下情况就会有不同，所以我也没有办法一次解释清楚，只能你慢慢地的去体会。
+  
+### 题目
+```
+var fullname = 'John'
+var obj = {
+  fullname:'Colin',
+  prop:{
+    fullname:'Aurelio',
+    getFullname:function(){
+      return this.fullname
+    }
+  }
+}
+var test = obj.prop.getFullname;
+console.log(test())
+console.log(obj.prop.getFullname())
+```
+这个理解了，this基本没问题了
