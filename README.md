@@ -71,6 +71,12 @@
 * [webpack 参考资料](https://doc.webpack-china.org/concepts/)
 * [puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
 * [Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
+* [VSCode 同步设置及扩展插件 实现设备上设置统一](https://www.cnblogs.com/kenz520/p/7416836.html)
+  > Settings Sync插件 附带上我的token：a2ac95cc751556d0a961cd5d5c39b1ee0aac4d0a
+* [activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
+* 科学上网
+  > [Lantern](https://github.com/getlantern/lantern)
+  > [fq-book](https://github.com/loremwalker/fq-book)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
