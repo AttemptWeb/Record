@@ -75,7 +75,7 @@
   > Settings Sync插件
 * [activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
 * 科学上网
-  > [Lantern](https://github.com/getlantern/lantern)
+  > [Lantern](https://github.com/getlantern/lantern)  
   > [fq-book](https://github.com/loremwalker/fq-book)
 
 ## 好的项目示例
