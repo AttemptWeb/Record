@@ -1,4 +1,4 @@
-### SASS & SCSS
+## SASS & SCSS
 1. 文件扩展名不同，Sass 是以“.sass”后缀为扩展名，而 SCSS 是以“.scss”后缀为扩展名
 2. 语法书写方式不同，Sass 是以严格的缩进式语法规则来书写，不带大括号({})和分号(;)，而 SCSS 的语法书写和我们的 CSS 语法书写方式非常类似
     ```sass
@@ -16,8 +16,16 @@
     color: $primary-color;
     }
     ```
+## 目录索引
 
-### [安装](https://www.sass.hk/install/)
+- [安装](#安装)
+- [Sass的基本特性-基础](#Sass的基本特性-基础)
+- [Sass的基本特性-运算](#Sass的基本特性-运算)
+- [Sass的控制指令](#Sass的控制指令)
+- [Sass的函数功能](#Sass的函数功能)
+- [Sass的@功能](#Sass的@功能)
+
+## [安装](https://www.sass.hk/install/)
 1. [Ruby](https://rubyinstaller.org/downloads/)
 2. 因为国内网络的问题导致gem源间歇性中断因此我们需要更换gem源
     ```js
@@ -66,7 +74,7 @@
         gulp.task('default', ['sass','watch']);
         ```
 
-### Sass的基本特性-基础
+## Sass的基本特性-基础
 1. 变量
     ```scss
     $fontSize: 12px;    // 普通变量
@@ -150,4 +158,135 @@
             @include box-shadow(0 0 1px rgba(#000,.5),0 0 2px rgba(#000,.2));
         }
         ```
+4. 继承(@extend)
+    ```scss
+    .error {
+        border: 1px solid red;
+        background-color: #fdd;
+    }
+    .seriousError {
+        @extend .error;
+        border-width: 3px;
+    }
+    // .seriousError不仅会继承.error自身的所有样式，任何跟.error有关的组合选择器样式也会被.seriousError以组合选择器的形式继承
+    ```
+    * 占位符(%)
+    ```scss
+    %mt5 {
+        margin-top: 5px;
+    }
+    .btn {
+        @extend %mt5;
+        @extend %pt5;
+    }
+    // %mt5没有被 @extend 调用时，不产生任何代码块，只是静静的躺在你的某个 SCSS 文件中。只有通过 @extend 调用才会产生代码
+    ```
+5. 插值语句(Interpolation: #{})
+    ```scss
+    // 通过 #{} 插值语句可以在选择器或属性名中使用变量
+    $name: foo;
+    $attr: border;
+    p.#{$name} {
+        #{$attr}-color: blue;
+    }
+    ```
+6. 注释(Comments: /* */ and //)
+7. 数据类型(Data Types)  
+    SassScript 支持 6 种主要的数据类型：
+    * 数字，1, 2, 13, 10px
+    * 字符串，有引号字符串与无引号字符串，"foo", 'bar', baz
+    * 颜色，blue, #04a3f9, rgba(255,0,0,0.5)
+    * 布尔型，true, false
+    * 空值，null
+    * 数组 (list)，用空格或逗号作分隔符，1.5em 1em 0 2em, Helvetica, Arial, sans-serif
+    * maps, 相当于 JavaScript 的 object，(key1: value1, key2: value2)
+    > SassScript 也支持其他 CSS 属性值，比如 Unicode 字符集，或 !important 声明。然而Sass 不会特殊对待这些属性值，一律视为无引号字符串
+
+## Sass的基本特性-运算
+1. 数字运算(Number Operations)
+    * SassScript 支持数字的加减乘除、取整等运算 (+, -, *, /, %)，如果必要会在不同单位间转换值
+    * 关系运算 <, >, <=, >= 也可用于数字运算，相等运算 ==, != 可用于所有数据类型
+        ```scss
+        $full-width: 960px;
+        .content {
+            width: $full-width -  200px;
+        }
+        .box {
+            width: 10px * 2;
+        }
+        .box {
+            width: (100px / 2);  
+        }
+        ```
+2. 颜色值运算 (Color Operations)
+    * 颜色值的运算是分段计算进行的，也就是分别计算红色，绿色，以及蓝色的值
+        ```scss
+        p { color: #010203 + #040506; }
+        // 计算 01 + 04 = 05, 02 + 05 = 07, 03 + 06 = 09 然后编译为
+        p { color: #050709; }
+
+        p { color: #010203 * 2; }
+        // 计算 01 * 2 = 02, 02 * 2 = 04, 03 * 2 = 06 然后编译为
+        p { color: #020406; }
+        ```
+    * 颜色值的 alpha channel 可以通过 opacify 或 transparentize 两个函数进行调整
+        ```scss
+        $translucent-red: rgba(255, 0, 0, 0.5);
+        p {
+            color: opacify($translucent-red, 0.3);
+            background-color: transparentize($translucent-red, 0.25);
+        }
+        // 编译为
+        p {
+            color: rgba(255, 0, 0, 0.8);
+            background-color: rgba(255, 0, 0, 0.25);
+        }
+        ```
+3. 字符串运算 (String Operations)
+    * + 可用于连接字符串
+        ```scss
+        p { cursor: e + -resize; }
+        // 编译为
+        p { cursor: e-resize; }
+        ```
+    * 如果有引号字符串（位于 + 左侧）连接无引号字符串，运算结果是有引号的，相反，无引号字符串（位于 + 左侧）连接有引号字符串，运算结果则没有引号
+        ```scss
+        p:before {
+            content: "Foo " + Bar;
+            font-family: sans- + "serif";
+        }
+        // 编译为
+        p:before {
+            content: "Foo Bar";
+            font-family: sans-serif;
+        }
+        ```
+4. 布尔运算 (Boolean Operations)
+5. 数组运算 (List Operations)
+
+## Sass的控制指令
+1. @if
+    ```scss
+    @mixin color($type: ocean) {
+        @if $type == ocean {
+            color: blue;
+        } @else if $type == matador {
+            color: red;
+        } @else if $type == monster {
+            color: green;
+        } @else {
+            color: black;
+        }
+    }
+    .red {
+        @include color(matador)
+    }
+    ```
+2. @for
+
+
+
+
+
+
 
