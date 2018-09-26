@@ -78,6 +78,7 @@
 * 科学上网
   > [Lantern](https://github.com/getlantern/lantern)  
   > [fq-book](https://github.com/loremwalker/fq-book)
+* [生成svg标示图片](https://shields.io/#/)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
