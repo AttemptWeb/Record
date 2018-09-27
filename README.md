@@ -27,9 +27,9 @@
 * [web性能](https://github.com/laoqiren/web-performance)
 * [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 * [vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
-* [深入理解Node.js垃圾回收与内存管理](https://zhuanlan.zhihu.com/p/40733281)
 
 ## css
+* [自己归纳梳理的一些css内容](./css/README.md)
 * [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
 
 ## js基础知识点
@@ -53,6 +53,7 @@
 * [react组件生命周期](./frame/react生命周期.md)
 * [React面试问题](./frame/React问题.md)
 * [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
+* [有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
 
 ## server方面
 * [mongodb基本配置与操作](./server/mongodb基本配置与操作.md)
@@ -72,6 +73,13 @@
 * [puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
 * [Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
 * [各种书籍css、js、ajax、网站优化等](http://www.linqing07.com/book.html)
+* [VSCode 同步设置及扩展插件 实现设备上设置统一](https://www.cnblogs.com/kenz520/p/7416836.html)
+  > Settings Sync插件
+* [activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
+* 科学上网
+  > [Lantern](https://github.com/getlantern/lantern)  
+  > [fq-book](https://github.com/loremwalker/fq-book)
+* [生成svg标示图片](https://shields.io/#/)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
