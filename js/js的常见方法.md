@@ -1,6 +1,6 @@
 ## js常见方法
 
-- [1.window.open()和location.href()比较](#1.window.open()和location.href()比较)
+- [1.window.open()和location.href()比较](#1.window.open()%E5%92%8Clocation.href()%E6%AF%94%E8%BE%83)
 - [2.请求html文件时，正则截取body中的内容](#2.当请求html文件时，截取body中的内容时，可以使用：)
 - [3.字符串正则添加，从右到左每三位添加一个','号](#3.字符串正则添加，从右到左每三位添加一个','号)
 - [4.ios中的Date时间格式兼容问题](#4.ios中的Date时间格式兼容问题)
