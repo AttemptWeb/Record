@@ -20,7 +20,7 @@
 
 
 ## 问题
-* [ajax传递参数时_非法字符替换.md](./js/ajax传递参数时_非法字符替换.md)
+* [js的常见方法.md](./js/js的常见方法.md)
 * [饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
 * [console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
@@ -71,6 +71,7 @@
 * [webpack 参考资料](https://doc.webpack-china.org/concepts/)
 * [puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
 * [Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
+* [各种书籍css、js、ajax、网站优化等](http://www.linqing07.com/book.html)
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
