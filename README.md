@@ -9,6 +9,7 @@
 ## 目录索引
 
 - [问题](#问题)
+- [学习](#学习)
 - [工具](#工具)
 - [css](#css)
 - [小程序](#小程序)
@@ -80,6 +81,10 @@
   > [Lantern](https://github.com/getlantern/lantern)  
   > [fq-book](https://github.com/loremwalker/fq-book)
 * [生成svg标示图片](https://shields.io/#/)
+
+## 学习
+- [cs50 哈佛计算机科学导论 视频](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+ > youtube视频，需要翻墙
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
