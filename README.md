@@ -84,7 +84,7 @@
 
 ## 学习
 - [cs50 哈佛计算机科学导论 视频](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
- > youtube视频，需要翻墙
+  > youtube视频，需要翻墙
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接
