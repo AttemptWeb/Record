@@ -9,6 +9,7 @@
 ## 目录索引
 
 - [问题](#问题)
+- [学习](#学习)
 - [工具](#工具)
 - [css](#css)
 - [小程序](#小程序)
@@ -42,6 +43,7 @@
 * [js构造函数的继承](./js/js构造函数的继承.md)
 * [js闭包](./js/闭包.md)
 * [js运行机制和事件循环.md](./js/js运行机制和事件循环.md)
+* [前端路由发展及原理](https://segmentfault.com/a/1190000011967786)
 
 ## 小程序
 * [小程序公开课记录](./other/小程序公开课记录.md)
@@ -80,6 +82,10 @@
   > [Lantern](https://github.com/getlantern/lantern)  
   > [fq-book](https://github.com/loremwalker/fq-book)
 * [生成svg标示图片](https://shields.io/#/)
+
+## 学习
+- [cs50 哈佛计算机科学导论 视频](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+  > youtube视频，需要翻墙
 
 ## 好的项目示例
 > 说明: 都是别人的项目，我只是放个链接

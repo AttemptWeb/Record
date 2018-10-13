@@ -1,38 +1,38 @@
 ## js常见方法
 
-- [window.open()和location.href()比较](#1.window.open()和location.href()比较)
-- [请求html文件时，正则截取body中的内容](#2.当请求html文件时，截取body中的内容时，可以使用：)
-- [字符串正则添加，从右到左每三位添加一个','号](#3.字符串正则添加，从右到左每三位添加一个','号)
-- [ios中的Date时间格式兼容问题](#4.ios中的Date时间格式兼容问题)
-- [URL地址获取参数](#5.URL地址获取参数)
-- [将时间转换为--分钟(或小时)前或者--年--月--日](#6.将时间转换为--分钟(或小时)前或者--年--月--日)
-- [js禁止或解除-移动端滑动方法](#7.js禁止或解除-移动端滑动方法)
-- [阻止默认冒泡](#8.阻止默认冒泡)
-- [获取document.cookie中的值](#9.获取document.cookie中的值)
-- [正则替换DOM节点](#10.正则替换DOM节点)
-- [ajax传递参数时_非法字符替换](#11.ajax传递参数时_非法字符替换)
-- [ios和安卓系统判断](#12.ios和安卓系统判断)
-- [移动设备判断](#13.移动设备判断)
+- [1.window.open()和location.href()比较](#window)
+- [2.请求html文件时，正则截取body中的内容](#html中截取body中的内容)
+- [3.字符串正则添加，从右到左每三位添加一个','号](#字符串正则添加从右到左每三位添加一个逗号)
+- [4.ios中的Date时间格式兼容问题](#ios中的date时间格式兼容问题)
+- [5.URL地址获取参数](#url地址获取参数)
+- [6.将时间转换为--分钟(或小时)前或者--年--月--日](#时间转换)
+- [7.js禁止或解除-移动端滑动方法](#js禁止或解除移动端滑动方法)
+- [8.阻止默认冒泡](#阻止默认冒泡)
+- [9.获取document.cookie中的值](#获取cookie中的值)
+- [10.正则替换DOM节点](#正则替换DOM节点)
+- [11.ajax传递参数时_非法字符替换](#ajax传递参数时非法字符替换)
+- [12.ios和安卓系统判断](#ios和安卓系统判断)
+- [13.移动设备判断](#移动设备判断)
 
 
-#### 1.window.open()和location.href()比较
+#### window
 
 相对于window.open,location.href更加安全，js脚本控制跳转使用location.href,相当于页面点击a标签跳转链接，浏览器不会认为是非法链接，相对来说不会被浏览器阻止
 
-#### 2.当请求html文件时，截取body中的内容时，可以使用：
+#### html中截取body中的内容
 
 ```javascript
 content.match(/<body[^>]*>([\s\S]*)<\/body>/)[0]
 // 截取body的内容
 ```
 
-#### 3.字符串正则添加，从右到左每三位添加一个','号
+#### 字符串正则添加从右到左每三位添加一个逗号
 
 ```javascript
     str.replace( /\B(?=(?:\d{3})+$)/g, ',' ); 
 ```
 
-#### 4.ios中的Date时间格式兼容问题
+#### ios中的date时间格式兼容问题
 
 ```javascript
 let dd = '2017-11-07 21:15:00'
@@ -45,7 +45,7 @@ if(!!nUAnce.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){ // 判断ios设备
 // 在ios中时间格式支持 2017/11/07 21:15:00
 ```
 
-#### 5.URL地址获取参数
+#### url地址获取参数
 
 ```javascript
 /*
@@ -69,7 +69,7 @@ function locsearch(n) {
 }
 ```
 
-#### 6.将时间转换为 --分钟(或小时)前或者 --年--月--日
+#### 时间转换
 
 ```javascript
 var releaseTime = function(t){
@@ -101,7 +101,7 @@ var releaseTime = function(t){
 }
 ```
 
-#### 7.js禁止或解除-移动端滑动方法
+#### js禁止或解除移动端滑动方法
 
 ```javascript
 function onHandler(event) {
@@ -118,13 +118,13 @@ function RemovEvent() { //解除触屏滑动
   }
 ```
 
-#### 8.阻止默认冒泡
+#### 阻止默认冒泡
 
 ```javascript
 event.stopPropagation(); //阻止默认冒泡
 ```
 
-#### 9.获取document.cookie中的值
+#### 获取cookie中的值
 
 ```javascript
 function getCookie(key) {
@@ -140,14 +140,14 @@ function getCookie(key) {
 };
 ```
 
-#### 10.正则替换DOM节点
+#### 正则替换DOM节点
 
 ```javascript
 <!-- 替换所有DOM节点 -->
 '<div>123123<img href=123123 /></div>'.replace(/<[\/]?(\S)([^<>]*)>/g, '')
 ```
 
-#### 11.ajax传递参数时_非法字符替换
+#### ajax传递参数时非法字符替换
 
 ```javascript
 str= str.toString();
@@ -155,7 +155,7 @@ str=str.replace(/\+/g,"%2B");
 ```
 如果不替换queryString将无法识别，直接会使用空格替换
 
-#### 12.ios和安卓系统判断
+#### ios和安卓系统判断
 
 ```javascript
 const u = navigator.userAgent;
@@ -166,7 +166,7 @@ alert('是否是Android：'+isAndroid);
 alert('是否是iOS：'+isiOS);
 ```
 
-#### 13.移动设备判断
+#### 移动设备判断
 
 ```javascript
 var browser={  
