@@ -14,7 +14,7 @@
 - [css](#css)
 - [小程序](#小程序)
 - [react](#react)
-- [server方面](#server方面)
+- [server方面](#server)
 - [JS基础知识点](#js基础知识点)
 - [好的项目示例](#好的项目示例)
 - [后台管理系统解决方案](#后台管理系统解决方案)
@@ -56,8 +56,9 @@
 * [React面试问题](./frame/React问题.md)
 * [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
 * [有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
+* [基于react-router-dom@4.0 ssr](https://alligator.io/react/react-router-ssr/)
 
-## server方面
+## server
 * [mongodb基本配置与操作](./server/mongodb基本配置与操作.md)
 * [使用CentOS 6搭建简易web服务器](./server/使用centos6搭建简易web服务.md)
 * [一点小小的的server总结](https://github.com/HerryLo/Knowledge/tree/master/server)
@@ -68,7 +69,7 @@
 * [nodejs邮件发送就是这么简单](https://cnodejs.org/topic/572021b2fa48138c41110e4f)
 * [Docker学习文档](https://github.com/yeasy/docker_practice)
 
-# 工具
+## 工具
 * [git命令行](./other/git.md)
 * [git pro实践 参考资料](http://iissnan.com/progit/)
 * [webpack 参考资料](https://doc.webpack-china.org/concepts/)
