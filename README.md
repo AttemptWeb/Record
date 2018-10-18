@@ -32,6 +32,7 @@
 ## css
 * [自己归纳梳理的一些css内容](./css/README.md)
 * [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
+* [css3 Animation](./css/cssAnimation.md)
 
 ## js基础知识点
 * [JS的基本概念](./js/真正弄懂JS.md)
