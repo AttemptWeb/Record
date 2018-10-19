@@ -28,6 +28,7 @@
 * [web性能](https://github.com/laoqiren/web-performance)
 * [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 * [vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
+* [js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
 
 ## css
 * [自己归纳梳理的一些css内容](./css/README.md)
