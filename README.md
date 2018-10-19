@@ -21,7 +21,7 @@
 
 
 ## 问题
-* [一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question-new.md)
+* [一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
 * [js的常见方法](./js/js的常见方法.md)
 * [饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
