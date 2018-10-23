@@ -61,5 +61,3 @@
 [MDN 并发模型与事件循环](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
 
 [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
-
-[JavaScript中的Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
