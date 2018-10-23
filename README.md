@@ -6,7 +6,18 @@
 
   特别推荐可以看看 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
-##
+## 问题
+* [一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
+* [js的常见方法](./js/js的常见方法.md)
+* [饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
+* [webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
+* [console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
+* [web性能](https://github.com/laoqiren/web-performance)
+* [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
+* [vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
+* [js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
+
+## 
 
 * **[前端css知识](./css)** 随着css功能的不断强大，它可以做的东西也越来越多
 
@@ -20,31 +31,16 @@
 
 * **[工具扩展](./devTool)** 开发对于git、webpack、Travis CI需要有一定的了解
 
-## 问题
-* [一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
-* [js的常见方法](./js/js的常见方法.md)
-* [饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
-* [webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
-* [console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
-* [web性能](https://github.com/laoqiren/web-performance)
-* [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
-* [vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
-* [js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
+* **[学习资料](./learn)** 将平时学习的资料放在这里
 
-## 学习
-- [cs50 哈佛计算机科学导论 视频](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
-  > youtube视频，需要翻墙
-
-## 好的项目示例
+## 项目示例
 > 说明: 都是别人的项目，我只是放个链接
 
 * [基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用][30]
 * [基于 node.js + Mongodb 构建电商后台系统][31]
 * [Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址][32]
+* [开箱即用的中台前端/设计解决方案](https://pro.ant.design/)
 
   [30]: https://github.com/bailicangdu/vue2-elm
   [31]: https://github.com/bailicangdu/node-elm
   [32]: https://pan.baidu.com/s/1geQIWHt?qq-pf-to=pcqq.group&errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2FVue%202.0%20%E9%AB%98%E7%BA%A7%E5%AE%9E%E6%88%98-%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%9F%B3%E4%B9%90WebApp
-
-## 后台管理系统解决方案
-* [开箱即用的中台前端/设计解决方案](https://pro.ant.design/)

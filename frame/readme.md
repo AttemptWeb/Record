@@ -1,6 +1,6 @@
 * [个人关于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
-* [react组件生命周期](./frame/react生命周期.md)
-* [React面试问题](./frame/React问题.md)
+* [react组件生命周期](./react生命周期.md)
+* [React面试问题](./React问题.md)
 * [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
 * [有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
 * [基于react-router-dom@4.0 ssr](https://alligator.io/react/react-router-ssr/)
