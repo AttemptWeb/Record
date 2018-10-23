@@ -6,3 +6,6 @@
 - * [node爬虫](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
 
 - * [各种书籍css、js、ajax、网站优化等](http://www.linqing07.com/book.html)
+
+- * [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
+
