@@ -1,1 +1,11 @@
 
+* [JS的基本概念](./js/真正弄懂JS.md)
+* [js中基本类型和引用类型](./js/js中基本类型和引用类型.md)
+* [let与const与var的区别](./js/let与const与var.md)
+* [js的this指向问题](./js/js中this的指向问题.md)
+* [js中的forEach和map](./js/js中for和map和forEach.md)
+* [令人炸裂的_proto_和prototype](./js/令人炸裂的_proto_和prototype.md)
+* [js构造函数的继承](./js/js构造函数的继承.md)
+* [js闭包](./js/闭包.md)
+* [js运行机制和事件循环.md](./js/js运行机制和事件循环.md)
+* [前端路由发展及原理](https://segmentfault.com/a/1190000011967786)
