@@ -1,7 +1,7 @@
 ## 工具
 
 ### git
-* [git命令行](../other/git.md)
+* [git命令行](./git.md)
 * [git pro实践 参考资料](http://iissnan.com/progit/)
 
 ### webpack
