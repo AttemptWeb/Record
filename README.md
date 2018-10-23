@@ -1,4 +1,4 @@
-# 记录
+## 记录
 
   个人希望将一些东西整理出来，一是我自己的一个记录，二就是分享了
 
@@ -6,19 +6,19 @@
 
   特别推荐可以看看 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
-## 目录索引
+##
 
-- [问题](#问题)
-- [学习](#学习)
-- [工具](#工具)
-- [css](#css)
-- [小程序](#小程序)
-- [react](#react)
-- [server方面](#server)
-- [JS基础知识点](#前端js基础知识点)
-- [好的项目示例](#好的项目示例)
-- [后台管理系统解决方案](#后台管理系统解决方案)
+* **[前端css知识](./css)** 随着css功能的不断强大，它可以做的东西也越来越多
 
+* **[前端js知识](./js)** ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
+
+* **[前端js框架](./frame)** 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
+
+* **[前端服务端扩展](./server)** 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
+
+* **[小程序开发](./wxsapp)** 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
+
+* **[工具扩展](./devTool)** 开发对于git、webpack、Travis CI需要有一定的了解
 
 ## 问题
 * [一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
@@ -30,44 +30,6 @@
 * [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 * [vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
 * [js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
-
-## css
-* [自己归纳梳理的一些css内容](./css/README.md)
-* [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
-* [css3 Animation](./css/cssAnimation.md)
-
-## 前端js基础知识点
-
-## 小程序
-* [小程序公开课记录](./other/小程序公开课记录.md)
-* [小程序开发](./other/小程序开发.md)
-* [小程序组件问题](./other/小程序组件问题.md)
-
-## react 
-* [个人关于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
-* [react组件生命周期](./frame/react生命周期.md)
-* [React面试问题](./frame/React问题.md)
-* [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
-* [有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
-* [基于react-router-dom@4.0 ssr](https://alligator.io/react/react-router-ssr/)
-* [redux+react-router-dom@4.0 ssr](https://crypt.codemancers.com/posts/2017-06-03-reactjs-server-side-rendering-with-router-v4-and-redux/)
-
-## server
-
-## 工具
-* [git命令行](./other/git.md)
-* [git pro实践 参考资料](http://iissnan.com/progit/)
-* [webpack 参考资料](https://doc.webpack-china.org/concepts/)
-* [puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
-* [Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
-* [各种书籍css、js、ajax、网站优化等](http://www.linqing07.com/book.html)
-* [VSCode 同步设置及扩展插件 实现设备上设置统一](https://www.cnblogs.com/kenz520/p/7416836.html)
-  > Settings Sync插件
-* [activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
-* 科学上网
-  > [Lantern](https://github.com/getlantern/lantern)  
-  > [fq-book](https://github.com/loremwalker/fq-book)
-* [生成svg标示图片](https://shields.io/#/)
 
 ## 学习
 - [cs50 哈佛计算机科学导论 视频](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
