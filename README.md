@@ -15,7 +15,7 @@
 - [小程序](#小程序)
 - [react](#react)
 - [server方面](#server)
-- [JS基础知识点](#js基础知识点)
+- [JS基础知识点](#前端js基础知识点)
 - [好的项目示例](#好的项目示例)
 - [后台管理系统解决方案](#后台管理系统解决方案)
 
@@ -36,7 +36,7 @@
 * [css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
 * [css3 Animation](./css/cssAnimation.md)
 
-## js基础知识点
+## 前端js基础知识点
 * [JS的基本概念](./js/真正弄懂JS.md)
 * [js中基本类型和引用类型](./js/js中基本类型和引用类型.md)
 * [let与const与var的区别](./js/let与const与var.md)
