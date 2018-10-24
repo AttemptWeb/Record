@@ -43,5 +43,4 @@ $ /usr/local/var/www
 
 <!-- 修改nginx.config 配置文件，即可修改配置文件 -->
 $ /usr/local/etc/nginx
-
 ```
