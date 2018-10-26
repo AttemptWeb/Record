@@ -75,8 +75,8 @@ var server = app.listen(1234, function () {
 });
 ```
 
-在服务端使用node和在客户端是基本一致的，使用 pm2 开启node服务，那么此时的node接口就是 htpp://locahost:1234，但是在客户端无法直接访问。
-那么我们就需要代理服务器，使用nginx反向代理node服务接口，代码如下
+在服务端使用node和在客户端是基本一致的，使用 pm2 开启node服务, 当然在开启之前记得安装npm包依赖. 那么此时的node接口就是 htpp://locahost:1234，但是在客户端无法直接访问。
+那么我们就需要代理服务器，使用nginx反向代理node服务接口，转换到我们的域名上面代码如下
 
 ```
 <!-- nginx代理node 接口 -->
