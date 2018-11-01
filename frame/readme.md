@@ -10,5 +10,5 @@
 * [React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
 
 ### react插件
-* [react拖拽 排序插件](https://github.com/clauderic/react-sortable-hoc)
-
+* [react拖拽 排序插件1](https://github.com/clauderic/react-sortable-hoc)
+* [react拖拽 排序插件2](https://github.com/atlassian/react-beautiful-dnd)
