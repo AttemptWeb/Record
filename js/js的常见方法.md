@@ -13,6 +13,7 @@
 - [11.ajax传递参数时_非法字符替换](#ajax传递参数时非法字符替换)
 - [12.ios和安卓系统判断](#ios和安卓系统判断)
 - [13.移动设备判断](#移动设备判断)
+- [14.window.scroll无法触发滚动条事件](#window的scroll事件无法触发问题)
 
 
 #### window
@@ -196,3 +197,13 @@ browser.versions.iPhone || browser.versions.iPad){
     window.location = "http://didiheng.com";  
 } 
 ```
+
+#### window的scroll事件无法触发问题
+
+滚动条事件很常见。但有的时候竟会无法触发这个事件，真的让人有点捉急！
+
+```window.scroll()```，是window的滚动，window代表的是当前窗口,但是如果我们把html和body设置了```overflow: auto```, 则无法```window.scroll()```的滚动条事件。
+
+解决方案: 
+
+去除```overflow: auto;```即可, 所以说```over-flow：auto;```如果放在入口文件并且放在父元素上，一定要慎重！
