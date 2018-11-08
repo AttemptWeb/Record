@@ -1,6 +1,5 @@
-let arr = [2, 3, 1, 0, 2, 5]
+let arr = [2, 3, 1, 0, 2, 5];
 let duplication = [];
-
 function duplicate(){
     for( let i=0;i<arr.length;i++){
         while(arr[i] != i){
@@ -9,12 +8,14 @@ function duplicate(){
                 console.log(duplication.join())
                 return true;
             }
-            let tmp = arr[i];
-            arr[i] = arr[arr[i]];
-            arr[arr[i]] = tmp;
+            swap(arr, i, arr[i])
         }
-        console.log(arr[i], i)
     }
     return false;
+}
+function swap(arr, i , j) {
+    let tmp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = tmp;
 }
 duplicate()
