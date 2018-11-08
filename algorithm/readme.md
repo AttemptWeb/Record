@@ -1,4 +1,5 @@
 - [1. 数组中重复的数字](#1数组中重复的数字)
+- [2. 二维数组中的查找](#2二维数组中的查找)
 
 ## 1.数组中重复的数字
 
@@ -55,4 +56,57 @@ function swap(arr, i , j) {
 }
 
 duplicate()
+```
+
+## 2.二维数组中的查找
+
+### 题目描述
+在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+
+```
+Consider the following matrix:
+[
+  [1,   4,  7, 11, 15],
+  [2,   5,  8, 12, 19],
+  [3,   6,  9, 16, 22],
+  [10, 13, 14, 17, 24],
+  [18, 21, 23, 26, 30]
+]
+
+Given target = 5, return true.
+Given target = 20, return false.
+```
+
+### 解法
+
+从右上角开始查找。矩阵中的一个数，它左边的数都比它小，下边的数都比它大。因此，从右上角开始查找，循环判断的次数更少，就可以根据 target 和当前元素的大小关系来缩小查找区间
+
+复杂度：O(M + N) + O(1)
+
+当前元素的查找区间为左下角的所有元素，例如元素 12 的查找区间如下：
+
+<div align="center"><img src=https://raw.githubusercontent.com/CyC2018/CS-Notes/master/pics/f94389e9-55b1-4f49-9d37-00ed05900ae0.png" width="250" style="max-width:100%;" /></div>
+
+
+```javascript
+function findTarge(tartge, arr) {
+    let len = arr[0].length;
+    let num = tartge;
+    let r = 0;
+    for(let i = len-1;i>=0;i--){
+        console.log(r ,i);
+        if(arr[r][i] == num){
+            console.log('true');
+            return true;
+        }else if(num > arr[r][i]){
+            if(r == arr.length-1){
+                console.log('false');
+                return false;
+            }
+            r++;
+            i = len;
+            continue;
+        }
+    }
+}
 ```
