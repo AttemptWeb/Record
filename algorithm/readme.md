@@ -1,3 +1,5 @@
+# 剑指 offer 题解
+
 - [1. 数组中重复的数字](#1数组中重复的数字)
 - [2. 二维数组中的查找](#2二维数组中的查找)
 
@@ -85,7 +87,7 @@ Given target = 20, return false.
 
 当前元素的查找区间为左下角的所有元素，例如元素 12 的查找区间如下：
 
-<div align="center"><img src=https://raw.githubusercontent.com/CyC2018/CS-Notes/master/pics/f94389e9-55b1-4f49-9d37-00ed05900ae0.png" width="250" style="max-width:100%;" /></div>
+![img](https://raw.githubusercontent.com/CyC2018/CS-Notes/master/pics/f94389e9-55b1-4f49-9d37-00ed05900ae0.png)
 
 
 ```javascript
