@@ -121,3 +121,65 @@ function findTarge(tartge, arr) {
 求斐波那契数列的第 n 项，n <= 39。
 
 ![img](https://camo.githubusercontent.com/fda05029442ab32752e2307e80ca574b988beb64/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f66286e293d5c6c6566745c7b5c626567696e7b61727261797d7b72636c7d3026267b6e3d307d5c5c3126267b6e3d317d5c5c66286e2d31292b66286e2d322926267b6e3e317d5c656e647b61727261797d5c72696768742e)
+
+### 解法
+
+如果使用递归求解，会重复计算一些子问题。例如，计算 f(10) 需要计算 f(9) 和 f(8)，计算 f(9) 需要计算 f(8) 和 f(7)，可以看到 f(8) 被重复计算了。
+
+![](https://raw.githubusercontent.com/CyC2018/CS-Notes/master/pics/faecea49-9974-40db-9821-c8636137df61.jpg)
+
+递归是将一个问题划分成多个子问题求解，动态规划也是如此，但是动态规划会把子问题的解缓存起来，从而避免重复求解子问题。
+
+```javascript
+function Fibonacci(i){
+    if(n <= 1){
+        return i
+    }else{
+        return Fibonacci(i-1) + Fibonacci(i-2)
+    }
+}
+```
+考虑到第 i 项只与第 i-1 和第 i-2 项有关，因此只需要存储前两项的值就能求解第 i 项，从而将空间复杂度由 O(N) 降低为 O(1)。
+```javascript
+function Fibonacci(i){
+    let n1 = 1;
+    let n2 = 1;
+    let nN = 0;
+    if(i <= 1){
+        return i;
+    }
+    for(let n = 2;n < i;n++){
+        nN = n1 + n2;
+        n1 = n2;
+        n2 = nN;
+    }
+    return nN;
+}
+```
+
+## 跳台阶
+
+### 题目描述
+一只青蛙一次可以跳上 1 级台阶，也可以跳上 2 级。求该青蛙跳上一个 n 级的台阶总共有多少种跳法。（先后次序不同算不同的结果）
+
+### 解法
+
+```
+function solve(i){
+    let n1 = 1;
+    let n2 = 2;
+    let nN = 0;
+    if(i <= 2){
+        return i;
+    }
+    for(let n = 2;n < i;n++){
+        nN = n1 + n2;
+        n1 = n2;
+        n2 = nN;
+    }
+    return nN;
+}
+```
+
+
+
