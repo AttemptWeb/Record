@@ -202,8 +202,8 @@ browser.versions.iPhone || browser.versions.iPad){
 
 滚动条事件很常见。但有的时候竟会无法触发这个事件，真的让人有点捉急！
 
-```window.scroll()```，是window的滚动，window代表的是当前窗口,但是如果我们把html和body设置了```overflow: auto```, 则无法```window.scroll()```的滚动条事件。
+```window.scroll()```，是window的滚动，window代表的是当前窗口,但是如果我们把html和body设置了```overflow:auto;height:100%；```, 则无法```window.scroll()```的滚动条事件。
 
 解决方案: 
 
-去除```overflow: auto;```即可, 所以说```over-flow：auto;```如果放在入口文件并且放在父元素上，一定要慎重！
+所以```overflow: auto;```和```height:100%```,应该尽量避免同时使用，去除其中一个就可以了
