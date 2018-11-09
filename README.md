@@ -12,7 +12,6 @@
 * [饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
 * [console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
-* [web性能](https://github.com/laoqiren/web-performance)
 * [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 * [vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
 * [js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
@@ -21,13 +20,13 @@
 
 ## 
 
-* **[前端css知识](./css)** 随着css功能的不断强大，它可以做的东西也越来越多
+* **[前端css](./css)** 随着css功能的不断强大，它可以做的东西也越来越多
 
-* **[前端js知识](./js)** ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
+* **[前端javascript](./js)** ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
 
-* **[前端React框架](./frame)** 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
+* **[Reactjs](./frame)** 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
 
-* **[前端服务端扩展](./server)** 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
+* **[服务端扩展](./server)** 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
 
 * **[小程序开发](./wxsapp)** 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
 
