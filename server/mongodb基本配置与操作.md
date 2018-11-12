@@ -1,6 +1,7 @@
 
-[1.centos6.8安装mongodb](#centos68安装mongodb)
-[2.window配置mongoDB](#window配置mongoDB)
+[centos6.8安装mongodb](#centos68安装mongodb)
+
+[window配置mongoDB](#window配置mongoDB)
 
 [centOS配置mongoDB](#centOS配置mongoDB)
 
