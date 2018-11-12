@@ -1,9 +1,14 @@
 
 [centos6.8安装mongodb](#centos68安装mongodb)
+
 [window配置mongoDB](#window配置mongoDB)
+
 [centOS配置mongoDB](#centOS配置mongoDB)
+
 [查询和创建doc](#查询和创建doc)
+
 [增删改查](#增删改查)
+
 [符号的含义](#符号的含义)
 
 ## centos6.8安装mongodb
