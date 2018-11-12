@@ -1,4 +1,11 @@
 
+[centos6.8安装mongodb](#centos68安装mongodb)
+[window配置mongoDB](#window配置mongoDB)
+[centOS配置mongoDB](#centOS配置mongoDB)
+[查询和创建doc](#查询和创建doc)
+[增删改查](#增删改查)
+[符号的含义](#符号的含义)
+
 ## centos6.8安装mongodb
 ```
 1. 下载安装包
@@ -10,7 +17,7 @@
 解压完成即成功
 ```
 
-## window 配置mongoDB
+## window配置mongoDB
 
 > 1.添加环境变量 如 D:\MongoDB\bin
 
@@ -78,7 +85,7 @@ bind_ip=0.0.0.0
 ./bin/mongod -f mongodb.conf --shutdown
 ```
 
-## Mongodb操作
+## 查询和创建doc
 
 ```javascript
 // 展示默认数据库
