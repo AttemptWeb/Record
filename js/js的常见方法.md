@@ -14,7 +14,7 @@
 - [12.ios和安卓系统判断](#ios和安卓系统判断)
 - [13.移动设备判断](#移动设备判断)
 - [14.window.scroll无法触发滚动条事件](#window的scroll事件无法触发问题)
-
+- [15.html中正则获取全部的img标签的src地址](#html中正则获取全部的img标签的src地址)
 
 #### window
 
@@ -207,3 +207,10 @@ browser.versions.iPhone || browser.versions.iPad){
 解决方案: 
 
 所以```overflow: auto;```和```height:100%```,应该尽量避免同时使用，去除其中一个就可以了
+
+### html中正则获取全部的img标签的src地址
+```javascript
+let imgArr = html.match(/<img\b.*?(?:\>|\/>)/gi);
+
+imgArr.macth(/src=[\'\"]?([^\'\"]*)[\'\"]?/i)
+```
