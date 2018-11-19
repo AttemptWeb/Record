@@ -3,6 +3,9 @@
 * [React面试问题](./React问题.md)
 * [有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
 
+* [聊一聊我对 React Context 的理解以及应用](https://www.jianshu.com/p/eba2b76b290b)
+* [How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
+
 ### react服务端渲染
 * [个人关于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
 * [基于react-router-dom@4.0 ssr](https://alligator.io/react/react-router-ssr/)
