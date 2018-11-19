@@ -1,12 +1,13 @@
 # React组件的生命周期
 
-**生命周期共提供了10个不同的API。**
+**生命周期共提供了 ~~10~~ 个不同的API。**
 
 **首次实例化**
 
 - getDefaultProps 
 - getInitialState 
-- componentWillMount 
+- static getDerivedStateFromProps() **16.4New** 
+- componentWillMount / UNSAFE_componentWillMount() **16.4将废弃** 
 - render   
 - componentDidMount
 
@@ -19,9 +20,10 @@
 存在期
 ---
 **组件已存在时的状态改变**
-- componentWillReceiveProps
+- componentWillReceiveProps / UNSAFE_componentWillReceiveProps() **16.4将废弃** 
+- static getDerivedStateFromProps() **16.4New** 
 - shouldComponentUpdate
-- componentWillUpdate
+- componentWillUpdate / UNSAFE_componentWillUpdate() **16.4将废弃** 
 - render
 - componentDidUpdate
 
