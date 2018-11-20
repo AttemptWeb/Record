@@ -24,3 +24,12 @@
 
 ### 浏览器渲染机制
 * [浏览器页面渲染机制](./浏览器页面渲染机制.md)
+
+
+### Http
+* [深入浅出Fetch API](http://web.jobbole.com/84924/)
+* [Fetch和Ajax的比较](https://www.jianshu.com/p/71f756103df8)
+* [理解HTTP幂等性](https://www.cnblogs.com/weidagang2046/archive/2011/06/04/idempotence.html)
+* [一次完整的HTTP事务是怎样一个过程？](http://blog.51cto.com/linux5588/1351007)
+* [tcp窗口滑动以及拥塞控制](http://blog.chinaunix.net/uid-26275986-id-4109679.html)
+* [TCP 的那些事儿](https://coolshell.cn/articles/11564.html)
