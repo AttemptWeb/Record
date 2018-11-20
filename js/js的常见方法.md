@@ -15,7 +15,7 @@
 - [13.移动设备判断](#移动设备判断)
 - [14.window.scroll无法触发滚动条事件](#window的scroll事件无法触发问题)
 - [15.html中正则获取全部的img标签的src地址](#html中正则获取全部的img标签的src地址)
-= [16.createDocumentFragment创建文档片段](#createDocumentFragment)
+- [16.createDocumentFragment创建文档片段](#createDocumentFragment)
 
 #### window
 
