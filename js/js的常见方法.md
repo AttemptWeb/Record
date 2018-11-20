@@ -15,6 +15,7 @@
 - [13.移动设备判断](#移动设备判断)
 - [14.window.scroll无法触发滚动条事件](#window的scroll事件无法触发问题)
 - [15.html中正则获取全部的img标签的src地址](#html中正则获取全部的img标签的src地址)
+= [16.createDocumentFragment创建文档片段](#createDocumentFragment)
 
 #### window
 
@@ -213,4 +214,25 @@ browser.versions.iPhone || browser.versions.iPad){
 let imgArr = html.match(/<img\b.*?(?:\>|\/>)/gi);
 
 imgArr.macth(/src=[\'\"]?([^\'\"]*)[\'\"]?/i)
+```
+
+### createDocumentFragment
+
+ocumentFragments 是DOM节点。它们不是主DOM树的一部分。通常的用例是创建文档片段，将元素附加到文档片段，然后将文档片段附加到DOM树。在DOM树中，文档片段被其所有的子元素所代替。
+
+因为文档片段存在于内存中，并不在DOM树中，所以将子元素插入到文档片段时不会引起页面回流（对元素位置和几何上的计算）。因此，使用文档片段通常会带来更好的性能。
+
+```
+var element  = document.getElementById('ul'); // assuming ul exists
+var fragment = document.createDocumentFragment();
+var browsers = ['Firefox', 'Chrome', 'Opera', 
+    'Safari', 'Internet Explorer'];
+
+browsers.forEach(function(browser) {
+    var li = document.createElement('li');
+    li.textContent = browser;
+    fragment.appendChild(li);
+});
+
+element.appendChild(fragment);
 ```
