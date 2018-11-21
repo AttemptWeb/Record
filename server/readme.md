@@ -15,4 +15,4 @@
 * [**【文章】** 三英战豪强，思绪走四方。浅谈我眼中的express、koa和koa2](https://www.jianshu.com/p/3806417a1991?from=timeline)
 
 ### docker
-* [**【文档】** Docker学习文档](https://github.com/yeasy/docker_practice)
+* [**【Github】** Docker学习文档](https://github.com/yeasy/docker_practice)
