@@ -3,6 +3,7 @@
 * [javascript的基本概念](./真正弄懂JS.md)
 * [let与const与var的区别](./let与const与var.md)
 * [js中基本类型和引用类型](./js中基本类型和引用类型.md)
+* [javascript闭包](./闭包.md)
 
 ### js的原型继承
 * [javascript构造函数的继承](./js构造函数的继承.md)
@@ -11,9 +12,6 @@
 ### js方法
 * [javascript的this指向问题](./js中this的指向问题.md)
 * [javascript中的forEach和map](./js中for和map和forEach.md)
-
-### 闭包
-* [javascript闭包](./闭包.md)
 
 ### js运行机制事件循环
 * [javascript运行机制和事件循环.md](./js运行机制和事件循环.md)
