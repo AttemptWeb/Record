@@ -39,3 +39,4 @@
 ### JS常用工具库/插件库
 * [**【Github】** lodash](https://github.com/lodash/lodash)
 * [**【Github】** jQ-Web端用户引导插件](https://github.com/jwarby/jquery-pagewalkthrough)
+* [**【Github】** JS-ORC图片文字识别插件](https://github.com/naptha/tesseract.js)
