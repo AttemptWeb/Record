@@ -31,3 +31,7 @@
 * [**【文章】** 一次完整的HTTP事务是怎样一个过程？](http://blog.51cto.com/linux5588/1351007)
 * [**【文章】** tcp窗口滑动以及拥塞控制](http://blog.chinaunix.net/uid-26275986-id-4109679.html)
 * [**【文章】** TCP 的那些事儿](https://coolshell.cn/articles/11564.html)
+
+### Web安全
+* [**【IMOOC视频】** XSS教程](https://www.imooc.com/learn/812)
+* [**【文章】** 用大白话谈谈XSS与CSRF](https://segmentfault.com/a/1190000007059639)
