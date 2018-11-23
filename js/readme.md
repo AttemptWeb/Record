@@ -36,5 +36,6 @@
 * [**【IMOOC视频】** XSS教程](https://www.imooc.com/learn/812)
 * [**【文章】** 用大白话谈谈XSS与CSRF](https://segmentfault.com/a/1190000007059639)
 
-### JS常用工具库
+### JS常用工具库/插件库
 * [**【Github】** lodash](https://github.com/lodash/lodash)
+* [**【Github】** jQ-Web端用户引导插件](https://github.com/jwarby/jquery-pagewalkthrough)
