@@ -1,6 +1,7 @@
 ### react
-* [**【Markdown】** react组件生命周期](./react生命周期.md)
-* [**【Markdown】** React面试问题](./React问题.md)
+* [**【Markdown】** react组件生命周期](./react/react生命周期.md)
+* [**【Markdown】** React面试问题](./react/React问题.md)
+* [**【Markdown】** redux基本使用](./react/redux使用.md)
 * [**【文章】** 有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
 
 * [**【文章】** 聊一聊我对 React Context 的理解以及应用](https://www.jianshu.com/p/eba2b76b290b)
