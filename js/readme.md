@@ -10,6 +10,7 @@
 * [**【Markdown】** 令人炸裂的_proto_和prototype](./JsMd/令人炸裂的_proto_和prototype.md)
 
 ### JS方法
+* [**【掘金】** [译] this（他喵的）到底是什么 — 理解 JavaScript 中的 this、call、apply 和 bind](https://juejin.im/post/5b9f176b6fb9a05d3827d03f)
 * [**【Markdown】** javascript的this指向问题](./JsMd/js中this的指向问题.md)
 * [**【Markdown】** javascript中的forEach和map](./JsMd/js中for和map和forEach.md)
 
