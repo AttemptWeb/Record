@@ -21,7 +21,7 @@
 * 科学上网
   > [**【Github】** Lantern](https://github.com/getlantern/lantern)  
   > [**【Github】** fq-book](https://github.com/loremwalker/fq-book)
-* 解决无法Ping通Github
+* [**【文章】** 解决无法Ping通Github](https://yq.aliyun.com/ziliao/556555)
   > C:\Windows\System32\drivers\etc
   ```json
   192.30.253.113 github.com
