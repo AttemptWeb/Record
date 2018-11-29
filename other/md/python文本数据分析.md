@@ -38,7 +38,7 @@ $ pip3 install jieba
 
 而且jieba还可以自定义词库哦，看下图:
 
-![img](../img/dirt.jpg)
+![img](../../img/dirt.jpg)
 
 自定义词库时，一词站一行，每一行分三部分：词语、词频（可省略）、[词性](https://github.com/baidu/lac#%E4%BB%BB%E5%8A%A1%E5%AE%9A%E4%B9%89%E4%B8%8E%E5%BB%BA%E6%A8%A1)（可省略），用空格隔开，顺序不可颠倒
 
@@ -59,7 +59,7 @@ for item in extract_tags:
 
 好的就是这么简单，嘻嘻嘻，下面是我的2018年日记关键词:
 
-![2018关键字](../img/jieba.jpg)
+![2018关键字](../../img/jieba.jpg)
 
 不多说了，有疑问可以评论或者私信哦！！
 
