@@ -8,8 +8,10 @@
 ### JS的原型继承
 * [**【Markdown】** javascript构造函数的继承](./JsMd/js构造函数的继承.md)
 * [**【Markdown】** 令人炸裂的_proto_和prototype](./JsMd/令人炸裂的_proto_和prototype.md)
+* [**【倔金】** js:面向对象编程，带你认识封装、继承和多态](https://juejin.im/post/59396c96fe88c2006afc2707)
 
 ### JS方法
+* [**【掘金】** [译] this（他喵的）到底是什么 — 理解 JavaScript 中的 this、call、apply 和 bind](https://juejin.im/post/5b9f176b6fb9a05d3827d03f)
 * [**【Markdown】** javascript的this指向问题](./JsMd/js中this的指向问题.md)
 * [**【Markdown】** javascript中的forEach和map](./JsMd/js中for和map和forEach.md)
 

@@ -21,3 +21,15 @@
 * 科学上网
   > [**【Github】** Lantern](https://github.com/getlantern/lantern)  
   > [**【Github】** fq-book](https://github.com/loremwalker/fq-book)
+* [**【文章】** 解决无法Ping通Github](https://yq.aliyun.com/ziliao/556555)
+  > C:\Windows\System32\drivers\etc
+  ```json
+  192.30.253.113 github.com
+  192.30.252.131 github.com
+  185.31.16.185 github.global.ssl.fastly.net
+  74.125.237.1 dl-ssl.google.com
+  173.194.127.200 groups.google.com
+  192.30.252.131 github.com
+  185.31.16.185 github.global.ssl.fastly.net
+  74.125.128.95 ajax.googleapis.com
+  ```
