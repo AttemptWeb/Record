@@ -62,3 +62,5 @@ for item in extract_tags:
 ![2018关键字](../img/jieba.jpg)
 
 不多说了，有疑问可以评论或者私信哦！！
+
+查看: [github 源码](https://github.com/HerryLo/python/tree/master/jieba)
