@@ -1,6 +1,6 @@
 ### JS基础
 * [**【Markdown】** 前端面试题](./JsMd/常见的面试题.md)
-* [**【Markdown】** javascript的基本概念](./JsMd/真正弄懂JS.md)
+* [**【Markdown】** 变量提升与变量赋值](./JsMd/真正弄懂JS.md)
 * [**【Markdown】** let与const与var的区别](./JsMd/let与const与var.md)
 * [**【Markdown】** js中基本类型和引用类型](./JsMd/js中基本类型和引用类型.md)
 * [**【Markdown】** javascript闭包](./JsMd/闭包.md)
