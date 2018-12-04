@@ -2,7 +2,7 @@
 
 ssh-key密钥 常用来管理我们的git仓库，gitlab、github都是很常见的。它可以避免我们重复的输入密码，提高开发效率。
 
-下面就来说一说，如何使用ssh-key管理多个的git仓库，下面我们以**gitlab**和**github**作为示例:
+下面就来说一说，如何管理多个ssh-key，下面我们以**gitlab**和**github**作为示例:
 
 ## 查看ssh目录
 
@@ -76,7 +76,7 @@ $ vi id_rsa_github.pub
 $ vi id_rsa_gitlab.pub
 ```
 
-ssh密钥配置基本完成，上面我们生成了两个密钥，将他们添加到了gitlab和github的ssh配置中心。现在还需要对两个ssh密钥进行管理，不然无法提交或者拉去代码。
+ssh密钥配置基本完成，上面我们生成了两个密钥，将他们添加到了gitlab和github的ssh配置中心。现在还需要对两个ssh密钥进行管理。
 
 ## 管理 多个ssh密钥
 
@@ -110,4 +110,8 @@ $ vi config
 
 欢迎留言，如果有不对的地方希望可以指正。
 
+参考: 
 
+[SSH原理与运用（一）：远程登录](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html)
+
+[Git - 生成 SSH 公钥](https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)
