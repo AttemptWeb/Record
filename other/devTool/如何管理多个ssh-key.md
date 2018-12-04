@@ -65,7 +65,7 @@ Enter file in which to save the key (/Users/herrylo/.ssh/id_rsa): id_gitlab_rsa
 ```
 $ ls ~/.ssh 
 ```
-![ssh目录](../../img/sshDir.png)
+[ssh目录](../../img/sshDir.png)
 
 上面的 ```id_rsa_github.pub```、```id_rsa_gitlab.pub```文件即是github与gitlab需要的公钥文件
 
@@ -90,7 +90,7 @@ ssh密钥配置基本完成，上面我们生成了两个密钥，将他们添�
 
 在```config```文件添加上图中的配置, 记得根据自己的文件位置和用户名修改。下面我们来试试github是否可以连接成功。
 
-![sshConnect](../../img/sshConnect.png)
+[sshConnect](../../img/sshConnect.png)
 
 当然这个只是管理gitlab和github,告诉你是连通的，基本大功告成！
 
