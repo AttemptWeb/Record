@@ -82,11 +82,11 @@ ssh密钥配置基本完成，上面我们生成了两个密钥，将他们添�
 
 ```config```文件是管理多个sshkey密钥的配置文件，下面我们需要修改```config```文件
 
-![ssh的config](../../img/sshConfig.png)
+[ssh的config](../../img/sshConfig.png)
 
 使用```vi```编辑查看config文件, 文件修改成如下配置即可:
 
-![config配置](../../img/configSsh.png)
+[config配置](../../img/configSsh.png)
 
 在```config```文件添加上图中的配置, 记得根据自己的文件位置和用户名修改。下面我们来试试github是否可以连接成功。
 
@@ -102,7 +102,7 @@ ssh密钥配置基本完成，上面我们生成了两个密钥，将他们添�
 ```
 $ vi config
 ```
-![sshServer](../../img/sshServer.png)
+[sshServer](../../img/sshServer.png)
 
 配置完之后保存退出, 在命令行窗口输入```$ ssh VPS```，随后输入服务器密码，即可访问远程服务器。当然这是在mac系统中，如果是window系统可以使用Xshell访问。
 
