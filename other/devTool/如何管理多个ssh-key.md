@@ -65,7 +65,7 @@ Enter file in which to save the key (/Users/herrylo/.ssh/id_rsa): id_gitlab_rsa
 ```
 $ ls ~/.ssh 
 ```
-[ssh目录](../../img/sshDir.png)
+![ssh目录](../../img/sshDir.png)
 
 上面的 ```id_rsa_github.pub```、```id_rsa_gitlab.pub```文件即是github与gitlab需要的公钥文件
 
