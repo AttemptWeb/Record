@@ -8,7 +8,7 @@
 
 ## 问题
 * [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
-* [**【Markdown】** js的常见方法](./js/js的常见方法.md)
+* [**【Markdown】** js的常见方法](./js/JsMd/js的常见方法.md)
 * [**【Github】** 饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [**【文章】** webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
 * [**【文章】** console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
@@ -24,7 +24,7 @@
 
 * **[前端javascript](./js)** ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
 
-* **[Reactjs](./react/frame)** 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
+* **[Reactjs](./other/react/frame)** 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
 
 * **[服务端扩展](./server)** 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
 
