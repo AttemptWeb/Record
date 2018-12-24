@@ -16,8 +16,8 @@
 * [**【Markdown】** javascript中的forEach和map](./JsMd/js中for和map和forEach.md)
 
 ### JS运行机制事件循环
-* [**【Markdown】** javascript运行机制和事件循环.md](./JsMd/js运行机制和事件循环.md)
-* [**【文章】** nodejs与客户端js的事件循环的区别](https://zhuanlan.zhihu.com/p/33058983)
+* [**【Markdown】** javascript运行机制和事件循环](./JsMd/js运行机制和事件循环.md)
+* [**【ZhiHu】** nodejs与客户端js的事件循环的区别](https://zhuanlan.zhihu.com/p/33058983)
 
 ### JS的前端路由
 * [**【文章】** 前端路由发展及原理](https://segmentfault.com/a/1190000011967786)
