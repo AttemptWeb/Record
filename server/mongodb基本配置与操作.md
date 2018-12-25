@@ -75,7 +75,7 @@ logpath = /usr/local/mongodb/logs/mongodb.log #日志文件存放目录
 port = 27017  #端口
 fork = true  #以守护程序的方式启用，即在后台运行
 nohttpinterface = true
-auth=true
+auth=true  #管理认证，若单人开发可关闭
 bind_ip=0.0.0.0
 ```
 
