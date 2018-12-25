@@ -9,7 +9,7 @@
 
 ## 安装nodejs
 ```
-# wegt https://nodejs.org/dist/v9.3.0/node-v9.3.0-linux-x64.tar.xz
+# wegt https://nodejs.org/dist/v9.3.0/node-v9.3.0-linux-x64.tar.gz
 
 # tar node-v9.3.0-linux-x64.tar
 
