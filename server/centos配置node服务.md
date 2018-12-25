@@ -17,9 +17,10 @@
 
 #./configure
 
-# make
+# vi /etc/profile
 
-# make install
+export NODE_HOME=/usr/local/src/node/bin
+export PATH=$NODE_HOME:$PATH
 
 # node -v // 查看版本
 
