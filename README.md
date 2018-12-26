@@ -13,7 +13,6 @@
 * [**【文章】** console异步还是同步?](https://blog.csdn.net/tingyugetc11/article/details/77569010)
 * [**【文章】** X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 * [**【文章】** vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
-* [**【工具】** js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
 * [**【Markdown】** 康威定律](./other/康威定律.md)
 
 ## 
