@@ -11,7 +11,7 @@
 
 - * [**【Gitbook】** Docker — 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
 
-- * [Gitbook koa2进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
+- * [**【Gitbook】** koa2进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
 
-- * [Gitbook koa2设计模式](https://chenshenhai.github.io/koajs-design-note/)
+- * [**【Gitbook】** koa2设计模式](https://chenshenhai.github.io/koajs-design-note/)
 
