@@ -37,7 +37,7 @@
 * [基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用][30]
 * [基于 node.js + Mongodb 构建电商后台系统][31]
 * [Vue 2.0 高级实战-开发移动端音乐WebApp 百度云视频地址][32]
-* [开箱即用的中台前端/设计解决方案](https://pro.ant.design/)
+* [开箱即用的中台前端/设计解决方案 ANT DESIGN PRO](https://pro.ant.design/)
 
   [30]: https://github.com/bailicangdu/vue2-elm
   [31]: https://github.com/bailicangdu/node-elm
