@@ -14,7 +14,7 @@
 * [**【文章】** X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 * [**【文章】** vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
 * [**【Markdown】** 康威定律](./other/康威定律.md)
-* [**【掘金】**](闭包的错误使用)(https://juejin.im/post/5c22f13b5188252b56273a00)
+* [**【掘金】**](闭包的错误使用](https://juejin.im/post/5c22f13b5188252b56273a00)
 
 ## 
 
