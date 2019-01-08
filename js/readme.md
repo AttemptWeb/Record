@@ -17,6 +17,7 @@
 
 ### JS运行机制事件循环
 * [**【Markdown】** javascript运行机制和事件循环](./JsMd/js运行机制和事件循环.md)
+* [**【segmentfault】** 深入理解JS引擎的执行机制](https://segmentfault.com/a/1190000012806637)
 * [**【ZhiHu】** nodejs与客户端js的事件循环的区别](https://zhuanlan.zhihu.com/p/33058983)
 
 ### JS的前端路由
