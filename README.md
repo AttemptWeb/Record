@@ -15,6 +15,7 @@
 * [**【文章】** vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
 * [**【Markdown】** 康威定律](./other/康威定律.md)
 * [**【掘金】** 闭包的错误使用](https://juejin.im/post/5c22f13b5188252b56273a00)
+* [**【Github】** 现代的Node.js 构建服务利器](https://i5ting.github.io/modern-nodejs/)
 
 ## 
 
