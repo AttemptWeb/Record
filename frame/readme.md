@@ -9,7 +9,7 @@
 * [**【文章】** 你真的了解浅比较么？(ps:antdesign许多组件也是默认使用了shallowEqual)](https://www.imweb.io/topic/598973c2c72aa8db35d2e291)
 
 ### react服务端渲染
-* [**【项目】** HerryLo基于react服务端渲染的实现](https://github.com/HerryLo/react-nodeRender)
+* [**【项目】** HerryLo基于react服务端渲染的实现](https://github.com/HerryLo/webpack-react-node)
 * [**【文章】** 基于react-router-dom@4.0 ssr](https://alligator.io/react/react-router-ssr/)
 * [**【文章】** redux+react-router-dom@4.0 ssr](https://crypt.codemancers.com/posts/2017-06-03-reactjs-server-side-rendering-with-router-v4-and-redux/)
 * [**【文章】** React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
