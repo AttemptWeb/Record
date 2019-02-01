@@ -1,8 +1,8 @@
 ## 记录
 
-  下面都是在平时遇见的一些问题，一是记录，二就是分享
+  **不是技术的创造者，只是技术的搬运工**  
   
-  特别推荐可以看看 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
+  推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
 ## 问题
 * [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
