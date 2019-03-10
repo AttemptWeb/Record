@@ -1,6 +1,6 @@
 ## redux应用状态数据管理
 
-阅读完reactjs小书的第三阶段，希望将redux部分的内容写下来，让自己理解的更加透彻，所以下面的内容算是对reactjs小书的第三阶段的整理。
+阅读完[reactjs小书](http://huziketang.mangojuice.top/books/react/lesson30)的第三阶段，希望将redux部分的内容写下来，让自己理解的更加透彻，所以下面的内容算是对[reactjs小书](http://huziketang.mangojuice.top/books/react/lesson30)的第三阶段的整理。
 
 Redux，常被用来管理react的数据服务。而redux本身是一种新型的前端“架构模式”，是应用状态管理服务，它解决的是**应用模块之间需要共享访问的数据问题**。当然它不是仅仅局限于对react数据管理，jq、angular、vue也可以配合使用。
 
