@@ -15,5 +15,6 @@
 
 - * [**【Gitbook】** koa2设计模式](https://chenshenhai.github.io/koajs-design-note/)
 
-- * [**【链接】** java 学习资源](https://howtodoinjava.com/)
+- * [**【链接】** java 学习资源](http://huziketang.mangojuice.top/books/react/)
 
+- * [**【Blog】** React.js 小书](https://chenshenhai.github.io/koajs-design-note/)
