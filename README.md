@@ -1,6 +1,6 @@
 ## 记录
 
-  **不是技术的创造者，只是技术的搬运工**  
+  **不是技术的创造者，只是技术的搬运工**  有疑问欢迎 [issues](https://github.com/AttemptWeb/Record/issues)
   
   推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
