@@ -131,6 +131,17 @@ renderApp(appState) // 把新的数据渲染到页面上
 
 ## 抽离store和监控数据变化
 
+上面的dispatch 和 appState, 我们希望集中在一个地方. 我们通过 createStore 函数来创建这个地方，它叫做store。
+
+```javascript
+function createStore (state, stateChanger) {
+  const getState = () => state
+  const dispatch = (action) => stateChanger(state, action)
+  return { getState, dispatch }
+}
+```
+createStore函数 接受两个参数，表示前者表示应用程序状态 state， 后者是 stateChanger，描述应用程序状态根据 action 发生什么的变化，其实就是相当第一节的 dispatch 代码里面的内容。
+
 
 
 
