@@ -1,13 +1,13 @@
 # Record
 
-
 ![passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 <p align="center" style="font-weight: 600">
   不是技术的创造者，只是技术的搬运工。有疑问欢迎issues
- </p>
+</p>
   
-  推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
+推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
 ## 问题
 * [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
