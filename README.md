@@ -1,5 +1,5 @@
 <p class="text-align:center">
-  <img src="./img/record1.png" alt="logo" title="logo"/>
+  <img src="./Img/record1.png" alt="logo" title="logo"/>
 </p>
 
 ![passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
