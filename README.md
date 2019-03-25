@@ -1,4 +1,5 @@
-## 记录
+# Record
+![passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
   **不是技术的创造者，只是技术的搬运工**  有疑问欢迎 [issues](https://github.com/AttemptWeb/Record/issues)
   
