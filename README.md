@@ -6,7 +6,9 @@
 <p align="center" style="font-weight: 600">
   不是技术的创造者，只是技术的搬运工。有疑问欢迎issues
 </p>
+
 ---
+
 推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
 ## 问题
