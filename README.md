@@ -1,6 +1,6 @@
-<p class="text-align:center">
-  <img src="./Img/record1.png" alt="logo" title="logo"/>
-</p>
+<div align="center"><img src="./Img/record1.png" alt="logo" title="logo"/></div>
+
+---
 
 ![passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
