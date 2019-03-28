@@ -29,17 +29,19 @@
 
 * [**【Markdown】** css 传送](./css) 随着css功能的不断强大，它可以做的东西也越来越多
 
-* [**【Markdown】** javascript 传送](./js) ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
+* [**【Markdown】** javascript 传送](./js) 
+  
+  ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
 
 * [**【Markdown】** reactjs 传送](./frame) 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
 
-* [**【Markdown】** 小程序开发 传送](./other/wxsapp)** 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
+* [**【Markdown】** 小程序开发 传送](./other/wxsapp) 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
 
-* [**【Markdown】** 工具扩展 传送](./other/devTool)** 开发对于git、webpack、Travis CI需要有一定的了解
+* [**【Markdown】** 工具扩展 传送](./other/devTool) 开发对于git、webpack、Travis CI需要有一定的了解
 
-* [**【Markdown】** server扩展 传送](./server)** 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
+* [**【Markdown】** server扩展 传送](./server) 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
 
-* [**【Markdown】** 学习资料 传送](./other/learn)** 将平时学习的资料放在这里
+* [**【Markdown】** 学习资料 传送](./other/learn) 将平时学习的资料放在这里
 
 ## 项目示例
 > 说明: 都是别人的项目，只是放个链接
