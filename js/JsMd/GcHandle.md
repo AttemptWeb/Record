@@ -1,8 +1,9 @@
 # [译] JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏
 
 [原文地址: How JavaScript works: memory management + how to handle 4 common memory leaks](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
+[本文永久链接](https://github.com/AttemptWeb/Record/blob/master/js/JsMd/GcHandle.md)
 
-有部分的删减和修改，不过大部分是参照原文来的，翻译的目的主要是弄清楚JavaScript的垃圾回收机制，觉得有问题的欢迎指正。
+有部分的删减和修改，不过大部分是参照原文来的，翻译的目的主要是弄清JavaScript的垃圾回收机制，觉得有问题的欢迎指正。
 
 ## JavaScript 中的内存分配
 
@@ -21,7 +22,7 @@ var o = {
 function f(a) {
   return a + 3;
 } // 为函数分配内存
-// 函数表达式还分配内存
+// 函数表达式分配内存
 someElement.addEventListener('click', function() {
   someElement.style.backgroundColor = 'blue';
 }, false);
@@ -105,7 +106,7 @@ f();
 
 ![](https://user-gold-cdn.xitu.io/2017/12/4/16021e6205b858fe?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
-即使两个对象之间有引用，从根节点它们不在被访问。
+即使两个对象之间有引用，根节点它们不在被访问。
 
 ### 统计垃圾收集器的直观行为
 
@@ -120,12 +121,11 @@ f();
 在这种情况下，大多数 GC 不会运行任何更深层次的收集。换句话说，即使存在引用可用于收集，收集器也不会收集这些引用。这些并不是严格的泄漏，但仍会导致高于日常的内存使用率。
 
 ## 什么是内存泄漏?
-就像内存描述的那样，内存泄漏是应用程序过去使用，但不再需要的尚未返回到操作系统或可用内存池的内存片段。由于没有被释放而导致的，它将可能引起程序的卡顿和崩溃。
+内存泄漏是应用程序过去使用，但不再需要的尚未返回到操作系统或可用内存池的内存片段。由于没有被释放而导致的，它将可能引起程序的卡顿和崩溃。
 
 ## JavaScript 常见的四种内存泄漏
 
 ### 1：全局变量
-JavaScript 用一种有趣的方式处理未声明的变量：当引用一个未声明的变量时，在 global 对象中创建一个新变量。在浏览器中，全局对象将是 window，这意味着
 ```javascript
 function foo(arg) {
     bar = "some text";
@@ -151,7 +151,9 @@ setInterval(function() {
     }
 }, 5000); //每5秒执行一次.
 ```
-上面的代码片段显示了使用定时器引用节点或无用数据的后果。它既不会被收集，也不会被释放。而正确的使用方法是，确保一旦依赖于它们的事件已经处理完成，就通过明确的调用来删除它们。
+上面的代码片段显示了使用定时器引用节点或无用数据的后果。它既不会被收集，也不会被释放。无法被垃圾收集器收集，频繁的被调用，占用内存。
+
+而正确的使用方法是，确保一旦依赖于它们的事件已经处理完成，就通过明确的调用来删除它们。
 
 ### 3：闭包
 闭包是JavaScript开发的一个关键点：一个内部函数可以访问外部（封闭）函数的变量。
