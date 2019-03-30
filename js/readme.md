@@ -16,6 +16,7 @@
 * [**【Markdown】** javascript中的forEach和map](./JsMd/js中for和map和forEach.md)
 
 ### JS运行机制事件循环
+* [**【Markdown】** JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](./JsMd/GcHandle.md)
 * [**【Markdown】** javascript运行机制和事件循环](./JsMd/js运行机制和事件循环.md)
 * [**【segmentfault】** 深入理解JS引擎的执行机制](https://segmentfault.com/a/1190000012806637)
 * [**【ZhiHu】** nodejs与客户端js的事件循环的区别](https://zhuanlan.zhihu.com/p/33058983)
