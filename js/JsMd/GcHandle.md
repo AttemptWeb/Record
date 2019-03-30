@@ -1,7 +1,8 @@
 # [译] JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏
 
 [原文地址: How JavaScript works: memory management + how to handle 4 common memory leaks](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
-[本文永久链接](https://github.com/AttemptWeb/Record/blob/master/js/JsMd/GcHandle.md)
+
+[本文永久链接: https://github.com/AttemptWeb/Record/blob/master/js/JsMd/GcHandle.md](https://github.com/AttemptWeb/Record/blob/master/js/JsMd/GcHandle.md)
 
 有部分的删减和修改，不过大部分是参照原文来的，翻译的目的主要是弄清JavaScript的垃圾回收机制，觉得有问题的欢迎指正。
 
