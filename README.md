@@ -20,11 +20,11 @@
 * [**【文章】** vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
 * [**【文章】** webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
 * [**【文章】** X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
-* [**【掘金】** react@15.0 源码解析](https://juejin.im/post/5983dfbcf265da3e2f7f32de)
+* [**【Juejin】** react@15.0 源码解析](https://juejin.im/post/5983dfbcf265da3e2f7f32de)
 * [**【Github】** 饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [**【Github】** 现代的Node.js 构建服务利器](https://i5ting.github.io/modern-nodejs/)
 * [**【冴羽博客强推】** JavaScript深入系列、JavaScript专题系列、ES6系列](https://github.com/mqyqingfeng/Blog)
-* [**【Markdown】** [译] JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](https://github.com/AttemptWeb/Record/blob/master/js/JsMd/GcHandle.md)
+* [**【Juejin】** [译] JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](https://juejin.im/post/5ca0c8aa518825680c7cb44b)
 
 ## Portal
 
