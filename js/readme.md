@@ -1,3 +1,6 @@
+### JS规范参考（养成一个好习惯）
+* [**【Github】** Airbnb](https://github.com/airbnb/javascript)
+
 ### JS基础
 * [**【Markdown】** 前端面试题持续更新中](./JsMd/常见的面试题.md)
 * [**【Markdown】** 变量提升与变量赋值](./JsMd/真正弄懂JS.md)
