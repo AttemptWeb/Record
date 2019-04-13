@@ -89,9 +89,9 @@
 * [**【文章】** 基于react-router-dom@4.0 ssr](https://alligator.io/react/react-router-ssr/)
 * [**【文章】** redux+react-router-dom@4.0 ssr](https://crypt.codemancers.com/posts/2017-06-03-reactjs-server-side-rendering-with-router-v4-and-redux/)
 * [**【文章】** React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
-* [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) **React 拖拽/排序插件 **
-* [**【Github】** 基于H5&dnd的拖拽/排序插件react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) **React 拖拽/排序插件 **
-* [**【文章】** 由React Router引起的组件重复渲染谈Route的使用姿势](https://segmentfault.com/a/1190000012078328) ** react router 重复渲染**
+* [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) **React 拖拽/排序插件**
+* [**【Github】** 基于H5&dnd的拖拽/排序插件react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) **React 拖拽/排序插件**
+* [**【文章】** 由React Router引起的组件重复渲染谈Route的使用姿势](https://segmentfault.com/a/1190000012078328) **react router 重复渲染**
 * [**【Github】** react-developer](https://github.com/adam-golab/react-developer-roadmap)
 
 ### [**DevTool**](./other/devTool) 
