@@ -30,7 +30,7 @@
 
 ## Portal
 
-### [**CSS** 传送](./css) 
+### [**CSS**](./css) 
 
 > 随着css功能的不断强大，它可以做的东西也越来越多
 
@@ -39,28 +39,28 @@
 * [**【Markdown】** css3 Animation](./css./cssAnimation.md)
 * [**【Github】** AboutAnimate](https://github.com/EastSummer/AboutAnimate)
 
-### [**JavaScript** 传送](./js) 
+### [**JavaScript**](./js) 
 
 > ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
 
-* [**【Github】** Airbnb](https://github.com/airbnb/javascript) JS规范参考（养成一个好习惯）
-* [**【Markdown】** 前端面试题持续更新中](./js./JsMd/常见的面试题.md)
-* [**【Markdown】** 变量提升与变量赋值](./js./JsMd/真正弄懂JS.md)
-* [**【Markdown】** let与const与var的区别](./js./JsMd/let与const与var.md)
-* [**【Markdown】** js中基本类型和引用类型](./js./JsMd/js中基本类型和引用类型.md)
-* [**【Markdown】** javascript闭包](./js./JsMd/闭包.md)
-* [**【Markdown】** javascript构造函数的继承](./js./JsMd/js构造函数的继承.md)
-* [**【Markdown】** 令人炸裂的_proto_和prototype](./js./JsMd/令人炸裂的_proto_和prototype.md)
+* [**【Github】** Airbnb](https://github.com/airbnb/javascript) **JS规范参考（养成一个好习惯）**
+* [**【Markdown】** 前端面试题持续更新中](./js/JsMd/常见的面试题.md)
+* [**【Markdown】** 变量提升与变量赋值](./js/JsMd/真正弄懂jsmd)
+* [**【Markdown】** let与const与var的区别](./js/JsMd/let与const与var.md)
+* [**【Markdown】** js中基本类型和引用类型](./js/JsMd/js中基本类型和引用类型.md)
+* [**【Markdown】** javascript闭包](./js/JsMd/闭包.md)
+* [**【Markdown】** javascript构造函数的继承](./js/JsMd/js构造函数的继承.md)
+* [**【Markdown】** 令人炸裂的_proto_和prototype](./js/JsMd/令人炸裂的_proto_和prototype.md)
 * [**【倔金】** js:面向对象编程，带你认识封装、继承和多态](https://juejin.im/post/59396c96fe88c2006afc2707)
 * [**【掘金】** [译] this（他喵的）到底是什么 — 理解 JavaScript 中的 this、call、apply 和 bind](https://juejin.im/post/5b9f176b6fb9a05d3827d03f)
-* [**【Markdown】** javascript的this指向问题](./js./JsMd/js中this的指向问题.md)
-* [**【Markdown】** javascript中的forEach和map](./js./JsMd/js中for和map和forEach.md)
-* [**【Markdown】** JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](./js./JsMd/GcHandle.md)
-* [**【Markdown】** javascript运行机制和事件循环](./js./JsMd/js运行机制和事件循环.md)
-* [**【segmentfault】** 深入理解JS引擎的执行机制](https://segmentfault.com/a/1190000012806637)
+* [**【Markdown】** javascript的this指向问题](./js/JsMd/js中this的指向问题.md)
+* [**【Markdown】** javascript中的forEach和map](./js/JsMd/js中for和map和forEach.md)
+* [**【Markdown】** JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](./js/JsMd/GcHandle.md) **垃圾回收机制**
+* [**【Markdown】** javascript运行机制和事件循环](./js/JsMd/js运行机制和事件循环.md)
+* [**【segmentfault】** 深入理解JS引擎的执行机制](https://segmentfault.com/a/1190000012806637) **JS引擎的执行机制**
 * [**【ZhiHu】** nodejs与客户端js的事件循环的区别](https://zhuanlan.zhihu.com/p/33058983)
-* [**【文章】** 前端路由发展及原理](https://segmentfault.com/a/1190000011967786)
-* [**【Markdown】** 浏览器页面渲染机制](./js./JsMd/浏览器页面渲染机制.md)
+* [**【文章】** 前端路由发展及原理](https://segmentfault.com/a/1190000011967786) **前端路由**
+* [**【Markdown】** 浏览器页面渲染机制](./js/JsMd/浏览器页面渲染机制.md) **浏览器渲染机制**
 * [**【文章 Http】** 深入浅出Fetch API](http://web.jobbole.com/84924/)
 * [**【文章 Http】** Fetch和Ajax的比较](https://www.jianshu.com/p/71f756103df8)
 * [**【文章 Http】** 理解HTTP幂等性](https://www.cnblogs.com/weidagang2046/archive/2011/06/04/idempotence.html)
@@ -74,31 +74,31 @@
 * [**【Github 工具】** JS-ORC图片文字识别插件](https://github.com/naptha/tesseract.js)
 * [**【Github 工具】** js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
 
-### [ReactJs 传送](./frame)
+### [**ReactJs**](./frame)
 
 > 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
 
-* [**【Markdown】** react组件生命周期](./frame./react/react生命周期.md)
-* [**【Markdown】** React面试问题](./frame./react/React问题.md)
-* [**【Markdown】** redux基本使用](./frame./react/redux使用.md)
+* [**【Markdown】** react组件生命周期](./frame/react/react生命周期.md)
+* [**【Markdown】** React面试问题](./frame/react/React问题.md)
+* [**【Markdown】** redux基本使用](./frame/react/redux使用.md)
 * [**【文章】** 有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
 * [**【文章】** 聊一聊我对 React Context 的理解以及应用](https://www.jianshu.com/p/eba2b76b290b)
 * [**【文章】** How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
-* [**【文章】** 你真的了解浅比较么？(ps:antdesign许多组件也是默认使用了shallowEqual)](https://www.imweb.io/topic/598973c2c72aa8db35d2e291)
+* [**【文章】** 你真的了解浅比较么？(ps:antdesign许多组件也是默认使用了shallowEqual)](https://www.imweb.io/topic/598973c2c72aa8db35d2e291) **踩坑**
 * [**【项目】** HerryLo基于react服务端渲染的实现](https://github.com/HerryLo/webpack-react-node)
 * [**【文章】** 基于react-router-dom@4.0 ssr](https://alligator.io/react/react-router-ssr/)
 * [**【文章】** redux+react-router-dom@4.0 ssr](https://crypt.codemancers.com/posts/2017-06-03-reactjs-server-side-rendering-with-router-v4-and-redux/)
 * [**【文章】** React+node服务端渲染](https://segmentfault.com/a/1190000003735257)
-* [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)
-* [**【Github】** 基于H5&dnd的拖拽/排序插件react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
-* [**【文章】** 由React Router引起的组件重复渲染谈Route的使用姿势](https://segmentfault.com/a/1190000012078328)
+* [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) **React 拖拽/排序插件 **
+* [**【Github】** 基于H5&dnd的拖拽/排序插件react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) **React 拖拽/排序插件 **
+* [**【文章】** 由React Router引起的组件重复渲染谈Route的使用姿势](https://segmentfault.com/a/1190000012078328) ** react router 重复渲染**
 * [**【Github】** react-developer](https://github.com/adam-golab/react-developer-roadmap)
 
-### [DevTool扩展 传送](./other/devTool) 
+### [**DevTool**](./other/devTool) 
 
 > 开发对于git / webpack / Travis CI / 工具插件 需要有一定的了解
 
-* [**【Markdown】** git命令行](./other/devTool/git.md)
+* [**【Markdown】** git命令行](./other/devTool/git.md) **git**
 * [**【文章】** git pro实践 参考资料](http://iissnan.com/progit/)
 * [**【文档】** webpack 参考资料](https://doc.webpack-china.org/concepts/)
 * [**【文章】** Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
@@ -121,21 +121,21 @@
   74.125.128.95 ajax.googleapis.com
   ```
 
-### [Server扩展 传送](./server)
+### [**Server**](./server)
 
 > 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
 
-* [**【Markdown】** mongodb基本配置与操作](./server./mongodb基本配置与操作.md)
-* [**【Markdown】** centos 命令行操作](./server./CentOS6命令行.md)
-* [**【Markdown】** 使用CentOS 6搭建简易web服务器](./server./使用centos6搭建简易web服务.md)
-* [**【Markdown】** centos的 node服务](./server./centos配置node服务.md)
-* [**【Markdown】** 前端开发对于node和nginx的那些事](./server./前端开发对于node和nginx的那些事.md)
-* [**【文章】** koa2部署最佳实践--安全篇](https://cnodejs.org/topic/5a41c3829807389a1809f6e0)
-* [**【文章】** nodejs邮件发送就是这么简单](https://cnodejs.org/topic/572021b2fa48138c41110e4f)
+* [**【Markdown】** mongodb基本配置与操作](./server/mongodb基本配置与操作.md)
+* [**【Markdown】** centos 命令行操作](./server/CentOS6命令行.md)
+* [**【Markdown】** 使用CentOS 6搭建简易web服务器](./server/使用centos6搭建简易web服务.md)
+* [**【Markdown】** centos的 node服务](./server/centos配置node服务.md)
+* [**【Markdown】** 前端开发对于node和nginx的那些事](./server/前端开发对于node和nginx的那些事.md)
+* [**【文章】** koa2部署最佳实践--安全篇](https://cnodejsorg/topic/5a41c3829807389a1809f6e0)
+* [**【文章】** nodejs邮件发送就是这么简单](https://cnodejsorg/topic/572021b2fa48138c41110e4f)
 * [**【文章】** 三英战豪强，思绪走四方。浅谈我眼中的express、koa和koa2](https://www.jianshu.com/p/3806417a1991?from=timeline)
 * [**【Github】** Docker学习文档](https://github.com/yeasy/docker_practice)
 
-### [小程序开发 传送](./other/wxsapp)
+### [WxMiniApp](./other/wxsapp)
 
 > 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
 
@@ -143,7 +143,7 @@
 * [**【Markdown】** 小程序开发](./other/wxsapp./小程序开发.md)
 * [**【Markdown】** 小程序组件问题](./other/wxsapp./小程序组件问题.md)
 
-### [学习资料 传送](./other/learn)
+### [Means](./other/learn)
 
 > 将平时学习的资料放在这里
 
