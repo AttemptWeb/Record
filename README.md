@@ -108,6 +108,7 @@
 * [**【工具】** activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
 * [**【Github】** Lantern](https://github.com/getlantern/lantern) 科学上网
 * [**【Github】** fq-book](https://github.com/loremwalker/fq-book) 科学上网
+* [**【Github】** jsproxy 代理转发google](https://github.com/EtherDream/jsproxy) 科学上网
 * [**【文章】** 解决无法Ping通Github](https://yq.aliyun.com/ziliao/556555) 科学上网
   > C:\Windows\System32\drivers\etc
   ```json
