@@ -152,6 +152,7 @@
 * [**【Gitbook】** koa2进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
 * [**【Gitbook】** koa2设计模式](https://chenshenhai.github.io/koajs-design-note/)
 * [**【Yuotube】** cs50 哈佛计算机科学导论 视频](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+* [**【bilibili】** 计算机科学速成课](https://www.bilibili.com/video/av21376839/?p=12)
 * [**【Github】** node爬虫](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
 * [**【Blog】** React.js 小书](https://chenshenhai.github.io/koajs-design-note/)
 * [**【书籍】** 书籍css、js、ajax、网站优化](http://www.linqing07.com/book.html)
