@@ -1,8 +1,8 @@
 # React Hooks 译：5种方法将React类组件转换为具有React Hooks的功能组件
 
-原文链接：[5 Ways to Convert React...](https://scotch.io/tutorials/5-ways-to-convert-react-class-components-to-functional-components-w-react-hooks#toc-class-with-multiple-state-properties)
+[原文地址: 5 Ways to Convert React Class Components to Functional Components w/ React Hooks](https://scotch.io/tutorials/5-ways-to-convert-react-class-components-to-functional-components-w-react-hooks#toc-class-with-multiple-state-properties)
 
-本文链接：[5种方法将React类组件...]()
+[本文永久链接: https://github.com/AttemptWeb/Record/blob/master/frame/react/react_hook.md](https://github.com/AttemptWeb/Record/blob/master/frame/react/react_hook.md)
 
 
 在React的最新alpha版本中，引入了一个新概念，它被称为Hooks。Hook被引入React以解决许多问题，如[Hooks 介绍](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines)中所解释的那样，它主要用作类的替代方案。使用Hooks，我们可以创建使用state和生命周期方法的功能组件。
@@ -15,7 +15,7 @@
 
 ## 目录
 
-* [没有state或生命周期方法的类](##没有state或生命周期方法的类)
+* [没有state或生命周期方法的class](##没有state或生命周期方法的class)
 
 * [class 和 state](##class和state)
 
@@ -25,9 +25,9 @@
 
 * [具有state、componentDidMount和componentDidUpdate的class](##具有state、componentDidMount和componentDidUpdate的class)
 
-* [将PureComponent转换为React备忘录](##将PureComponent转换为React备忘录)
+* [将PureComponent转换为React memo](##将PureComponent转换为React.memo)
 
-* [结论]()
+* [结论](##结论)
 
 钩子是相对较新的，事实上，它仍然是一个功能提议。但是，如果你想玩它并仔细查看它提供的内容，它现在可以使用。Hooks 目前在React v16.7.0-alpha中提供。
 
@@ -647,7 +647,7 @@ export default App;
 ```
 我们使用```useEffect（）```Hook实现了完全相同的功能。有些人会说，它甚至更好或更干净，因为在这里，我们不必为```componentDidMount（）```和```componentDidUpdate（）```编写单独的代码。使用```useEffect（）```Hook，我们可以实现这两个功能。这是因为默认情况下，```useEffect（）```在**初始渲染之后**和**每次后续更新之后**运行。可在[CodeSandbox](https://codesandbox.io/embed/ork242q3y)上查看此示例。
 
-## 将PureComponent转换为React memo
+## 将PureComponent转换为React.memo
 
 [React PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)的工作方式与[Component](https://reactjs.org/docs/react-api.html#reactcomponent)类似。它们之间的主要区别在于```React.Component```没有实现```shouldComponentUpdate（）```生命周期方法，而```React.PureComponent```实现了它(React.Component需要显示的调用，而React.PureComponent已经集成了这个方法)。如果Application的```render（)```函数在给定相同的```props```和```state```的情况下呈现相同的结果，则可以在某些情况下使用React.PureComponent来提高性能。
 
