@@ -25,7 +25,7 @@
 
 * [具有state、componentDidMount和componentDidUpdate的class](##具有state、componentDidMount和componentDidUpdate的class)
 
-* 将PureComponent转换为React备忘录
+* [将PureComponent转换为React备忘录](##将PureComponent转换为React备忘录)
 
 * 结论
 
@@ -444,7 +444,7 @@ export default App;
 
 ## 具有state、componentDidMount和componentDidUpdate的class
 
-接下来，让我们看一下具有状态和两个生命周期方法的React类。到目前为止，您可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect`` Hook
+接下来，让我们看一下具有状态和两个生命周期方法的React类。到目前为止，你可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect`` Hook
 
 为了最好地演示这是如何工作的，让我们用代码来动态更新页面的<h3>标题。首先<h3>标题是```This is a Class Component```。然后我们将定义一个```componentDidMount（）```方法来更新<h3>标题，3秒后更新为```Welcome to React Hooks```：
 
@@ -502,3 +502,205 @@ class App extends Component {
 
 export default App;
 ```
+此时，当程序运行时，它以初始```header```开始。这是一个Class Component，并在3秒后更改为Welcome to React Hooks。这是componentDidMount（）行为，因为它在成功执行render函数后运行。
+
+如果我们想要从另一个输入字段动态更新```header```，那么当我们输入时，```header```会使用新文本进行更新。为此，我们还需要实现componentDidUpdate（）生命周期方法，如下所示：
+
+```javascript
+import React, { Component } from 'react';
+
+class App extends Component {
+  state = {
+      header: 'Welcome to React Hooks'
+  }
+
+  componentDidMount() {
+    const header = document.querySelectorAll('#header')[0];
+    setTimeout(() => {
+      header.innerHTML = this.state.header;
+    }, 3000);
+  }
+
+  componentDidUpdate() {
+    const node = document.querySelectorAll('#header')[0];
+    node.innerHTML = this.state.header;
+  }
+
+  logName = () => {
+    // do whatever with the names ... let's just log them here
+    console.log(this.state.username);
+  };
+
+  // { ... }
+
+  handleHeaderInput = e => {
+    this.setState({ header: e.target.value });
+  };
+
+  render() {
+    return (
+      <div>
+        <h3 id="header"> This is a Class Component </h3>
+        <input
+          type="text"
+          onChange={this.handleUserNameInput}
+          value={this.state.userName}
+          placeholder="Your username"
+        />
+        <input
+          type="text"
+          onChange={this.handleFirstNameInput}
+          value={this.state.firstName}
+          placeholder="Your firstname"
+        />
+        <input
+          type="text"
+          onChange={this.handleLastNameInput}
+          value={this.state.lastName}
+          placeholder="Your lastname"
+        />
+        <button className="btn btn-large right" onClick={this.logName}>
+          {' '}
+          Log Names{' '}
+        </button>
+        <input
+          type="text"
+          onChange={this.handleHeaderInput}
+          value={this.state.header}
+        />{' '}
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+这里，我们有```state，componentDidMount（）和componentDidUpdate（）```。到目前为止，当你运行应用程序时，标头会在3秒后更新为```Welcome to React Hooks```，因为我们已在```componentDidMount（）```中定义。然后，当你开始在标题文本输入字段时，<h3>文本将使用componentDidUpdate（）方法中定义的输入文本进行更新。现在让我们使用useEffect（）Hook将此类转换为功能组件。
+
+```javascript
+import React, { useState, useEffect } from 'react';
+
+function App() {
+
+  const [userName, setUsername] = useState('');
+  const [firstName, setFirstname] = useState('');
+  const [lastName, setLastname] = useState('');
+  const [header, setHeader] = useState('Welcome to React Hooks');
+
+  const logName = () => {
+    // do whatever with the names...
+    console.log(userName);
+  };
+
+  useEffect(() => {
+    const newheader = document.querySelectorAll('#header')[0];
+    setTimeout(() => {
+      newheader.innerHTML = header;
+    }, 3000);
+  });
+
+  const handleUserNameInput = e => {
+    setUsername(e.target.value);
+  };
+  const handleFirstNameInput = e => {
+    setFirstname(e.target.value);
+  };
+  const handleLastNameInput = e => {
+    setLastname(e.target.value);
+  };
+  const handleHeaderInput = e => {
+    setHeader(e.target.value);
+  };
+
+  return (
+    <div>
+      <h3 id="header"> This is a functional Component </h3>
+
+      <input
+        type="text"
+        onChange={handleUserNameInput}
+        value={userName}
+        placeholder="username..."
+      />
+      <input
+        type="text"
+        onChange={handleFirstNameInput}
+        value={firstName}
+        placeholder="firstname..."
+      />
+      <input
+        type="text"
+        onChange={handleLastNameInput}
+        value={lastName}
+        placeholder="lastname..."
+      />
+      <button className="btn btn-large right" onClick={logName}>
+        {' '}
+        Log Names{' '}
+      </button>
+      <input type="text" onChange={handleHeaderInput} value={header} />
+    </div>
+  );
+};
+
+export default App;
+```
+我们使用```useEffect（）```Hook实现了完全相同的功能。有些人会说，它甚至更好或更干净，因为在这里，我们不必为```componentDidMount（）```和```componentDidUpdate（）```编写单独的代码。使用```useEffect（）```Hook，我们可以实现这两个功能。这是因为默认情况下，```useEffect（）```在**初始渲染之后**和**每次后续更新之后**运行。可在[CodeSandbox](https://codesandbox.io/embed/ork242q3y)上查看此示例。
+
+## 将PureComponent转换为React memo
+
+[React PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)的工作方式与[Component](https://reactjs.org/docs/react-api.html#reactcomponent)类似。它们之间的主要区别在于```React.Component```没有实现```shouldComponentUpdate（）```生命周期方法，而```React.PureComponent```实现了它。如果application的```render（)```函数在给定相同的```props```和```state```的情况下呈现相同的结果，则可以在某些情况下使用React.PureComponent来提高性能。
+
+相关阅读：
+
+[React 16.6: React.memo() for Functional Components Rendering Control](https://scotch.io/tutorials/react-166-reactmemo-for-functional-components-rendering-control)(React 16.6：React.memo（）用于功能组件渲染控制)
+
+同样的事情适用于```React.memo（）```。虽然前者指的是基于类的组件，但```React moemo```是指功能组件,当你的函数组件在给定相同的```props```时呈现相同的结果时，你可以将其包装在调用中```React.memo()```以增强性能。使用PureComponent和React.memo()为React applications提供了相当大的性能提升，因为它减少了应用程序中的渲染操作数量。
+
+在这里，我们将演示如何将```PureComponent Class```组件转换为```React memo```组件。为了理解它们究竟是做什么的，首先，让我们模拟一个可怕的情况，即一个组件每2秒渲染一次，或者没有value或state发生变化。我们可以像这样快速创建这个场景：
+
+```javascript
+import React, { Component } from 'react';
+
+function Unstable(props) {
+  // monitor how many times this component is rendered
+  console.log(' Rendered this component ');
+  return (
+    <div>
+      <p> {props.value}</p>
+    </div>
+  );
+};
+
+class App extends Component {
+  state = {
+    value: 1
+  };
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState(() => {
+        return { value: 1 };
+      });
+    }, 2000);
+  }
+
+  render() {
+    return (
+      <div>
+        <Unstable value={this.state.value} />
+      </div>
+    );
+  }
+}
+export default App;
+```
+
+当你运行```app```并检查```logs```时，你会注意到它每2秒渲染一次该组件，而state或props没有任何变化。虽然很糟糕，但这正是我们想要创建的场景，因此我们可以向你展示如何使用```PureComponent```和```React.memo（）```来修复它。
+
+![png](../../img/axewcayr0gcyrtqf6kch.png)
+
+
+
+
+
