@@ -698,7 +698,7 @@ export default App;
 
 当你运行```app```并检查```logs```时，你会注意到它每2秒渲染一次该组件，而state或props没有任何变化。虽然很糟糕，但这正是我们想要创建的场景，因此我们可以向你展示如何使用```PureComponent```和```React.memo（）```来修复它。
 
-![png](../../img/axewcayr0gcyrtqf6kch.png)
+![png](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/axewcayr0gcyrtqf6kch.png)
 
 大多数情况下，我们只想在state或props发生变化时重新渲染组件。既然我们已经经历了这种糟糕的情况，那么让我们用```PureComponent```来修复它，这样，只有在state或props发生变化时，组件才会重新呈现。我们通过导入```PureComponent```并像这样扩展它来实现这一点：
 
@@ -740,7 +740,7 @@ export default App;
 
 现在，如果再次运行应用程序，则只能获得初始渲染。之后没有其他事情发生，为什么？好吧，而不是```class App extends Component{}```, 现在我们有```class App extends PureComponent{}```
 
-![](../../img/qlnjj9e95jy7qb3c4spd.png)
+![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/qlnjj9e95jy7qb3c4spd.png)
 
 这解决了我们重新渲染组件的问题，而不考虑当前状态。但是，如果我们更改此方法：
 
