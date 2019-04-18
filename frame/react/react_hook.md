@@ -5,7 +5,7 @@
 本文链接：[5种方法将React类组件...]()
 
 
-在React的最新alpha版本中，引入了一个新概念，它被称为Hooks。Hook被引入React以解决许多问题，如[Hooks 介绍](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines)中所解释的那样，它主要用作类的替代方案。使用Hooks，我们可以创建使用状态和生命周期方法的功能组件。
+在React的最新alpha版本中，引入了一个新概念，它被称为Hooks。Hook被引入React以解决许多问题，如[Hooks 介绍](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines)中所解释的那样，它主要用作类的替代方案。使用Hooks，我们可以创建使用state和生命周期方法的功能组件。
 
 相关阅读：
 
@@ -15,11 +15,11 @@
 
 ## 目录
 
-* [没有状态或生命周期方法的类](##没有状态或生命周期方法的类)
+* [没有state或生命周期方法的类](##没有state或生命周期方法的类)
 
 * [class 和 state](##class和state)
 
-* [具有多个状态属性的class](##具有多个状态属性的class)
+* [具有多个state属性的class](##具有多个state属性的class)
 
 * [具有state和componentDidMount的class](##具有state和componentDidMount的class)
 
@@ -27,7 +27,7 @@
 
 * [将PureComponent转换为React备忘录](##将PureComponent转换为React备忘录)
 
-* 结论
+* [结论]()
 
 钩子是相对较新的，事实上，它仍然是一个功能提议。但是，如果你想玩它并仔细查看它提供的内容，它现在可以使用。Hooks 目前在React v16.7.0-alpha中提供。
 
@@ -35,9 +35,9 @@
 
 鉴于Hooks仍然是新的，许多开发人员尚未掌握其概念或了解如何将其应用于现有的React应用程序，甚至是创建新的React应用程序。在这篇文章中，我们将演示使用React Hooks将React类组件转换为功能组件的5种简单方法。
 
-## 没有状态或生命周期方法的class
+## 没有state或生命周期方法的class
 
-让我们从一个既没有状态也没有生命周期组件的简单React类开始。让我们使用一个只在用户点击按钮时提醒姓名的类：
+让我们从一个既没有state也没有生命周期组件的简单React类开始。让我们使用一个只在用户点击按钮时提醒姓名的类：
 
 ```javascript
 import React, { Component } from 'react';
@@ -61,7 +61,7 @@ class App extends Component {
 export default App;
 ```
 
-在这里，我们有一个普通的React类，没什么新鲜的，也没有没有状态或任何生命周期方法。它只是在单击按钮时提醒姓名。此类的功能等价于如下所示：
+在这里，我们有一个普通的React类，没什么新鲜的，也没有没有state或任何生命周期方法。它只是在单击按钮时提醒姓名。此类的功能等价于如下所示：
 
 ```javascript
 import React from 'react';
@@ -81,7 +81,7 @@ function App() {
 
 export default App;
 ```
-就像我们之前使用的类组件一样，这里没有什么新的东西。我们甚至没有使用Hooks或任何新的东西。这是因为我们只考虑了一个我们不需要状态或生命周期的例子。但现在让我们改变一下，看一下我们有一个基于类的组件与状态的情况，并看看如何使用Hook将其转换为功能组件。
+就像我们之前使用的类组件一样，这里没有什么新的东西。我们甚至没有使用Hooks或任何新的东西。这是因为我们只考虑了一个我们不需要state或生命周期的例子。但现在让我们改变一下，看一下我们有一个基于类的组件与state的情况，并看看如何使用Hook将其转换为功能组件。
 
 ## class和state
 
@@ -154,19 +154,19 @@ function App() {
 
 export default App;
 ```
-在这里，我们介绍了useState Hook。它可以作为在React功能组件中使用状态的一种方式。使用```useState()``` Hook，我们已经能够在此功能组件中使用state。它使用与数组的解构赋值类似的语法。考虑这一行：
+在这里，我们介绍了useState Hook。它可以作为在React功能组件中使用state的一种方式。使用```useState()``` Hook，我们已经能够在此功能组件中使用state。它使用与数组的解构赋值类似的语法。考虑这一行：
 
 ```javascript
 const [name, setName] = useState("John Doe")
 ```
 
-这里，```name```是普通类组件中```this.state```的等价物，而```setName```是```this.setState```的等价物。```useState()```Hook接受一个参数作为状态的初始值.简单地说，```useState()```参数是状态的初始值。在我们的例子中，我们将其设置为"John Doe"，以便状态中名称的初始状态为"John Doe"。
+这里，```name```是普通类组件中```this.state```的等价物，而```setName```是```this.setState```的等价物。```useState()```Hook接受一个参数作为state的初始值.简单地说，```useState()```参数是state的初始值。在我们的例子中，我们将其设置为"John Doe"，以便state中名称的初始state为"John Doe"。
 
-这主要是如何使用Hooks, 将基于类的React组件与状态转换为功能组件。我们将在后面的示例中看到，还有更多其他有用的方法。
+这主要是如何使用Hooks, 将基于类的React组件与state转换为功能组件。我们将在后面的示例中看到，还有更多其他有用的方法。
 
-## 具有多个状态属性的class
+## 具有多个state属性的class
 
-使用useState轻松转换一个状态属性是一回事，但是，当你必须处理多个状态属性时，相同的方法并不适用。例如，我们有两个或多个userName，firstName和lastName的input字段，那么我们将有一个基于类的组件，其中包含三个状态属性，如下所示：
+使用useState轻松转换一个state属性是一回事，但是，当你必须处理多个state属性时，相同的方法并不适用。例如，我们有两个或多个userName，firstName和lastName的input字段，那么我们将有一个基于类的组件，其中包含三个state属性，如下所示：
 
 ```javascript
 import React, { Component } from 'react';
@@ -291,13 +291,13 @@ function App() {
 export default App;
 ```
 
-这演示了如何使用```useState()```Hook将具有多个状态属性的基于类的组件转换为功能组件。
+这演示了如何使用```useState()```Hook将具有多个state属性的基于类的组件转换为功能组件。
 
 这个例子在[Codesandbox](https://codesandbox.io/s/ypjynxx16x)中.
 
 ## 具有state和componentDidMount的class
 
-让我们考虑一个只有state和componentDidMount的类。为了演示这样一个类，让我们创建一个场景，我们为三个字段设置初始状态，并让它们在5秒后更新为不同的值。
+让我们考虑一个只有state和componentDidMount的类。为了演示这样一个类，让我们创建一个场景，我们为三个字段设置初始state，并让它们在5秒后更新为不同的值。
 
 ```javascript
 import React, { Component, useEffect } from 'react';
@@ -372,7 +372,7 @@ class App extends Component {
 export default App;
 ```
 
-当应用程序运行时，字段将具有我们在状态对象中定义的初始值。然后，这些值将更新为我们在5秒后在```componentDidMount（）```方法中定义的值。现在，让我们使用React ```useState```和```useEffect``` Hooks将此类转换为功能组件。
+当应用程序运行时，字段将具有我们在state对象中定义的初始值。然后，这些值将更新为我们在5秒后在```componentDidMount（）```方法中定义的值。现在，让我们使用React ```useState```和```useEffect``` Hooks将此类转换为功能组件。
 
 ```javascript
 import React, { useState, useEffect } from 'react';
@@ -444,7 +444,7 @@ export default App;
 
 ## 具有state、componentDidMount和componentDidUpdate的class
 
-接下来，让我们看一下具有状态和两个生命周期方法的React类。到目前为止，你可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect`` Hook
+接下来，让我们看一下具有state和两个生命周期方法的React类。到目前为止，你可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect`` Hook
 
 为了最好地演示这是如何工作的，让我们用代码来动态更新页面的<h3>标题。首先<h3>标题是```This is a Class Component```。然后我们将定义一个```componentDidMount（）```方法来更新<h3>标题，3秒后更新为```Welcome to React Hooks```：
 
@@ -649,13 +649,13 @@ export default App;
 
 ## 将PureComponent转换为React memo
 
-[React PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)的工作方式与[Component](https://reactjs.org/docs/react-api.html#reactcomponent)类似。它们之间的主要区别在于```React.Component```没有实现```shouldComponentUpdate（）```生命周期方法，而```React.PureComponent```实现了它。如果application的```render（)```函数在给定相同的```props```和```state```的情况下呈现相同的结果，则可以在某些情况下使用React.PureComponent来提高性能。
+[React PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)的工作方式与[Component](https://reactjs.org/docs/react-api.html#reactcomponent)类似。它们之间的主要区别在于```React.Component```没有实现```shouldComponentUpdate（）```生命周期方法，而```React.PureComponent```实现了它(React.Component需要显示的调用，而React.PureComponent已经集成了这个方法)。如果Application的```render（)```函数在给定相同的```props```和```state```的情况下呈现相同的结果，则可以在某些情况下使用React.PureComponent来提高性能。
 
 相关阅读：
 
 [React 16.6: React.memo() for Functional Components Rendering Control](https://scotch.io/tutorials/react-166-reactmemo-for-functional-components-rendering-control)(React 16.6：React.memo（）用于功能组件渲染控制)
 
-同样的事情适用于```React.memo（）```。虽然前者指的是基于类的组件，但```React moemo```是指功能组件,当你的函数组件在给定相同的```props```时呈现相同的结果时，你可以将其包装在调用中```React.memo()```以增强性能。使用PureComponent和React.memo()为React applications提供了相当大的性能提升，因为它减少了应用程序中的渲染操作数量。
+同样的事情适用于```React.memo（）```。虽然前者指的是基于类的组件，但```React moemo```是指功能组件,当你的函数组件在给定相同的```props```时呈现相同的结果时，你可以将其包装在调用中```React.memo()```以增强性能。使用PureComponent和React.memo()为React App提供了相当大的性能提升，因为它减少了应用程序中的渲染操作数量。
 
 在这里，我们将演示如何将```PureComponent Class```组件转换为```React memo```组件。为了理解它们究竟是做什么的，首先，让我们模拟一个可怕的情况，即一个组件每2秒渲染一次，或者没有value或state发生变化。我们可以像这样快速创建这个场景：
 
@@ -700,6 +700,120 @@ export default App;
 
 ![png](../../img/axewcayr0gcyrtqf6kch.png)
 
+大多数情况下，我们只想在state或props发生变化时重新渲染组件。既然我们已经经历了这种糟糕的情况，那么让我们用```PureComponent```来修复它，这样，只有在state或props发生变化时，组件才会重新呈现。我们通过导入```PureComponent```并像这样扩展它来实现这一点：
+
+```javascript
+import React, { PureComponent } from 'react';
+
+function Unstable(props) {
+  console.log(' Rendered Unstable component ');
+  return (
+    <div>
+      <p> {props.value}</p>
+    </div>
+  );
+};
+
+class App extends PureComponent {
+  state = {
+    value: 1
+  };
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState(() => {
+        return { value: 1 };
+      });
+    }, 2000);
+  }
+
+  render() {
+    return (
+      <div>
+        <Unstable value={this.state.value} />
+      </div>
+    );
+  }
+}
+export default App;
+```
+
+现在，如果再次运行应用程序，则只能获得初始渲染。之后没有其他事情发生，为什么？好吧，而不是```class App extends Component{}```, 现在我们有```class App extends PureComponent{}```
+
+![](../../img/qlnjj9e95jy7qb3c4spd.png)
+
+这解决了我们重新渲染组件的问题，而不考虑当前状态。但是，如果我们更改此方法：
+
+```javascript
+  componentDidMount() {
+    setInterval(() => {
+      this.setState(() => {
+        return { value: 1 };
+      });
+    }, 2000);
+  }
+```
+修改为：
+
+```javascript
+  componentDidMount() {
+    setInterval(() => {
+      this.setState(() => {
+        return { value: Math.random() };
+      });
+    }, 2000);
+  }
+```
+
+每次值更新为下一个随机数时，组件将重新呈现。因此，```PureComponent```可以在state 或 props发生变化时仅重新渲染组件。现在让我们看看如何使用```React.memo（）```来实现相同的修复。要使用```React memo```执行此操作，只需使用```React.memo（）```包装组件，如下所示：
+
+```javascript
+import React, { Component } from "react";
+
+const Unstable = React.memo(function Unstable (props) {
+  console.log(" Rendered Unstable component ");
+  return <div>{props.val} </div>;
+});
+
+class App extends Component {
+  state = {
+    val: 1
+  };
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({ val: 1 });
+    }, 2000);
+  }
+
+  render() {
+    return (
+      <div>
+        <header className="App-header">
+          <Unstable val={this.state.val} />
+        </header>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+这实现了与```PureComponent```相同的结果。因此，组件仅在初始渲染后呈现，并且在```state``` 或 ```props```发生更改之前不会再次重新渲染。这是此示例的[Codesandbox](https://codesandbox.io/s/100zmv7ljj)。
+
+
+## 结论
+
+在这篇文章中，我们演示了一些使用React Hooks将现有的基于类的组件转换为功能组件的方法。我们还研究了将```React PureComponent```类转换为```React.memo（）```的特殊情况。这可能是显而易见的，但我仍然觉得有必要提一下，为了在您的应用程序中使用Hook，您需要将React更新为支持的版本：
+
+```javascript
+    "react": "^16.7.0-alpha",
+    "react-dom": "^16.7.0-alpha",
+```
+[react@16.7.0-alpha](https://github.com/facebook/react/releases/tag/v16.7.0)
+
+React Hooks仍然是一个功能提议，然而，我们希望它将成为下一个稳定版本的一部分，因为它使我们可以吃我们的蛋糕（在函数组件中使用状态），并且仍然保留它（保留编写函数组件的简单性）。
 
 
 
