@@ -51,7 +51,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3> This is a Class Component </h3>
+        ```<h3>``` This is a Class Component </h3>
         <button onClick={this.alertName}> Alert </button>
       </div>
     );
@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div>
-      <h3> This is a Functional Component </h3>
+      ```<h3>``` This is a Functional Component </h3>
       <button onClick={alertName}> Alert </button>
     </div>
   );
@@ -106,7 +106,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3> This is a Class Component </h3>
+        ```<h3>``` This is a Class Component </h3>
         <input
           type="text"
           onChange={this.handleNameInput}
@@ -140,7 +140,7 @@ function App() {
 
   return (
     <div>
-      <h3> This is a Functional Component </h3>
+      ```<h3>``` This is a Functional Component </h3>
       <input
         type="text"
         onChange={handleNameInput}
@@ -199,7 +199,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3> This is a Class Component </h3>
+        ```<h3>``` This is a Class Component </h3>
         <input
           type="text"
           onChange={this.handleUserNameInput}
@@ -260,7 +260,7 @@ function App() {
 
   return (
     <div>
-      <h3> This is a functional Component </h3>
+      ```<h3>``` This is a functional Component </h3>
 
       <input
         type="text"
@@ -341,7 +341,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3> The text fields will update in 5 seconds </h3>
+        ```<h3>``` The text fields will update in 5 seconds </h3>
         <input
           type="text"
           onChange={this.handleUserNameInput}
@@ -410,7 +410,7 @@ function App() {
 
   return (
     <div>
-      <h3> The text fields will update in 5 seconds </h3>
+      ```<h3>``` The text fields will update in 5 seconds </h3>
       <input
         type="text"
         onChange={handleUserNameInput}
@@ -444,9 +444,9 @@ export default App;
 
 ## 具有state、componentDidMount和componentDidUpdate的class
 
-接下来，让我们看一下具有state和两个生命周期方法的React类。到目前为止，你可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect`` Hook
+接下来，让我们看一下具有state和两个生命周期方法的React类。到目前为止，你可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect``` Hook
 
-为了最好地演示这是如何工作的，让我们用代码来动态更新页面的<h3>标题。首先<h3>标题是```This is a Class Component```。然后我们将定义一个```componentDidMount（）```方法来更新<h3>标题，3秒后更新为```Welcome to React Hooks```：
+为了最好地演示这是如何工作的，让我们用代码来动态更新页面的```<h3/>```标题。首先```<h3/>```标题是```This is a Class Component```。然后我们将定义一个```componentDidMount（）```方法来更新```<h3/>```标题，3秒后更新为```Welcome to React Hooks```：
 
 ```javascript
 import React, { Component } from 'react';
@@ -575,7 +575,7 @@ class App extends Component {
 
 export default App;
 ```
-这里，我们有```state，componentDidMount（）和componentDidUpdate（）```。到目前为止，当你运行应用程序时，标头会在3秒后更新为```Welcome to React Hooks```，因为我们已在```componentDidMount（）```中定义。然后，当你开始在标题文本输入字段时，<h3>文本将使用componentDidUpdate（）方法中定义的输入文本进行更新。现在让我们使用useEffect（）Hook将此类转换为功能组件。
+这里，我们有```state，componentDidMount（）和componentDidUpdate（）```。到目前为止，当你运行应用程序时，标头会在3秒后更新为```Welcome to React Hooks```，因为我们已在```componentDidMount（）```中定义。然后，当你开始在标题文本输入字段时，```<h3>```文本将使用componentDidUpdate（）方法中定义的输入文本进行更新。现在让我们使用useEffect（）Hook将此类转换为功能组件。
 
 ```javascript
 import React, { useState, useEffect } from 'react';
