@@ -1,11 +1,11 @@
-# React Hooks 译：5种方法将React类组件转换为具有React Hooks的功能组件
+# [译] 5种方法将React类组件转换为具有React Hooks的功能组件
 
-[原文地址: 5 Ways to Convert React Class Components to Functional Components w/ React Hooks](https://scotch.io/tutorials/5-ways-to-convert-react-class-components-to-functional-components-w-react-hooks#toc-class-with-multiple-state-properties)
+[原文地址: 5 Ways to Convert React Class Components to Functional Components w/ React Hooks](https://scotch.io/tutorials/5-ways-to-convert-react-class-components-to-functional-components-w-react-hooks)
 
 [本文永久链接: https://github.com/AttemptWeb/Record/blob/master/frame/react/react_hook.md](https://github.com/AttemptWeb/Record/blob/master/frame/react/react_hook.md)
 
 
-在React的最新alpha版本中，引入了一个新概念，它被称为Hooks。Hook被引入React以解决许多问题，如[Hooks 介绍](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines)中所解释的那样，它主要用作类的替代方案。使用Hooks，我们可以创建使用state和生命周期方法的功能组件。
+在React的最新alpha版本中，引入了一个新概念，它被称为Hooks。React引入Hook可以用来解决[许多问题](https://reactjs.org/docs/hooks-intro.html#motivation)，如[Hooks 介绍](https://reactjs.org/docs/hooks-intro.html#classes-confuse-both-people-and-machines)中所阐述的那样，它主要用作类(class)的替代方案。使用Hooks，我们可以创建使用状态(state)和生命周期方法的功能组件。
 
 相关阅读：
 
@@ -29,15 +29,15 @@
 
 * [结论](##结论)
 
-钩子是相对较新的，事实上，它仍然是一个功能提议。但是，如果你想玩它并仔细查看它提供的内容，它现在可以使用。Hooks 目前在React v16.7.0-alpha中提供。
+钩子是个相对较新的功能；实际上，它目前仍是一个功能提议。但是，如果你想玩它并仔细查看它提供的内容，它现在可以使用。Hooks 目前在React v16.7.0-alpha中提供。(*EastSummer:[事实上官方还是建议在16.8.0中使用](https://reactjs.org/docs/hooks-faq.html#which-versions-of-react-include-hooks)*)
 
-值得注意的是，没有计划放弃class类。React Hooks 只是给我们另一种编写React的方法。这是件好事！
+值得注意的是，官方并没有计划放弃class类。React Hooks 只是给我们另一种编写React的方法。这是件好事！
 
-鉴于Hooks仍然是新的，许多开发人员尚未掌握其概念或了解如何将其应用于现有的React应用程序，甚至是创建新的React应用程序。在这篇文章中，我们将演示使用React Hooks将React类组件转换为功能组件的5种简单方法。
+鉴于Hooks仍是个较新的概念，许多开发人员尚未掌握其概念，或是不知如何将其应用于现有的React应用程序，甚至是用在新创建的React应用程序中。在这篇文章中，我们将演示使用React Hooks转换React类组件为功能组件的5种简单方法。
 
-## 没有state或生命周期方法的class
+## 没有state或生命周期方法的组件
 
-让我们从一个既没有state也没有生命周期组件的简单React类开始。让我们使用一个只在用户点击按钮时提醒姓名的类：
+让我们从一个既没有state也没有生命周期组件的简单React组件开始。让我们创建一个只在用户点击按钮时提醒姓名的组件：
 
 ```javascript
 import React, { Component } from 'react';
@@ -61,7 +61,7 @@ class App extends Component {
 export default App;
 ```
 
-在这里，我们有一个普通的React类，没什么新鲜的，也没有没有state或任何生命周期方法。它只是在单击按钮时提醒姓名。此类的功能等价于如下所示：
+在这里，我们有一个普通的React组件，没什么新鲜的，也没有没有state或任何生命周期方法。(*EastSummer:一般我们会称他无状态组件*)它只是在单击按钮时提醒姓名。此组件的功能等价于如下所示：
 
 ```javascript
 import React from 'react';
@@ -81,11 +81,11 @@ function App() {
 
 export default App;
 ```
-就像我们之前使用的类组件一样，这里没有什么新的东西。我们甚至没有使用Hooks或任何新的东西。这是因为我们只考虑了一个我们不需要state或生命周期的例子。但现在让我们改变一下，看一下我们有一个基于类的组件与state的情况，并看看如何使用Hook将其转换为功能组件。
+就像我们之前使用的类组件一样，这里没有什么新的东西。我们甚至没有使用Hooks或任何新的东西。这是因为我们只考虑了一个我们不需要state或生命周期的例子。但现在让我们改变一下，看一下我们有一个基于类的拥有state状态的组件的情况，并看看如何使用Hook将其转换为功能组件。
 
-## class和state
+## 拥有state状态的class组件
 
-让我们考虑一种情况，我们有一个全局名称变量，在应用程序中通过input输入文本更新变量。在React中，我们通过在state对象中定义name变量来处理这样的情况，并使用setState()在我们有一个新值时来更新name：
+让我们考虑这么一种情况，我们有一个全局名称变量，在应用程序中通过input输入文本更新变量。在React中，我们通过在state对象中定义name变量来处理这样的情况，并使用setState()在我们有一个新值时来更新name：
 
 ```javascript
 import React, { Component } from 'react';
@@ -154,19 +154,19 @@ function App() {
 
 export default App;
 ```
-在这里，我们介绍了useState Hook。它可以作为在React功能组件中使用state的一种方式。使用```useState()``` Hook，我们已经能够在此功能组件中使用state。它使用与数组的解构赋值类似的语法。考虑这一行：
+在这里，我们介绍了useState Hook。它可以作为在React功能组件中使用state的一种方式。使用```useState()``` Hook，我们已经能够在此功能组件中使用state。它使用与数组的解构赋值类似的语法。参考这一行：
 
 ```javascript
 const [name, setName] = useState("John Doe")
 ```
 
-这里，```name```是普通类组件中```this.state```的等价物，而```setName```是```this.setState```的等价物。```useState()```Hook接受一个参数作为state的初始值.简单地说，```useState()```参数是state的初始值。在我们的例子中，我们将其设置为"John Doe"，以便state中名称的初始state为"John Doe"。
+这里，```name```是普通类组件中```this.state```的等价物，而```setName```是```this.setState```的等价物。```useState()```Hook接受一个参数作为state的初始值.简单地说，```useState()```参数是state的初始值。在我们的例子中，我们将其设置为"John Doe"，即state中name的初始state为"John Doe"。
 
 这主要是如何使用Hooks, 将基于类的React组件与state转换为功能组件。我们将在后面的示例中看到，还有更多其他有用的方法。
 
 ## 具有多个state属性的class
 
-使用useState轻松转换一个state属性是一回事，但是，当你必须处理多个state属性时，相同的方法并不适用。例如，我们有两个或多个userName，firstName和lastName的input字段，那么我们将有一个基于类的组件，其中包含三个state属性，如下所示：
+使用useState轻松转换一个state属性是一回事，但是，如果你必须处理多个state属性时，相同的方法并不适用。例如，我们有两个或多个userName，firstName和lastName的input字段，那么我们将有一个基于类的组件，其中包含三个state属性，如下所示：
 
 ```javascript
 import React, { Component } from 'react';
@@ -372,7 +372,7 @@ class App extends Component {
 export default App;
 ```
 
-当应用程序运行时，字段将具有我们在state对象中定义的初始值。然后，这些值将更新为我们在5秒后在```componentDidMount（）```方法中定义的值。现在，让我们使用React ```useState```和```useEffect``` Hooks将此类转换为功能组件。
+当应用程序运行时，字段将具有我们在state对象中定义的初始值。然后，这些值将更新为我们在```componentDidMount（）```方法中定义的5秒后的值。现在，让我们使用React ```useState```和```useEffect``` Hooks将此类转换为功能组件。
 
 ```javascript
 import React, { useState, useEffect } from 'react';
@@ -446,7 +446,7 @@ export default App;
 
 接下来，让我们看一下具有state和两个生命周期方法的React类。到目前为止，你可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect``` Hook
 
-为了最好地演示这是如何工作的，让我们用代码来动态更新页面的```<h3/>```标题。首先```<h3/>```标题是```This is a Class Component```。然后我们将定义一个```componentDidMount（）```方法来更新```<h3/>```标题，3秒后更新为```Welcome to React Hooks```：
+为了更好地演示这是如何工作的，让我们用代码来动态更新页面的```<h3/>```标题。首先```<h3/>```标题是```This is a Class Component```。然后我们将定义一个```componentDidMount（）```方法来更新```<h3/>```标题，3秒后更新为```Welcome to React Hooks```：
 
 ```javascript
 import React, { Component } from 'react';
@@ -502,7 +502,7 @@ class App extends Component {
 
 export default App;
 ```
-此时，当程序运行时，它以初始```header```开始。这是一个Class Component，并在3秒后更改为Welcome to React Hooks。这是componentDidMount（）行为，因为它在成功执行render函数后运行。
+此时，当程序运行时，它以初始值```header```开始。这是一个Class Component，并在3秒后更改为Welcome to React Hooks。这是componentDidMount（）行为，因为它在成功执行render函数后运行。
 
 如果我们想要从另一个输入字段动态更新```header```，那么当我们输入时，```header```会使用新文本进行更新。为此，我们还需要实现componentDidUpdate（）生命周期方法，如下所示：
 
@@ -645,7 +645,7 @@ function App() {
 
 export default App;
 ```
-我们使用```useEffect（）```Hook实现了完全相同的功能。有些人会说，它甚至更好或更干净，因为在这里，我们不必为```componentDidMount（）```和```componentDidUpdate（）```编写单独的代码。使用```useEffect（）```Hook，我们可以实现这两个功能。这是因为默认情况下，```useEffect（）```在**初始渲染之后**和**每次后续更新之后**运行。可在[CodeSandbox](https://codesandbox.io/embed/ork242q3y)上查看此示例。
+我们使用```useEffect（）```Hook实现了完全相同的功能。有些人会说，它更好或更干净，因为在这里，我们不必为```componentDidMount（）```和```componentDidUpdate（）```编写单独的代码。使用```useEffect（）```Hook，我们可以实现这两个功能。这是因为默认情况下，```useEffect（）```在**初始渲染之后**和**每次后续更新之后**运行。可在[CodeSandbox](https://codesandbox.io/embed/ork242q3y)上查看此示例。
 
 ## 将PureComponent转换为React.memo
 
@@ -815,6 +815,10 @@ export default App;
 
 React Hooks仍然是一个功能提议，然而，我们希望它将成为下一个稳定版本的一部分，因为它使我们可以吃我们的蛋糕（在函数组件中使用状态），并且仍然保留它（保留编写函数组件的简单性）。
 
+
+## 后记
+EastSummer： 有能力的话，我还是建议去看[官方文档](https://reactjs.org/docs/hooks-intro.html)，因为示例更为详尽。
+             同时感谢HerryLo的翻译（<ゝω・）～☆。
 
 
 
