@@ -7,6 +7,10 @@
 ### webpack
 * [**【文档】** webpack 参考资料](https://doc.webpack-china.org/concepts/)
 
+### chrome插件
+* [**【Github】** json格式化插件](https://github.com/callumlocke/json-formatter)  
+
+
 ### Travis CI
 * [**【文章】** Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
 
