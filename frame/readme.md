@@ -2,8 +2,9 @@
 * [**【Markdown】** react组件生命周期](./react/react生命周期.md)
 * [**【Markdown】** React面试问题](./react/React问题.md)
 * [**【Markdown】** redux基本使用](./react/redux使用.md)
-* [**【文章】** 有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
+* [**【Markdown】** [译] 5种方法将React类组件转换为具有React Hooks的功能组件](./react/react_hook.md)
 
+* [**【文章】** 有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
 * [**【文章】** 聊一聊我对 React Context 的理解以及应用](https://www.jianshu.com/p/eba2b76b290b)
 * [**【文章】** How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
 * [**【文章】** 你真的了解浅比较么？(ps:antdesign许多组件也是默认使用了shallowEqual)](https://www.imweb.io/topic/598973c2c72aa8db35d2e291)
