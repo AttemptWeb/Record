@@ -372,7 +372,7 @@ class App extends Component {
 export default App;
 ```
 
-当应用程序运行时，字段将具有我们在state对象中定义的初始值。然后，这些值将更新为我们在```componentDidMount（）```方法中定义的5秒后的值。现在，让我们使用React ```useState```和```useEffect``` Hooks将此类转换为功能组件。
+当应用程序运行时，字段将具有我们在state对象中定义的初始值。然后，这些值将更新为我们在```componentDidMount()```方法中定义的5秒后的值。现在，让我们使用React中的```useState```和```useEffect```Hooks将此类转换为功能组件。
 
 ```javascript
 import React, { useState, useEffect } from 'react';
@@ -440,13 +440,13 @@ function App() {
 export default App;
 ```
 
-该组件与前一个组件完全相同。唯一的区别是，我们使用```useState```和```useEffect Hooks```，而不是像在类组件中那样使用传统的```state```对象和```componentDidMount（）```生命周期方法。这个例子在[Codesanbox](https://codesandbox.io/s/jzoz2n97my)中。
+该组件与前一个组件效果完全相同。唯一的区别是，我们使用了```useState```和```useEffect```Hooks，而不是像在类组件中那样使用传统的```state```对象和```componentDidMount()```生命周期方法。这个例子在[Codesanbox](https://codesandbox.io/s/jzoz2n97my)中。
 
 ## 具有state、componentDidMount和componentDidUpdate的class
 
 接下来，让我们看一下具有state和两个生命周期方法的React类。到目前为止，你可能已经注意到我们大部分时间都在使用```useState``` Hook。在这个例子中，让我们关注```useEffect``` Hook
 
-为了更好地演示这是如何工作的，让我们用代码来动态更新页面的```<h3/>```标题。首先```<h3/>```标题是```This is a Class Component```。然后我们将定义一个```componentDidMount（）```方法来更新```<h3/>```标题，3秒后更新为```Welcome to React Hooks```：
+为了更好地演示这是如何工作的，让我们用代码来动态更新页面的```<h3 />```标题。首先```<h3 />```标题是```This is a Class Component```。然后我们将定义一个```componentDidMount()```方法来更新```<h3 />```标题，3秒后更新为```Welcome to React Hooks```：
 
 ```javascript
 import React, { Component } from 'react';
@@ -502,9 +502,9 @@ class App extends Component {
 
 export default App;
 ```
-此时，当程序运行时，它以初始值```header```开始。这是一个Class Component，并在3秒后更改为Welcome to React Hooks。这是componentDidMount（）行为，因为它在成功执行render函数后运行。
+此时，当程序运行时，它以初始值```header```开始。这是一个Class Component，并在3秒后更改为```Welcome to React Hooks```。这是componentDidMount()行为，因为它在成功执行render函数后运行。
 
-如果我们想要从另一个输入字段动态更新```header```，那么当我们输入时，```header```会使用新文本进行更新。为此，我们还需要实现componentDidUpdate（）生命周期方法，如下所示：
+如果我们想要从另一个输入字段动态更新```header```，那么当我们输入时，```header```会使用新文本进行更新。为此，我们还需要实现componentDidUpdate()生命周期方法，如下所示：
 
 ```javascript
 import React, { Component } from 'react';
@@ -575,7 +575,7 @@ class App extends Component {
 
 export default App;
 ```
-这里，我们有```state，componentDidMount（）和componentDidUpdate（）```。到目前为止，当你运行应用程序时，标头会在3秒后更新为```Welcome to React Hooks```，因为我们已在```componentDidMount（）```中定义。然后，当你开始在标题文本输入字段时，```<h3>```文本将使用componentDidUpdate（）方法中定义的输入文本进行更新。现在让我们使用useEffect（）Hook将此类转换为功能组件。
+这里，我们用```state```，```componentDidMount()```和```componentDidUpdate()```。到目前为止，当你运行应用程序时，标头会在3秒后更新为```Welcome to React Hooks```，因为我们已在```componentDidMount()```中定义。然后，当你开始在标题文本输入字段时，```<h3 />```文本将使用componentDidUpdate()方法中定义的输入文本进行更新。现在让我们使用```useEffect()```Hook将此类转换为功能组件。
 
 ```javascript
 import React, { useState, useEffect } from 'react';
@@ -645,17 +645,17 @@ function App() {
 
 export default App;
 ```
-我们使用```useEffect（）```Hook实现了完全相同的功能。有些人会说，它更好或更干净，因为在这里，我们不必为```componentDidMount（）```和```componentDidUpdate（）```编写单独的代码。使用```useEffect（）```Hook，我们可以实现这两个功能。这是因为默认情况下，```useEffect（）```在**初始渲染之后**和**每次后续更新之后**运行。可在[CodeSandbox](https://codesandbox.io/embed/ork242q3y)上查看此示例。
+我们使用```useEffect()```Hook实现了完全相同的功能。有些人会说，它更好或更干净，因为在这里，我们不必为```componentDidMount()```和```componentDidUpdate()```编写单独的代码。使用```useEffect()```Hook，我们可以实现这两个功能。这是因为默认情况下，```useEffect()```在**初始渲染之后**和**每次后续更新之后**运行。可在[CodeSandbox](https://codesandbox.io/embed/ork242q3y)上查看此示例。
 
 ## 将PureComponent转换为React.memo
 
-[React PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)的工作方式与[Component](https://reactjs.org/docs/react-api.html#reactcomponent)类似。它们之间的主要区别在于```React.Component```没有实现```shouldComponentUpdate（）```生命周期方法，而```React.PureComponent```实现了它(React.Component需要显示的调用，而React.PureComponent已经集成了这个方法)。如果Application的```render（)```函数在给定相同的```props```和```state```的情况下呈现相同的结果，则可以在某些情况下使用React.PureComponent来提高性能。
+[React PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)的工作方式与[Component](https://reactjs.org/docs/react-api.html#reactcomponent)类似。它们之间的主要区别在于```React.Component```没有实现```shouldComponentUpdate()```生命周期方法，而```React.PureComponent```实现了它(React.Component需要显示的调用，而React.PureComponent已经集成了这个方法)。如果Application的```render()```函数在给定相同的```props```和```state```的情况下呈现相同的结果，则可以在某些情况下使用React.PureComponent来提高性能。
 
 相关阅读：
 
-[React 16.6: React.memo() for Functional Components Rendering Control](https://scotch.io/tutorials/react-166-reactmemo-for-functional-components-rendering-control)(React 16.6：React.memo（）用于功能组件渲染控制)
+[React 16.6: React.memo() for Functional Components Rendering Control](https://scotch.io/tutorials/react-166-reactmemo-for-functional-components-rendering-control)(React 16.6：React.memo()用于功能组件渲染控制)
 
-同样的事情适用于```React.memo（）```。虽然前者指的是基于类的组件，但```React moemo```是指功能组件,当你的函数组件在给定相同的```props```时呈现相同的结果时，你可以将其包装在调用中```React.memo()```以增强性能。使用PureComponent和React.memo()为React App提供了相当大的性能提升，因为它减少了应用程序中的渲染操作数量。
+同样的事情适用于```React.memo()```。虽然前者指的是基于类的组件，但```React moemo```是指功能组件,当你的函数组件在给定相同的```props```时呈现相同的结果时，你可以将其包装在调用中```React.memo()```以增强性能。使用PureComponent和React.memo()为React App提供了相当大的性能提升，因为它减少了应用程序中的渲染操作数量。
 
 在这里，我们将演示如何将```PureComponent Class```组件转换为```React memo```组件。为了理解它们究竟是做什么的，首先，让我们模拟一个可怕的情况，即一个组件每2秒渲染一次，或者没有value或state发生变化。我们可以像这样快速创建这个场景：
 
@@ -696,7 +696,7 @@ class App extends Component {
 export default App;
 ```
 
-当你运行```app```并检查```logs```时，你会注意到它每2秒渲染一次该组件，而state或props没有任何变化。虽然很糟糕，但这正是我们想要创建的场景，因此我们可以向你展示如何使用```PureComponent```和```React.memo（）```来修复它。
+当你运行```app```并检查```logs```时，你会注意到它每2秒渲染一次该组件，而state或props没有任何变化。虽然很糟糕，但这正是我们想要创建的场景，因此我们可以向你展示如何使用```PureComponent```和```React.memo()```来修复它。
 
 ![png](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/axewcayr0gcyrtqf6kch.png)
 
@@ -765,7 +765,7 @@ export default App;
   }
 ```
 
-每次值更新为下一个随机数时，组件将重新呈现。因此，```PureComponent```可以在state 或 props发生变化时仅重新渲染组件。现在让我们看看如何使用```React.memo（）```来实现相同的修复。要使用```React memo```执行此操作，只需使用```React.memo（）```包装组件，如下所示：
+每次值更新为下一个随机数时，组件将重新呈现。因此，```PureComponent```可以在state 或 props发生变化时仅重新渲染组件。现在让我们看看如何使用```React.memo()```来实现相同的修复。要使用```React memo```执行此操作，只需使用```React.memo()```包装组件，如下所示：
 
 ```javascript
 import React, { Component } from "react";
@@ -805,7 +805,7 @@ export default App;
 
 ## 结论
 
-在这篇文章中，我们演示了一些使用React Hooks将现有的基于类的组件转换为功能组件的方法。我们还研究了将```React PureComponent```类转换为```React.memo（）```的特殊情况。这可能是显而易见的，但我仍然觉得有必要提一下，为了在您的应用程序中使用Hook，您需要将React更新为支持的版本：
+在这篇文章中，我们演示了一些使用React Hooks将现有的基于类的组件转换为功能组件的方法。我们还研究了将```React PureComponent```类转换为```React.memo()```的特殊情况。这可能是显而易见的，但我仍然觉得有必要提一下，为了在您的应用程序中使用Hook，您需要将React更新为支持的版本：
 
 ```javascript
     "react": "^16.7.0-alpha",
@@ -817,8 +817,8 @@ React Hooks仍然是一个功能提议，然而，我们希望它将成为下一
 
 
 ## 后记
-EastSummer： 有能力的话，我还是建议去看[官方文档](https://reactjs.org/docs/hooks-intro.html)，因为示例更为详尽。
-             同时感谢HerryLo的翻译（<ゝω・）～☆。
+有能力的话，我还是建议去看[官方文档](https://reactjs.org/docs/hooks-intro.html)，因为示例更为详尽。  
+同时感谢HerryLo的翻译（<ゝω・）～☆。
 
 
 
