@@ -43,7 +43,7 @@
 
 > 随着css功能的不断强大，它可以做的东西也越来越多
 
-* [**Css Animation**](https://github.com/AttemptWeb/Record/tree/master/css#CssAnimation)
+* [**Css Animation**](https://github.com/AttemptWeb/Record/tree/master/css#css-animation)
 
 ### [**JavaScript**](./js) 
 
