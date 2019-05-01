@@ -51,7 +51,7 @@
 
 * [**JS 规范**](https://github.com/AttemptWeb/Record/tree/master/js#js%E8%A7%84%E8%8C%83%E5%8F%82%E8%80%83%E5%85%BB%E6%88%90%E4%B8%80%E4%B8%AA%E5%A5%BD%E4%B9%A0%E6%83%AF)
 * [**JS 基础**](https://github.com/AttemptWeb/Record/tree/master/js#js%E5%9F%BA%E7%A1%80)
-* [**JS 前端路由**](https://github.com/AttemptWeb/Record/tree/master/js#js%E7%9A%84%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1)
+* [**JS 前端路由**](https://github.com/AttemptWeb/Record/tree/master/js#js前端路由)
 * [**浏览器渲染机制**](https://github.com/AttemptWeb/Record/tree/master/js#%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E6%9C%BA%E5%88%B6)
 * [**JS 运行机制事件循环**](https://github.com/AttemptWeb/Record/tree/master/js#js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF)
 * [**JS 常用工具插件库**](https://github.com/AttemptWeb/Record/tree/master/js#js%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E6%8F%92%E4%BB%B6%E5%BA%93)
