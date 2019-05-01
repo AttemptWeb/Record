@@ -7,6 +7,9 @@
 ### webpack
 * [**【文档】** webpack 参考资料](https://doc.webpack-china.org/concepts/)
 
+### puppeteer
+* [**【工具】** puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
+
 ### chrome插件
 * [**【Github】** json格式化插件(json-formatter)](https://github.com/callumlocke/json-formatter)
 * [**【工具】** 字体识别插件(Fontface Ninja)](https://www.fontface.ninja/)
@@ -26,7 +29,7 @@
 * [**【工具】** 生成svg标示图片](https://shields.io/#/)
 
 ### 其他
-* [**【工具】** puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
+
 * [**【文章】** VSCode 同步设置及扩展插件 实现设备上设置统一](https://www.cnblogs.com/kenz520/p/7416836.html)
   > Settings Sync插件
 * [**【工具】** activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
