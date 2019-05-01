@@ -42,37 +42,21 @@
 ### [**JavaScript**](./js) 
 
 > ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
+* [**JS 规范参考**](https://github.com/AttemptWeb/Record/tree/master/js#js%E8%A7%84%E8%8C%83%E5%8F%82%E8%80%83%E5%85%BB%E6%88%90%E4%B8%80%E4%B8%AA%E5%A5%BD%E4%B9%A0%E6%83%AF)
 
-* [**【Github】** Airbnb](https://github.com/airbnb/javascript) **JS规范参考（养成一个好习惯）**
-* [**【Markdown】** 前端面试题持续更新中](./js/JsMd/常见的面试题.md)
-* [**【Markdown】** 变量提升与变量赋值](./js/JsMd/真正弄懂jsmd)
-* [**【Markdown】** let与const与var的区别](./js/JsMd/let与const与var.md)
-* [**【Markdown】** js中基本类型和引用类型](./js/JsMd/js中基本类型和引用类型.md)
-* [**【Markdown】** javascript闭包](./js/JsMd/闭包.md)
-* [**【Markdown】** javascript构造函数的继承](./js/JsMd/js构造函数的继承.md)
-* [**【Markdown】** 令人炸裂的_proto_和prototype](./js/JsMd/令人炸裂的_proto_和prototype.md)
-* [**【倔金】** js:面向对象编程，带你认识封装、继承和多态](https://juejin.im/post/59396c96fe88c2006afc2707)
-* [**【掘金】** [译] this（他喵的）到底是什么 — 理解 JavaScript 中的 this、call、apply 和 bind](https://juejin.im/post/5b9f176b6fb9a05d3827d03f)
-* [**【Markdown】** javascript的this指向问题](./js/JsMd/js中this的指向问题.md)
-* [**【Markdown】** javascript中的forEach和map](./js/JsMd/js中for和map和forEach.md)
-* [**【Markdown】** JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](./js/JsMd/GcHandle.md) **垃圾回收机制**
-* [**【Markdown】** javascript运行机制和事件循环](./js/JsMd/js运行机制和事件循环.md)
-* [**【segmentfault】** 深入理解JS引擎的执行机制](https://segmentfault.com/a/1190000012806637) **JS引擎的执行机制**
-* [**【ZhiHu】** nodejs与客户端js的事件循环的区别](https://zhuanlan.zhihu.com/p/33058983)
-* [**【文章】** 前端路由发展及原理](https://segmentfault.com/a/1190000011967786) **前端路由**
-* [**【Markdown】** 浏览器页面渲染机制](./js/JsMd/浏览器页面渲染机制.md) **浏览器渲染机制**
-* [**【文章 Http】** 深入浅出Fetch API](http://web.jobbole.com/84924/)
-* [**【文章 Http】** Fetch和Ajax的比较](https://www.jianshu.com/p/71f756103df8)
-* [**【文章 Http】** 理解HTTP幂等性](https://www.cnblogs.com/weidagang2046/archive/2011/06/04/idempotence.html)
-* [**【文章 Http】** 一次完整的HTTP事务是怎样一个过程？](http://blog.51cto.com/linux5588/1351007)
-* [**【文章 Http】** tcp窗口滑动以及拥塞控制](http://blog.chinaunix.net/uid-26275986-id-4109679.html)
-* [**【文章 Http】** TCP 的那些事儿](https://coolshell.cn/articles/11564.html)
-* [**【IMOOC视频 Web安全】** XSS教程](https://www.imooc.com/learn/812)
-* [**【文章 Web安全】** 用大白话谈谈XSS与CSRF](https://segmentfault.com/a/1190000007059639)
-* [**【Github 工具】** lodash](https://github.com/lodash/lodash)
-* [**【Github 工具】** jQ-Web端用户引导插件](https://github.com/jwarby/jquery-pagewalkthrough)
-* [**【Github 工具】** JS-ORC图片文字识别插件](https://github.com/naptha/tesseract.js)
-* [**【Github 工具】** js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
+* [**JS 基础**](https://github.com/AttemptWeb/Record/tree/master/js#js%E5%9F%BA%E7%A1%80)
+
+* [**JS 前端路由**](https://github.com/AttemptWeb/Record/tree/master/js#js%E7%9A%84%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1)
+
+* [**JS 运行机制事件循环**](https://github.com/AttemptWeb/Record/tree/master/js#js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF)
+
+* [**浏览器渲染机制**](https://github.com/AttemptWeb/Record/tree/master/js#%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E6%9C%BA%E5%88%B6)
+
+* [**前端http**]()
+
+* [**Web安全**](https://github.com/AttemptWeb/Record/tree/master/js#web%E5%AE%89%E5%85%A8)
+
+* [**JS 常用工具插件库**]()
 
 ### [**ReactJs**](./frame)
 
