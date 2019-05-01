@@ -17,14 +17,20 @@
 ### JS前端路由
 * [**【文章】** 前端路由发展及原理](https://segmentfault.com/a/1190000011967786)
 
+### 浏览器渲染机制
+* [**【Markdown】** 浏览器页面渲染机制](./JsMd/浏览器页面渲染机制.md)
+
 ### JS运行机制事件循环
 * [**【segmentfault】** 深入理解JS引擎的执行机制](https://segmentfault.com/a/1190000012806637)
 * [**【Markdown】** javascript运行机制和事件循环](./JsMd/js运行机制和事件循环.md)
 * [**【ZhiHu】** nodejs与客户端js的事件循环的区别](https://zhuanlan.zhihu.com/p/33058983)
 * [**【Markdown】** JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](./JsMd/GcHandle.md)
 
-### 浏览器渲染机制
-* [**【Markdown】** 浏览器页面渲染机制](./JsMd/浏览器页面渲染机制.md)
+### JS常用工具插件库
+* [**【Github】** lodash](https://github.com/lodash/lodash)
+* [**【Github】** jQ-Web端用户引导插件](https://github.com/jwarby/jquery-pagewalkthrough)
+* [**【Github】** js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
+* [**【Github】** JS-ORC图片文字识别插件](https://github.com/naptha/tesseract.js)
 
 ### 前端http
 * [**【文章】** TCP 的那些事儿](https://coolshell.cn/articles/11564.html)
@@ -37,9 +43,3 @@
 ### Web安全
 * [**【IMOOC视频】** XSS教程](https://www.imooc.com/learn/812)
 * [**【文章】** 用大白话谈谈XSS与CSRF](https://segmentfault.com/a/1190000007059639)
-
-### JS常用工具插件库
-* [**【Github】** lodash](https://github.com/lodash/lodash)
-* [**【Github】** jQ-Web端用户引导插件](https://github.com/jwarby/jquery-pagewalkthrough)
-* [**【Github】** js现代剪切板 解决方案](https://github.com/zenorocha/clipboard.js/)
-* [**【Github】** JS-ORC图片文字识别插件](https://github.com/naptha/tesseract.js)
