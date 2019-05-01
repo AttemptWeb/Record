@@ -53,9 +53,9 @@
 > 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
 
 * [**React 基础**](https://github.com/AttemptWeb/Record/tree/master/frame#react%E5%9F%BA%E7%A1%80)
-* [**React 服务端渲染**](https://github.com/AttemptWeb/Record/tree/master/frame#react%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93)
 * [**React 插件**](https://github.com/AttemptWeb/Record/tree/master/frame#react%E6%8F%92%E4%BB%B6)
 * [**React Router**](https://github.com/AttemptWeb/Record/tree/master/frame#react-router)
+* [**React 服务端渲染**](https://github.com/AttemptWeb/Record/tree/master/frame#react%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93)
 
 ### [**DevTool**](./other/devTool) 
 
@@ -73,10 +73,10 @@
 > 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
 
 * [**DB**](https://github.com/AttemptWeb/Record/tree/master/server#DB)
-* [**koa**](https://github.com/AttemptWeb/Record/tree/master/server#Koa)
-* [**nginx**](https://github.com/AttemptWeb/Record/tree/master/server#Nginx)
+* [**Koa**](https://github.com/AttemptWeb/Record/tree/master/server#Koa)
+* [**Nginx**](https://github.com/AttemptWeb/Record/tree/master/server#Nginx)
 * [**Centos**](https://github.com/AttemptWeb/Record/tree/master/server#Centos)
-* [**docker**](https://github.com/AttemptWeb/Record/tree/master/server#Docker)
+* [**Docker**](https://github.com/AttemptWeb/Record/tree/master/server#Docker)
 
 ### [WxMiniApp](./other/wxsapp)
 
@@ -88,7 +88,7 @@
 
 ### [Means](./other/learn)
 
-> 将平时学习的资料放在这里
+> 将平时学习的资料和文档放在这里
 
 * [**前端**](https://github.com/AttemptWeb/Record/tree/master/other/learn#前端)
 * [**React**](https://github.com/AttemptWeb/Record/tree/master/other/learn#React)
