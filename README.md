@@ -76,35 +76,31 @@
 
 > 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
 
-* [**数据库**]()
-* [**Centos**]()
-* [**nginx**]()
-* [**koa服务**]()
-* [**docker**]()
+* [**DB**](https://github.com/AttemptWeb/Record/tree/master/server#DB)
+* [**koa**](https://github.com/AttemptWeb/Record/tree/master/server#Koa)
+* [**nginx**](https://github.com/AttemptWeb/Record/tree/master/server#Nginx)
+* [**Centos**](https://github.com/AttemptWeb/Record/tree/master/server#Centos)
+* [**docker**](https://github.com/AttemptWeb/Record/tree/master/server#Docker)
 
 ### [WxMiniApp](./other/wxsapp)
 
 > 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
 
-* [**【Markdown】** 小程序公开课记录](./other/wxsapp./小程序公开课记录.md)
 * [**【Markdown】** 小程序开发](./other/wxsapp./小程序开发.md)
 * [**【Markdown】** 小程序组件问题](./other/wxsapp./小程序组件问题.md)
+* [**【Markdown】** 小程序公开课记录](./other/wxsapp./小程序公开课记录.md)
 
 ### [Means](./other/learn)
 
 > 将平时学习的资料放在这里
 
-* [**【Github】** Node.js入门教程](https://github.com/liuxing/node-abc)
-* [**【Gitbook】** koa2进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
-* [**【Gitbook】** koa2设计模式](https://chenshenhai.github.io/koajs-design-note/)
-* [**【Yuotube】** cs50 哈佛计算机科学导论 视频](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
-* [**【bilibili】** 计算机科学速成课](https://www.bilibili.com/video/av21376839/?p=12)
-* [**【Github】** node爬虫](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
-* [**【Blog】** React.js 小书](https://chenshenhai.github.io/koajs-design-note/)
-* [**【书籍】** 书籍css、js、ajax、网站优化](http://www.linqing07.com/book.html)
-* [**【文档】** Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
-* [**【Gitbook】** Docker — 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
-* [**【链接】** java 学习资源](http://huziketang.mangojuice.top/books/react/)
+* [**前端**](https://github.com/AttemptWeb/Record/tree/master/other/learn#前端)
+* [**React**](https://github.com/AttemptWeb/Record/tree/master/other/learn#React)
+* [**Node**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Node)
+* [**Nginx**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Nginx)
+* [**Java**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Java)
+* [**Docker**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Docker)
+* [**Computer Science**](https://github.com/AttemptWeb/Record/tree/master/other/learn#ComputerScience)
 
 ## Project example
 
