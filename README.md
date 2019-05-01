@@ -72,31 +72,21 @@
 
 ### [**DevTool**](./other/devTool) 
 
-> 开发对于git / webpack / Travis CI / 工具插件 需要有一定的了解
+> 开发对于Git / Webpack / Travis CI / Chrome插件 工具 需要有一定的了解
 
-* [**【Markdown】** git命令行](./other/devTool/git.md) **git**
-* [**【文章】** git pro实践 参考资料](http://iissnan.com/progit/)
-* [**【文档】** webpack 参考资料](https://doc.webpack-china.org/concepts/)
-* [**【文章】** Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
-* [**【工具】** 生成svg标示图片](https://shields.io/#/)
-* [**【工具】** puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
-* [**【文章】** VSCode 同步设置及扩展插件 实现设备上设置统一](https://www.cnblogs.com/kenz520/p/7416836.html) Settings Sync插件
-* [**【工具】** activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
-* [**【Github】** Lantern](https://github.com/getlantern/lantern) 科学上网
-* [**【Github】** fq-book](https://github.com/loremwalker/fq-book) 科学上网
-* [**【Github】** jsproxy 代理转发google](https://github.com/EtherDream/jsproxy) 科学上网
-* [**【文章】** 解决无法Ping通Github](https://yq.aliyun.com/ziliao/556555) 科学上网
-  > C:\Windows\System32\drivers\etc
-  ```json
-  192.30.253.113 github.com
-  192.30.252.131 github.com
-  185.31.16.185 github.global.ssl.fastly.net
-  74.125.237.1 dl-ssl.google.com
-  173.194.127.200 groups.google.com
-  192.30.252.131 github.com
-  185.31.16.185 github.global.ssl.fastly.net
-  74.125.128.95 ajax.googleapis.com
-  ```
+* [**Git**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#git)
+
+* [**Webpack**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#webpack)
+
+* [**Travis CI**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#travis-ci)
+
+* [**Puppeteer**]()
+
+* [Chrome插件](https://github.com/AttemptWeb/Record/tree/master/other/devTool#chrome%E6%8F%92%E4%BB%B6)
+
+* [**Svg生成**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#svg%E7%94%9F%E6%88%90)
+
+* [](https://github.com/AttemptWeb/Record/tree/master/other/devTool#%E5%85%B6%E4%BB%96)
 
 ### [**Server**](./server)
 
