@@ -48,6 +48,7 @@
 * [**JS 常用工具插件库**](https://github.com/AttemptWeb/Record/tree/master/js#js%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E6%8F%92%E4%BB%B6%E5%BA%93)
 * [**前端http**](https://github.com/AttemptWeb/Record/tree/master/js#%E5%89%8D%E7%AB%AFhttp)
 * [**Web安全**](https://github.com/AttemptWeb/Record/tree/master/js#web%E5%AE%89%E5%85%A8)
+
 ### [**ReactJs**](./frame)
 
 > 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
@@ -78,25 +79,17 @@
 * [**Centos**](https://github.com/AttemptWeb/Record/tree/master/server#Centos)
 * [**Docker**](https://github.com/AttemptWeb/Record/tree/master/server#Docker)
 
-### [WxMiniApp](./other/wxsapp)
-
-> 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
-
-* [**【Markdown】** 小程序开发](./other/wxsapp/小程序开发.md)
-* [**【Markdown】** 小程序组件问题](./other/wxsapp/小程序组件问题.md)
-* [**【Markdown】** 小程序公开课记录](./other/wxsapp/小程序公开课记录.md)
-
 ### [Means](./other/learn)
 
 > 将平时学习的资料和文档放在这里
 
-* [**前端**](https://github.com/AttemptWeb/Record/tree/master/other/learn#前端)
-* [**React**](https://github.com/AttemptWeb/Record/tree/master/other/learn#React)
-* [**Node**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Node)
-* [**Nginx**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Nginx)
-* [**Java**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Java)
-* [**Docker**](https://github.com/AttemptWeb/Record/tree/master/other/learn#Docker)
-* [**Computer Science**](https://github.com/AttemptWeb/Record/tree/master/other/learn#ComputerScience)
+* [**前端**](https://github.com/AttemptWeb/Record/tree/master/other/learn#%E5%89%8D%E7%AB%AF)
+* [**React**](https://github.com/AttemptWeb/Record/tree/master/other/learn#react)
+* [**Node**](https://github.com/AttemptWeb/Record/tree/master/other/learn#node)
+* [**Nginx**](https://github.com/AttemptWeb/Record/tree/master/other/learn#nginx)
+* [**Java**](https://github.com/AttemptWeb/Record/tree/master/other/learn#java)
+* [**Docker**](https://github.com/AttemptWeb/Record/tree/master/other/learn#docker)
+* [**Computer Science**](https://github.com/AttemptWeb/Record/tree/master/other/learn#computer-science)
 
 ## Project example
 
