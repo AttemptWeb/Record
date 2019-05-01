@@ -7,6 +7,18 @@
 ### webpack
 * [**【文档】** webpack 参考资料](https://doc.webpack-china.org/concepts/)
 
+### chrome插件
+* [**【Github】** json格式化插件(json-formatter)](https://github.com/callumlocke/json-formatter)
+* [**【工具】** 字体识别插件(Fontface Ninja)](https://www.fontface.ninja/)
+* [**【工具】** HTTP请求插件(Postman)](https://www.getpostman.com/)
+* [**【工具】** HTTP请求插件(Advanced REST client)](https://install.advancedrestclient.com)
+* [**【工具】** 检查React组件层次结构的插件(React Developer Tools)](https://github.com/facebook/react-devtools)
+* [**【工具】** 查看Redux工作流的插件(Redux DevTools)](https://github.com/reduxjs/redux-devtools)
+
+* **【工具】** 翻译插件(Google 翻译)
+* [**【工具】** 广告拦截插件(Adblock Plus)](https://adblockplus.org)
+
+
 ### Travis CI
 * [**【文章】** Github装逼指南——Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)
 
