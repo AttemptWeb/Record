@@ -42,20 +42,14 @@
 ### [**JavaScript**](./js) 
 
 > ECMS规范被现代浏览器所遵从，随着新特性的增加,语法糖的扩展不断加大，但基础知识依然没有变化
+
 * [**JS 规范参考**](https://github.com/AttemptWeb/Record/tree/master/js#js%E8%A7%84%E8%8C%83%E5%8F%82%E8%80%83%E5%85%BB%E6%88%90%E4%B8%80%E4%B8%AA%E5%A5%BD%E4%B9%A0%E6%83%AF)
-
 * [**JS 基础**](https://github.com/AttemptWeb/Record/tree/master/js#js%E5%9F%BA%E7%A1%80)
-
 * [**JS 前端路由**](https://github.com/AttemptWeb/Record/tree/master/js#js%E7%9A%84%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1)
-
 * [**JS 运行机制事件循环**](https://github.com/AttemptWeb/Record/tree/master/js#js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF)
-
 * [**浏览器渲染机制**](https://github.com/AttemptWeb/Record/tree/master/js#%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E6%9C%BA%E5%88%B6)
-
 * [**前端http**](https://github.com/AttemptWeb/Record/tree/master/js#%E5%89%8D%E7%AB%AFhttp)
-
 * [**Web安全**](https://github.com/AttemptWeb/Record/tree/master/js#web%E5%AE%89%E5%85%A8)
-
 * [**JS 常用工具插件库**](https://github.com/AttemptWeb/Record/tree/master/js#js%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E6%8F%92%E4%BB%B6%E5%BA%93)
 
 ### [**ReactJs**](./frame)
@@ -63,11 +57,8 @@
 > 前端框架可以加快开发的速度，组件化、模块化便于多人团队协同开发
 
 * [**React 基础**](https://github.com/AttemptWeb/Record/tree/master/frame#react%E5%9F%BA%E7%A1%80)
-
 * [**React 服务端渲染**](https://github.com/AttemptWeb/Record/tree/master/frame#react%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93)
-
 * [**React 插件**](https://github.com/AttemptWeb/Record/tree/master/frame#react%E6%8F%92%E4%BB%B6)
-
 * [**React Router**](https://github.com/AttemptWeb/Record/tree/master/frame#react-router)
 
 ### [**DevTool**](./other/devTool) 
@@ -75,32 +66,21 @@
 > 开发对于Git / Webpack / Travis CI / Chrome插件 工具 需要有一定的了解
 
 * [**Git**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#git)
-
 * [**Webpack**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#webpack)
-
+* [**Chrome插件**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#chrome%E6%8F%92%E4%BB%B6)
 * [**Travis CI**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#travis-ci)
-
-* [**Puppeteer**]()
-
-* [Chrome插件](https://github.com/AttemptWeb/Record/tree/master/other/devTool#chrome%E6%8F%92%E4%BB%B6)
-
+* [**Puppeteer**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#puppeteer)
 * [**Svg生成**](https://github.com/AttemptWeb/Record/tree/master/other/devTool#svg%E7%94%9F%E6%88%90)
-
-* [](https://github.com/AttemptWeb/Record/tree/master/other/devTool#%E5%85%B6%E4%BB%96)
 
 ### [**Server**](./server)
 
 > 对于基本的前端知识的掌握外，服务端的了解，也可以增加前端技术开发的筹码
 
-* [**【Markdown】** mongodb基本配置与操作](./server/mongodb基本配置与操作.md)
-* [**【Markdown】** centos 命令行操作](./server/CentOS6命令行.md)
-* [**【Markdown】** 使用CentOS 6搭建简易web服务器](./server/使用centos6搭建简易web服务.md)
-* [**【Markdown】** centos的 node服务](./server/centos配置node服务.md)
-* [**【Markdown】** 前端开发对于node和nginx的那些事](./server/前端开发对于node和nginx的那些事.md)
-* [**【文章】** koa2部署最佳实践--安全篇](https://cnodejsorg/topic/5a41c3829807389a1809f6e0)
-* [**【文章】** nodejs邮件发送就是这么简单](https://cnodejsorg/topic/572021b2fa48138c41110e4f)
-* [**【文章】** 三英战豪强，思绪走四方。浅谈我眼中的express、koa和koa2](https://www.jianshu.com/p/3806417a1991?from=timeline)
-* [**【Github】** Docker学习文档](https://github.com/yeasy/docker_practice)
+* [**数据库**]()
+* [**Centos**]()
+* [**nginx**]()
+* [**koa服务**]()
+* [**docker**]()
 
 ### [WxMiniApp](./other/wxsapp)
 

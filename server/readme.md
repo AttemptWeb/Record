@@ -1,7 +1,7 @@
 ### 数据库
 * [**【Markdown】** mongodb基本配置与操作](./mongodb基本配置与操作.md)
 
-### 命令行
+### Centos
 * [**【Markdown】** centos 命令行操作](./CentOS6命令行.md)
 
 ### nginx
