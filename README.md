@@ -30,14 +30,11 @@
 
 ## Portal
 
-### [**CSS**](./css) 
+### [**Css**](./css) 
 
 > 随着css功能的不断强大，它可以做的东西也越来越多
 
-* [**【Markdown】** Sass（SCSS）](./css./Sass.md)是基于 Ruby 写出来的
-* [**【文章】** css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
-* [**【Markdown】** css3 Animation](./css./cssAnimation.md)
-* [**【Github】** AboutAnimate](https://github.com/EastSummer/AboutAnimate)
+* [**Css Animation**](https://github.com/AttemptWeb/Record/tree/master/css#CssAnimation)
 
 ### [**JavaScript**](./js) 
 
@@ -86,9 +83,9 @@
 
 > 官方微信小程序对于API的开发，让前端开发者易于上手，但在一些问题面前无法得到好的解决
 
-* [**【Markdown】** 小程序开发](./other/wxsapp./小程序开发.md)
-* [**【Markdown】** 小程序组件问题](./other/wxsapp./小程序组件问题.md)
-* [**【Markdown】** 小程序公开课记录](./other/wxsapp./小程序公开课记录.md)
+* [**【Markdown】** 小程序开发](./other/wxsapp/小程序开发.md)
+* [**【Markdown】** 小程序组件问题](./other/wxsapp/小程序组件问题.md)
+* [**【Markdown】** 小程序公开课记录](./other/wxsapp/小程序公开课记录.md)
 
 ### [Means](./other/learn)
 
