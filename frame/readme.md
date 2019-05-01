@@ -19,5 +19,5 @@
 * [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)
 * [**【Github】** 基于H5&dnd的拖拽/排序插件react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
 
-### React Router
+### React-Router
 * [**【文章】** 由React Router引起的组件重复渲染谈Route的使用姿势](https://segmentfault.com/a/1190000012078328)
