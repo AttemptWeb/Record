@@ -4,7 +4,7 @@
 
 在我们使用React开发项目的过程中，react的引入是必不可少的，因为babel会将JSX语法编译为React.createElement，如下
 
-![](../../img/1557149501347.jpg)
+![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557149501347.jpg)
 
 现在可以定位到ReactElement.js 文件阅读 createElement 函数的实现，[查看代码](https://github.com/KieSun/react-interpretation/blob/master/packages/react/src/ReactElement.js)
 
@@ -82,11 +82,11 @@ const ReactElement = function(type, key, ref, self, source, owner, props) {
 ```
 其中```$$typeof```是用来帮助我们识别这是一个 ReactElement, 下面我们来看看，经过createElement转换之后的ReactElement。
 
-![](../../img/1557200456091.jpg)
+![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557200456091.jpg)
 
 下面是打印出来```App```组件
 
-![](../../img/1557200356701.jpg)
+![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557200356701.jpg)
 
 参考：
 
