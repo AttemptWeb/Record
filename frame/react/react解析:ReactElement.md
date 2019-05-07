@@ -61,8 +61,7 @@ const childrenLength = arguments.length - 2;
     props.children = childArray;
   }
 ```
-因为会嵌套多个子元素, 所以childrenLength是大于等于一的, 把第二个参数之后的参数取出来，然后判断长度是否大于一。大于一的话就代表有多个 children，这时候 props.children 会是一个数组，否则的话只是一个对象。因此我们需要注意在对 props.children 进行遍历的时候要注意它是否是数组。
-
+因为会嵌套多个子元素, 所以childrenLength是大于等于一的。把第二个参数之后的参数取出来，这时候 props.children 会是一个数组，否则是一个对象。因此我们需要注意在对 props.children 进行遍历的时候要注意它是否是数组。
 
 ```javascript
 // function createElement中，返回 一个 ReactElement 对象
