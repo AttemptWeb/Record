@@ -10,7 +10,7 @@
 ```javascript
 React.Children.map(this.props.children, c => [[c, c]])
 ```
-![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557230072073.jpg)
+![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557318073228 2.jpg)
 前端渲染的实际节点和打印的props，如下图
 ![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557231565848.jpg)
 从上图可以得知，通过 c => [[c, c]] 转换以后节点变为了：
