@@ -24,7 +24,7 @@ React.Children.map(this.props.children, c => [[c, c]])
 </div>
 ```
 
-我们需要定位到 ReactChildren.js 文件，[代码](https://github.com/KieSun/react-interpretation/blob/master/packages/react/src/ReactChildren.js), React.Children.map 方法实际就是mapChildren函数，让我们来看看 mapChildren 内部到底是如何实现的吧！
+我们需要定位到 ReactChildren.js 文件，[查看代码](https://github.com/KieSun/react-interpretation/blob/master/packages/react/src/ReactChildren.js), React.Children.map 方法实际就是mapChildren函数，让我们来看看 mapChildren 内部到底是如何实现的吧！
 
 ```javascript
 function mapChildren(children, func, context) {
