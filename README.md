@@ -37,7 +37,7 @@
 * [**【Github】** 现代的Node.js 构建服务利器](https://i5ting.github.io/modern-nodejs/)
 * [**【冴羽博客强推】** JavaScript深入系列、JavaScript专题系列、ES6系列](https://github.com/mqyqingfeng/Blog)
 * [**【Juejin】** [译] JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](https://juejin.im/post/5ca0c8aa518825680c7cb44b)
-* [**【Github】** 当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/AttemptWeb/what-happens-when-zh_CN)
+* [**【Github】** 当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/skyline75489/what-happens-when-zh_CN)
 
 ### [**Css**](./css) 
 
