@@ -2,7 +2,7 @@
 
 > 感谢 [yck: 剖剖析 React 源码解析](https://github.com/KieSun/Dream/issues/18)，本篇文章是在读完他的文章的基础上，将他的文章进行拆解和加工，加入我自己的一下理解和例子，便于大家理解。觉得[yck](https://github.com/KieSun)写的真的很棒 。**React 版本为 16.8.6**，关于源码的阅读，可以移步到[yck react源码解析](https://github.com/KieSun/react-interpretation)
 
-[react解析: React.createElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
+> 本文永久有效链接: [react解析 React.Children(二)](https://github.com/AttemptWeb/Record/edit/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
 
 在React实际开发中, ```React.Children``` 这个API我们虽然使用的比较少, 但是我们通过这个API可以操作```children```, 可以查看[文档](https://reactjs.org/docs/react-api.html#reactchildren)
 
@@ -172,6 +172,10 @@ traverseAllChildrenImpl函数(循环成单个可渲染的节点，如果不是�
     \|/mapSingleChildIntoContext函数(判断是否是有效Element, 验证通过就 clone 并且替换掉 key,
 并值放入result，result就是map的返回值)
 ```
+
+更多内容：
+
+[react解析: React.createElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
 
 参考：
 
