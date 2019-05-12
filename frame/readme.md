@@ -9,6 +9,9 @@
 * [**【文章】** How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
 * [**【文章】** 你真的了解浅比较么？(ps:antdesign许多组件也是默认使用了shallowEqual)](https://www.imweb.io/topic/598973c2c72aa8db35d2e291)
 
+### React 解析
+* [React解析 React.ReactElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
+
 ### React插件
 * [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)
 * [**【Github】** 基于H5&dnd的拖拽/排序插件react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
