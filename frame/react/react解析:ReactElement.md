@@ -6,7 +6,7 @@
 
 ![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557149501347.jpg)
 
-现在可以定位到ReactElement.js 文件阅读 createElement 函数的实现，[查看代码](https://github.com/KieSun/react-interpretation/blob/master/packages/react/src/ReactElement.js)
+现在可以定位到ReactElement.js ,[查看代码](https://github.com/KieSun/react-interpretation/blob/master/packages/react/src/ReactElement.js), 文件阅读 createElement 函数的实现
 
 createElement接受三个参数：
 ```javascript
@@ -23,9 +23,10 @@ export function createElement(type, config, children) {
   );
 }
 ```
-type指代这个ReactElement的类型，config 是指元素的属性，children是指子元素。
+type指代这个ReactElement的类型，config 是指元素的属性，children是指子元素，return 调用 ReactElement函数。
 
 ```javascript
+// 省略部分
 // function createElement中，对于 config 的处理
 if (config != null) {
     if (hasValidRef(config)) {
@@ -49,6 +50,7 @@ if (config != null) {
 这段代码对 ref 以及 key 做了处理，然后遍历 config 并把内建的几个属性（比如 ref 和 key）放入 props 对象中。
 
 ```javascript
+// 省略部分
 // function createElement中，对于 children 的处理
 const childrenLength = arguments.length - 2;
   if (childrenLength === 1) {
@@ -61,7 +63,7 @@ const childrenLength = arguments.length - 2;
     props.children = childArray;
   }
 ```
-因为会嵌套多个子元素, 所以childrenLength是大于等于一的。把第二个参数之后的参数取出来，这时候 props.children 会是一个数组，否则是一个对象。因此我们需要注意在对 props.children 进行遍历的时候要注意它是否是数组。
+因为会嵌套多个子元素, 所以childrenLength是大于等于一的。把第二个参数之后的参数取出来，这时候 props.children 会是一个数组，否则是一个对象。因此我们需要注意在对 props.children 进行遍历的时候要注意它是否是数组。最后我们来看看**ReactElement函数**
 
 ```javascript
 // function createElement中，返回 一个 ReactElement 对象
