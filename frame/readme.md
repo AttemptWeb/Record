@@ -10,6 +10,7 @@
 
 ### React 解析
 * [**【Markdown】** React解析 React.ReactElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
+* [**【Markdown】** React解析 React.Children(二)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
 
 ### React插件
 * [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)
