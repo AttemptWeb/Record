@@ -10,8 +10,10 @@
 ```javascript
 React.Children.map(this.props.children, c => [[c, c]])
 ```
+下面可以看一下它在**项目中的实际用法**：
 ![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/WechatIMG50.jpeg)
-前端渲染的实际节点和打印的props，如下图
+
+**控制台打印渲染的节点和props**，如下图 
 ![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557231565848.jpg)
 从上图可以得知，通过 c => [[c, c]] 转换以后节点变为了：
 ```html
@@ -155,6 +157,21 @@ function mapSingleChildIntoContext(bookKeeping, child, childKey) {
 }
 ```
 ```mapSingleChildIntoContext```函数其实就是调用```React.Children.map(children, callback)```中的callback. **如果map之后还是数组, 那么再次进入mapIntoWithKeyPrefixInternal, 那么这个时候我们就会再次从对象重用池里面去获取context, 而对象重用池的意义也就是在这里, 如果循环嵌套多了, 可以减少很多对象创建和gc的损耗**. 如果不是数组, 判断返回值是否是有效的 Element, 验证通过的话就 clone 一份并且替换掉 key, 最后把返回值放入 result 中, result 其实也就是 mapChildren 的返回值.
+
+下面是运行顺序：
+```html
+mapChildren 函数
+     |
+    \|/
+mapIntoWithKeyPrefixInternal 函数     
+     |
+    \|/
+traverseAllChildrenImpl函数(循环成单个可渲染的节点，如果不是递归)
+     |    
+     |单个节点
+    \|/mapSingleChildIntoContext函数(判断是否是有效Element, 验证通过就 clone 并且替换掉 key,
+并值放入result，result就是map的返回值)
+```
 
 参考：
 
