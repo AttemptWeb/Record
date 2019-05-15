@@ -22,16 +22,14 @@
 ### **Problem**
 
 > 下面的文章是经过筛选之后放入，有好的文章可以issus哦
-
+* [**【Markdown】** React解析 React.ReactElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
+* [**【Markdown】** React解析 React.Children(二)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
 * [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
 * [**【Markdown】** js的常见方法](./js/JsMd/js的常见方法.md)
 * [**【Markdown】** 前端面试题持续更新中](https://github.com/HerryLo/Record/blob/master/js/JsMd/%E5%B8%B8%E8%A7%81%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 * [**【Markdown】** 康威定律](./other/康威定律.md)
-* [**【掘金】** 闭包的错误使用](https://juejin.im/post/5c22f13b5188252b56273a00)
 * [**【文章】** vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
-* [**【文章】** webGL的学习之路](https://blog.csdn.net/column/details/webgl.html?&page=2)
 * [**【文章】** X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
-* [**【Juejin】** react@15.0 源码解析](https://juejin.im/post/5983dfbcf265da3e2f7f32de)
 * [**【Github】** 饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [**【visualgo】** 数据结构和算法动态可视化](https://visualgo.net/zh)
 * [**【Github】** 现代的Node.js 构建服务利器](https://i5ting.github.io/modern-nodejs/)
