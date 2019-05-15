@@ -91,7 +91,7 @@ const ReactElement = function(type, key, ref, self, source, owner, props) {
 
 ![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557200356701.jpg)
 
-更过内容：
+更多内容：
 
 [react解析: React.Children(二)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
 
