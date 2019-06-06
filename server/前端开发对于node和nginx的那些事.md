@@ -46,8 +46,11 @@ server {
 参考：
 
 [nginx解决前端跨域](https://www.cnblogs.com/liliangel/p/7494853.html)
+
 [前端对于nginx的使用](https://segmentfault.com/a/1190000013781162)
+
 [nginx文档](http://nginx.org/en/docs/)
+
 [个人nginx配置示例](https://github.com/HerryLo/Record/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
 
 ## 如何将node和nginx在服务器组合使用
