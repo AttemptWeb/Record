@@ -20,6 +20,9 @@ $ git stash pop
 
 5.查看commit后但是未push的记录
 $ git show 
+
+6.查看所有stash
+git stash list
 ```
 
 ****
@@ -70,8 +73,19 @@ $ git reset --hard origin/master // 远程分支名称
 ### **git撤销或者回退**
 ----------------
 ```javascript
-$ git reset --hard [commit版本号] //回退版本
+// 直接回退，不保存撤销的版本
+$ git reset HEAD^  //向后撤销一个提交
 
+$ git reset --hard HEAD~2  //向后撤销两个提交
+
+$ git reset --hard [commit版本号] //撤销指定commit版本
+```
+
+****
+
+### **git合并**
+----------------
+```javascript
 $ git merge --abort //撤销当前合并，回到合并之前
 
 $ git merge --no-ff // 不使用fast-forward方式合并，保留分支的commit历史
