@@ -6,7 +6,7 @@
 * [**【Github】** React-developer](https://github.com/adam-golab/react-developer-roadmap)
 
 ### Node
-* [**【Github】** node爬虫](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
+* [**【Github】** node简易爬虫源码](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
 * [**【Gitbook】** koa2设计模式](https://chenshenhai.github.io/koajs-design-note/)
 * [**【Gitbook】** koa2进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
 
