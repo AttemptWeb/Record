@@ -15,7 +15,7 @@
 * [**【文档】** Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
 
 ### Java
-* [**【链接】** java 学习资源]()
+* [**【链接】** Spring Boot 学习示例](https://github.com/ityouknow/spring-boot-examples)
 
 ### Docker
 * [**【Gitbook】** Docker — 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
