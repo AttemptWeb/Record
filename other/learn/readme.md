@@ -1,5 +1,5 @@
 ### JavaScript
-* [**【GitHub】** 你不懂JS（系列丛书](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
+* [**【GitHub】** 你不懂JS（系列丛书）](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
 * [**【GitHub】** 轻量函数式 JavaScript](https://github.com/getify/Functional-Light-JS/tree/1ed-zh-CN)
 
 ### React
