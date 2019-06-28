@@ -16,6 +16,7 @@
 
 ### Java
 * [**【GitHub】** Spring Boot 学习示例](https://github.com/ityouknow/spring-boot-examples)
+* [**【GitHub】** Spring Boot 精选课程](https://github.com/ityouknow/spring-boot-leaning)
 
 ### Docker
 * [**【Gitbook】** Docker — 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
