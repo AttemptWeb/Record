@@ -21,7 +21,7 @@
 
 * [**ReactJs**](./frame): React 基础、React 解析、React Router、React 服务端渲染
 
-* [**DevTool**](./other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer、Svg生成
+* [**DevTool**](./other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
 
 * [**Server**](./server): DB、Koa、Nginx、Centos、Docker
 
