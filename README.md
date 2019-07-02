@@ -5,7 +5,7 @@
 ![passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-**不是技术的创造者，只是技术的搬运工。有疑问欢迎issues**
+**不是技术的创造者，只是技术的搬运工**
 
 ---
 
@@ -63,3 +63,5 @@
   
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
+
+**有疑问欢迎Issues。Star 是对我们的支持，谢谢大家！！👏👏**
