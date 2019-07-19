@@ -1,4 +1,4 @@
-<div align="center"><img src="./Img/record1.png" alt="logo" title="logo"/></div>
+![logo](./Img/record1.png")
 
 ---
 
