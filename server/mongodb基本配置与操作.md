@@ -3,7 +3,7 @@
 
 [window配置mongoDB](#window配置mongoDB)
 
-[centOS配置mongoDB](#centOS配置mongoDB)
+[centOS配置mongoDB](#centos-配置mongodb)
 
 [查询和创建doc](#查询和创建doc)
 

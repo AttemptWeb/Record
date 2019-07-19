@@ -1,17 +1,17 @@
-<div align="center"><img src="./Img/record1.png" alt="logo" title="logo"/></div>
+![logo](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/record1.png)
 
 ---
 
 ![passing](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-**不是技术的创造者，只是技术的搬运工。有疑问欢迎issues**
+**不是技术的创造者，只是技术的搬运工**
 
 ---
 
 推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
-目前整理的模块有下面这些，大部分都是经过学习之后整理，和部分外链资料，大家可以选择自己感兴趣的查阅：
+目前整理的模块有下面这些，大部分都是经过学习之后整理，大家可以选择自己感兴趣的查阅：
 
 * [**Problem**](#problem): 觉得不错的文章或者Blog
 
@@ -21,11 +21,11 @@
 
 * [**ReactJs**](./frame): React 基础、React 解析、React Router、React 服务端渲染
 
-* [**DevTool**](./other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer、Svg生成
+* [**DevTool**](./other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
 
 * [**Server**](./server): DB、Koa、Nginx、Centos、Docker
 
-* [**Means 资料**](./other/learn): 前端、React、Node、Nginx、Java、Docker、Computer Science
+* [**Means 资料**](./other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science
 
 * [**Project example**](#project-example): 好的项目示例和脚手架
 
@@ -63,3 +63,5 @@
   
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
+
+**有疑问欢迎Issues。Star 是对我们的支持，谢谢大家！！👏👏**

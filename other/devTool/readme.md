@@ -21,14 +21,12 @@
 ### puppeteer
 * [**【工具】** puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
 
-### svg生成
-* [**【工具】** 生成svg标示图片](https://shields.io/#/)
-
 ### 其他
 
 * [**【文章】** VSCode 同步设置及扩展插件 实现设备上设置统一](https://www.cnblogs.com/kenz520/p/7416836.html)
   > Settings Sync插件
 * [**【工具】** activate-power-mode 没什么卵用的装逼插件](https://atom.io/packages/activate-power-mode)
+* [**【工具】** 生成svg标示图片](https://shields.io/#/)
 * 科学上网
   > [**【Github】** Lantern](https://github.com/getlantern/lantern)  
   > [**【Github】** fq-book](https://github.com/loremwalker/fq-book)
