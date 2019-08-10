@@ -118,15 +118,19 @@ createFiberRoot函数中，首先创建了一个```root: FiberRoot```，然后�
 // 查看 FiberRoot 对象
 document.getElementById('app')._reactRootContainer._internalRoot
 ```
-[**FiberRoot的数据结构看这里**](https://react.jokcy.me/book/api/react-structure.html)。我们下面顺便说一下FiberRoot 和 RootFiber的关系，同时拿出几个必须要要了解的属性解释一下。
+我们下面顺便说一下FiberRoot 和 RootFiber的关系，同时拿出几个必须要要了解的属性解释一下。
+```javascript
+ReactDom.render(
+  ()=> (
+    <div>
+      <div></div>
+      <div></div>
+    </div>
+  ), 
+  document.querySelector('#root')
+)
+```
 
-```
-FiberRoot 对象 <———— container._reactRootContainer._internalRoot
-    |
-    | current: Fiber
-   \|/
-RootFiber
- ||
-   || current: Fiber
-   ||
-```
+![img](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1565408715828.jpg)
+
+想了解[**FiberRoot的数据结构**](https://react.jokcy.me/book/api/react-structure.html)的，可以看这里哦！！
