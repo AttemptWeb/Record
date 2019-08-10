@@ -12,6 +12,7 @@
 * DT CSS
 
 ### Css 特性
+* [**【文章】** 弹性布局 flex](https://wcc723.github.io/css/2017/07/21/css-flex/)
 * [**【文章】** css3中的 calc](https://blog.csdn.net/xianyu410725/article/details/53464834)
 * [**【Markdown】** CSS开启硬件加速](./cssTransforms.md)
 
