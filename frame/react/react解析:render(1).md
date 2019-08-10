@@ -131,6 +131,6 @@ ReactDom.render(
 )
 ```
 
-![img](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1565408715828.jpg)
+![img](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1565408715828%20.jpg)
 
 想了解[**FiberRoot的数据结构**](https://react.jokcy.me/book/api/react-structure.html)的，可以看这里哦！！
