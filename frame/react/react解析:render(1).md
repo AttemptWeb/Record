@@ -1,4 +1,4 @@
-## react解析 render的FiberRoot创建
+## react解析 render的FiberRoot
 
 > 感谢 [yck: 剖析 React 源码解析](https://github.com/KieSun/Dream/issues/19)，本篇文章是在读完他的文章的基础上，将他的文章进行拆解和加工，加入我自己的一下理解和例子，便于大家理解。觉得[yck](https://github.com/KieSun)写的真的很棒 。**React 版本为 16.8.6**，关于源码的阅读，可以移步到[yck react源码解析](https://github.com/KieSun/react-interpretation)
 
