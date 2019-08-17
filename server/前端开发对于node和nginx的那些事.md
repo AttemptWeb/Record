@@ -108,6 +108,7 @@ server {
 启动nginx，那么此时我们可以就可以通过 www.xxx.com 调用node接口了。
 
 [centos上node的安装](https://github.com/HerryLo/Record/blob/master/server/centos%E9%85%8D%E7%BD%AEnode%E6%9C%8D%E5%8A%A1.md)
+
 [centos上nginx的安装和使用](https://github.com/HerryLo/Record/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
 
 ps: 顺便推一下自己的个人公众号：Yopai，有兴趣的可以关注，每周不定期更新，分享可以增加世界的快乐
