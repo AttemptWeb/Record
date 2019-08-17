@@ -1,6 +1,9 @@
 # node和nginx组合那些事
 
-[更多精彩内容](https://github.com/AttemptWeb/Record/issues)
+作者：[HerryLo](https://github.com/HerryLo)
+
+本文永久有效链接： [https://github.com/AttemptWeb/Record....](https://github.com/AttemptWeb/Record/)
+
 
 对于前端开发，了解nodejs和nginx是有必要的。前端开发者自己构建项目时，更多的是自己使用nodejs+mongoDB搭建后端接口，使用nginx作为反向代理服务器。
 
