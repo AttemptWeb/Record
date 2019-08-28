@@ -6,7 +6,7 @@
 * [**【Markdown】** 变量提升与变量赋值](./JsMd/真正弄懂JS.md)
 * [**【Markdown】** js中基本类型和引用类型](./JsMd/js中基本类型和引用类型.md)
 * [**【Markdown】** let与const与var的区别](./JsMd/let与const与var.md)
-* [**【Markdown】** javascript闭包](./JsMd/闭包.md)
+* [**【Markdown】** javascript闭包的错误使用](./JsMd/闭包.md)
 * [**【Markdown】** javascript构造函数的继承](./JsMd/js构造函数的继承.md)
 * [**【Markdown】** javascript的this指向问题](./JsMd/js中this的指向问题.md)
 * [**【Markdown】** javascript中的forEach和map](./JsMd/js中for和map和forEach.md)
