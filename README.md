@@ -25,7 +25,7 @@
 
 * [**Server**](./server): DB、Koa、Nginx、Centos、Docker
 
-* [**Means 资料**](./other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science
+* [**Means 资料**](./other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science、Data Analysis
 
 * [**Project example**](#project-example): 好的项目示例和脚手架
 
