@@ -4,10 +4,10 @@
 以就只有两张图，请放心食用！！
 
 ## 简版this指向
-![](../../img/1568171213364.jpg)
+![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1568171213364.jpg)
 
 ## 升级版this指向
-![](../../img/1568272846327.jpg)
+![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1568272846327.jpg)
 
 ### **解释：**
 这里的上下文对象如下：
