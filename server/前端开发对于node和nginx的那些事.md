@@ -1,5 +1,10 @@
 # node和nginx组合那些事
 
+作者：[HerryLo](https://github.com/HerryLo)
+
+本文永久有效链接： [https://github.com/AttemptWeb/Record....](https://github.com/AttemptWeb/Record/)
+
+
 对于前端开发，了解nodejs和nginx是有必要的。前端开发者自己构建项目时，更多的是自己使用nodejs+mongoDB搭建后端接口，使用nginx作为反向代理服务器。
 
 为何选用nginx？对于前端来说，我觉得它是便于学习的，方便配置的。
@@ -103,8 +108,11 @@ server {
 启动nginx，那么此时我们可以就可以通过 www.xxx.com 调用node接口了。
 
 [centos上node的安装](https://github.com/HerryLo/Record/blob/master/server/centos%E9%85%8D%E7%BD%AEnode%E6%9C%8D%E5%8A%A1.md)
+
 [centos上nginx的安装和使用](https://github.com/HerryLo/Record/blob/master/server/%E4%BD%BF%E7%94%A8centos6%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93web%E6%9C%8D%E5%8A%A1.md)
 
+ps: 顺便推一下自己的个人公众号：Yopai，有兴趣的可以关注，每周不定期更新，分享可以增加世界的快乐
 
+![](https://i.screenshot.net/g2x6lbd)
 
 

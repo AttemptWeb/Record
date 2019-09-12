@@ -150,3 +150,7 @@ http{
 ``` # ./nginx -s reload```
 
 使用serverIP或域名访问 访问
+
+ps: 顺便推一下自己的个人公众号：Yopai，有兴趣的可以关注，每周不定期更新，分享可以增加世界的快乐
+
+![](https://i.screenshot.net/g2x6lbd)
