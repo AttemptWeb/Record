@@ -23,7 +23,7 @@
 
 * [**DevTool**](https://github.com/AttemptWeb/Record/tree/master/other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
 
-* [**Server**](https://github.com/AttemptWeb/Record/tree/master/server): DB、Koa、Nginx、Centos、Docker
+* [**Server**](https://github.com/AttemptWeb/Record/tree/master/server): DB、Node、Nginx、Centos、Docker
 
 * [**Means 资料**](https://github.com/AttemptWeb/Record/tree/master/other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science、Data Analysis
 
