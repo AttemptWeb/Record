@@ -21,7 +21,7 @@
 
 * [**ReactJs**](https://github.com/AttemptWeb/Record/tree/master/frame): React 基础、React 解析、React Router、React 服务端渲染
 
-* [**DevTool**](.https://github.com/AttemptWeb/Record/tree/master/other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
+* [**DevTool**](https://github.com/AttemptWeb/Record/tree/master/other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
 
 * [**Server**](https://github.com/AttemptWeb/Record/tree/master/server): DB、Koa、Nginx、Centos、Docker
 
