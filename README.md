@@ -13,31 +13,33 @@
 
 目前整理的模块有下面这些，大部分都是经过学习之后整理，大家可以选择自己感兴趣的查阅：
 
-* [**Problem**](#problem): 觉得不错的文章或者Blog
+* [**Recommend**](#recommend): 觉得不错的文章或者Blog
 
-* [**Css**](./css): animation动画、css 特性
+* [**Css**](https://github.com/AttemptWeb/Record/tree/master/css): animation动画、css 特性
 
-* [**JavaScript**](./js): JS 基础、JS 前端路由、浏览器渲染机制、JS 运行机制事件循环、前端http、Web安全等
+* [**JavaScript**](https://github.com/AttemptWeb/Record/tree/master/js): JS 基础、JS 前端路由、浏览器渲染机制、JS 运行机制事件循环、前端http、Web安全等
 
-* [**ReactJs**](./frame): React 基础、React 解析、React Router、React 服务端渲染
+* [**ReactJs**](https://github.com/AttemptWeb/Record/tree/master/frame): React 基础、React 解析、React Router、React 服务端渲染
 
-* [**DevTool**](./other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
+* [**DevTool**](https://github.com/AttemptWeb/Record/tree/master/other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
 
-* [**Server**](./server): DB、Koa、Nginx、Centos、Docker
+* [**Server**](https://github.com/AttemptWeb/Record/tree/master/server): DB、Node、Nginx、Centos、Docker
 
-* [**Means 资料**](./other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science、Data Analysis
+* [**Means 资料**](https://github.com/AttemptWeb/Record/tree/master/other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science、Data Analysis
 
 * [**Project example**](#project-example): 好的项目示例和脚手架
 
-
-### **Problem**
+### **Recommend**
 
 > 下面的文章是经过筛选之后放入，有好的文章可以issus哦
+
 * [**【Markdown】** 传输层的TCP和UDP协议](https://github.com/AttemptWeb/Record/issues/6)
+* [**【Markdown】** 图解javascript的this指向](https://github.com/AttemptWeb/Record/issues/12)
 * [**【Markdown】** 图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11)
 * [**【Markdown】** React解析 React.ReactElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
 * [**【Markdown】** React解析 React.Children(二)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
 * [**【Markdown】** React解析 render的FiberRoot(三)](https://github.com/AttemptWeb/Record/issues/9)
+
 * [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
 * [**【Markdown】** js的常见方法](./js/JsMd/js的常见方法.md)
 * [**【Markdown】** 前端面试题持续更新中](https://github.com/HerryLo/Record/blob/master/js/JsMd/%E5%B8%B8%E8%A7%81%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98.md)

@@ -1,3 +1,7 @@
+### 数据结构与算法
+
+* [**【BiliBili】** 数据结构](https://www.bilibili.com/video/av12907870/?p=5&t=1138)
+
 ### JavaScript
 * [**【GitHub】** 你不懂JS（系列丛书）](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
 * [**【GitHub】** 轻量函数式 JavaScript](https://github.com/getify/Functional-Light-JS/tree/1ed-zh-CN)
