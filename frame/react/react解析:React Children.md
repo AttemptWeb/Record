@@ -11,10 +11,10 @@
 React.Children.map(this.props.children, c => [[c, c]])
 ```
 下面可以看一下它在**项目中的实际用法**：
-![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/WechatIMG50.jpeg)
+![](https://didiheng.com/Img/WechatIMG50.jpeg)
 
 **控制台打印渲染的节点和props**，如下图 
-![](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/1557231565848.jpg)
+![](https://didiheng.com/Img/1557231565848.jpg)
 从上图可以得知，通过 c => [[c, c]] 转换以后节点变为了：
 ```html
 // 通过 c => [[c, c]] 转换以后
