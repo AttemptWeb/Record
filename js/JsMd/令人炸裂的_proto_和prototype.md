@@ -20,7 +20,7 @@ console.log(B.__proto__, typeof B.__proto__)
 ```
 结果如下:
 
-![图片](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/20180301112234.png)
+![图片](https://didiheng.com/Img/20180301112234.png)
 
 刚才不是说函数是对象吗？它们的proto为啥不一样？往下看，别着急。
 
@@ -36,7 +36,7 @@ console.log(B.__proto__)
 
 console.log结果如下：
 
-![图片](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/20180301112422.png)
+![图片](https://didiheng.com/Img/20180301112422.png)
 
 所以重点 **隐式原型（proto）指向构造该对象的构造函数的原型**。因为function是特殊的对象，A.prototype 就指向了函数A的原型对象。而proto指向一致。
 
@@ -49,7 +49,7 @@ console.log(A.prototype, typeof A.prototype)
 console.log(B.prototype, typeof B.prototype)
 ```
 
-![图片](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/20180301113203.png)
+![图片](https://didiheng.com/Img/20180301113203.png)
 
 **对象并不具有prototype属性，只有函数才有prototype属性**。
 

@@ -33,7 +33,7 @@
     var age = 22;
 ```
 
-![Image](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/zhanxu.png)
+![Image](https://didiheng.com/Img/zhanxu.png)
 
 栈区包括了 变量的标识符和变量的值。
 
@@ -68,7 +68,7 @@ var person3 = {name:'xiaoq'};
 ```
 则这三个对象的在内存中保存的情况如下图：
 
-![Image](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/Objduizhan.png)
+![Image](https://didiheng.com/Img/Objduizhan.png)
 
 * **3.引用类型的比较是引用的比较**
 
@@ -79,7 +79,7 @@ console.log(person1 == person2); // false
 ```
 引用类型时按引用访问的，换句话说就是比较两个对象的堆内存中的地址是否相同，那很明显，person1和person2在堆内存中地址是不同的;
 
-![Image](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/DZCompare.png)
+![Image](https://didiheng.com/Img/DZCompare.png)
 
 
 ## 对象引用
@@ -101,4 +101,4 @@ console.log(a.age);// 22
 console.log(a == b);// true
 
 ```
-![Image](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/DXyingyong.png)
+![Image](https://didiheng.com/Img/DXyingyong.png)

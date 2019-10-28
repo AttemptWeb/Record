@@ -65,7 +65,7 @@ Enter file in which to save the key (/Users/herrylo/.ssh/id_rsa): id_gitlab_rsa
 ```
 $ ls ~/.ssh 
 ```
-![ssh目录](https://raw.githubusercontent.com/HerryLo/Record/master/Img/sshDir.png)
+![ssh目录](https://didiheng.com/Img/sshDir.png)
 
 上面的 ```id_rsa_github.pub```、```id_rsa_gitlab.pub```文件即是github与gitlab需要的公钥文件
 
@@ -82,15 +82,15 @@ ssh密钥配置基本完成，上面我们生成了两个密钥，将他们添�
 
 ```config```文件是管理多个sshkey密钥的配置文件，下面我们需要修改```config```文件
 
-![ssh的config](https://raw.githubusercontent.com/HerryLo/Record/master/Img/sshConfig.png)
+![ssh的config](https://didiheng.com/Img/sshConfig.png)
 
 使用```vi```编辑查看config文件, 文件修改成如下配置即可:
 
-![config配置](https://raw.githubusercontent.com/HerryLo/Record/master/Img/configSsh.png)
+![config配置](https://didiheng.com/Img/configSsh.png)
 
 在```config```文件添加上图中的配置, 记得根据自己的文件位置和用户名修改。下面我们来试试github是否可以连接成功。
 
-![sshConnect](https://raw.githubusercontent.com/HerryLo/Record/master/Img/sshConnect.png)
+![sshConnect](https://didiheng.com/Img/sshConnect.png)
 
 当然这个只是管理gitlab和github,告诉你是连通的，基本大功告成！
 
@@ -102,7 +102,7 @@ ssh密钥配置基本完成，上面我们生成了两个密钥，将他们添�
 ```
 $ vi config
 ```
-![sshServer](https://raw.githubusercontent.com/HerryLo/Record/master/Img/sshServer.png)
+![sshServer](https://didiheng.com/Img/sshServer.png)
 
 配置完之后保存退出, 在命令行窗口输入```$ ssh VPS```，随后输入服务器密码，即可访问远程服务器。当然这是在mac系统中，如果是window系统可以使用Xshell访问。
 

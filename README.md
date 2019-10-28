@@ -1,4 +1,4 @@
-![logo](https://raw.githubusercontent.com/AttemptWeb/Record/master/Img/record1.png)
+![logo](https://didiheng.com/Img/record1.png)
 
 ---
 

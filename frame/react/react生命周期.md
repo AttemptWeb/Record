@@ -102,4 +102,4 @@ bool: true
 
 下面是我对React组件四条更新路径地总结：
 
-![](https://raw.githubusercontent.com/HerryLo/Knowledge/master/Img/react_Update.png)
+![](https://didiheng.com/Img/react_Update.png)

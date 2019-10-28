@@ -49,7 +49,7 @@ renderApp(appState)
 ```
 **renderApp** 函数运行之前，你根本不知道它们会对 **appState** 做什么事情，renderApp(appState) 的结果根本没法得到保障。**一个可以被不同模块任意修改共享的数据状态就是魔鬼**。出现问题的时候 debug 起来就非常困难，这也是老生常谈的尽量避免全局变量
 
-![img1](../../Img/CA34AC20-F3C0-438F-AD64-66C5E0986669.png)
+![img1](https://didiheng.com/Img/CA34AC20-F3C0-438F-AD64-66C5E0986669.png)
 
 那么我们需要解决这个问题。我们专门来定义一个函数，叫 dispatch，它专门负责数据的修改：
 ```javascript
@@ -75,7 +75,7 @@ dispatch({ type: 'UPDATE_CONTENT_TEXT', text: '《React.js 小书》' }) // 修�
 dispatch({ type: 'UPDATE_CONTENT_COLOR', color: 'blue' }) // 修改内容颜色
 ```
 
-![img2](../../img/7536BBF9-6563-4FD5-8359-28D3A5254EE7.png)
+![img2](https://didiheng.com/img/7536BBF9-6563-4FD5-8359-28D3A5254EE7.png)
 
 本节完整代码：
 ```javascript
