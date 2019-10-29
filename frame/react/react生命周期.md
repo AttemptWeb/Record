@@ -103,3 +103,6 @@ bool: true
 下面是我对React组件四条更新路径地总结：
 
 ![](https://didiheng.com/Img/react_Update.png)
+
+最新的react生命周期图👇下面
+![](https://pic3.zhimg.com/v2-ee102ce9ad7399fc98d56a0b7eb7efc6_r.jpg)
