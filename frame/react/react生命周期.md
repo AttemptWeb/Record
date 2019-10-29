@@ -5,19 +5,19 @@
 ## 首次实例化
 
 - [constructor()](##constructor())
-- [static getDerivedStateFromProps() **16.4 New**](##staticgetDerivedStateFromProps() 16.4New)
-- componentWillMount / UNSAFE_componentWillMount() **16.4 废弃** 
+- [static getDerivedStateFromProps() **16.4 New**](##static-getderivedstatefromprops-164-new)
+- [componentWillMount / UNSAFE_componentWillMount() **16.4 废弃**](##componentWillMount()-164废弃)
 - [render](##render())
 - [componentDidMount](##componentDidMount)
 
 ## 存在期
 **组件已存在时的状态改变**
 - ~~componentWillReceiveProps / UNSAFE_componentWillReceiveProps()~~ **16.4 废弃** 
-- static getDerivedStateFromProps() **16.4 New**
+- [static getDerivedStateFromProps() **16.4 New**](##static-getderivedstatefromprops-164-new)
 - [shouldComponentUpdate](##shouldComponentUpdate)
 - ~~componentWillUpdate / UNSAFE_componentWillUpdate()~~ **16.4 废弃** 
 - [render](##render())
-- getSnapshotBeforeUpdate **16.4 New**
+- [getSnapshotBeforeUpdate **16.4 New**](##getSnapshotBeforeUpdate())
 - [componentDidUpdate](##componentDidUpdate)
 
 ## 销毁&清理期
