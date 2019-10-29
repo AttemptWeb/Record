@@ -2,7 +2,7 @@
 
 **生命周期共提供了 ~~10~~ 个不同的API。**
 
-**首次实例化**
+## **首次实例化**
 
 - getDefaultProps 
 - getInitialState 
@@ -11,13 +11,13 @@
 - render   
 - componentDidMount
 
-**实例化完成后的更新**
+## **实例化完成后的更新**
 - getInitialState
 - componentWillMount
 - render
 - componentDidMount
 
-存在期
+### 存在期
 ---
 **组件已存在时的状态改变**
 - componentWillReceiveProps / UNSAFE_componentWillReceiveProps() **16.4将废弃** 
@@ -28,10 +28,11 @@
 - componentDidUpdate
 
 
-销毁&清理期
+### 销毁&清理期
 ------
 - componentWillUnmount
 
+## 生命周期API
 
 ## getDefaultProps
 作用于组件类，只调用一次，返回对象用于设置默认的props，对于引用值，会在实例中共享。
@@ -100,7 +101,7 @@ bool: true
 
 > 4.调用this.forceUpdate
 
-下面是我对React组件四条更新路径地总结：
+下面是我对React组件四条更新路径地总结，下面是react16之前的更新：
 
 ![](https://didiheng.com/Img/react_Update.png)
 
