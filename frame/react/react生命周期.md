@@ -6,7 +6,7 @@
 
 - [constructor()](##constructor())
 - [static getDerivedStateFromProps() **16.4 New**](##static-getderivedstatefromprops-164-new)
-- [componentWillMount / UNSAFE_componentWillMount() **16.4 废弃**](##componentWillMount()-164废弃)
+- componentWillMount / UNSAFE_componentWillMount() **16.4 废弃**
 - [render](##render())
 - [componentDidMount](##componentDidMount)
 
