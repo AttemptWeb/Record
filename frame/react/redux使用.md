@@ -1,6 +1,6 @@
 # redux
 
-![redux文档 cn](http://www.redux.org.cn/docs/introduction/ThreePrinciples.html)
+[redux文档 cn](http://www.redux.org.cn/docs/introduction/ThreePrinciples.html)
 
 redux框架依靠 ```action --> reducer 函数 --> store```,从而达到状态控制的效果。使用redux时可以有多个action，多个reducer 函数，但是只能仅有一个store。
 
