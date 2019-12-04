@@ -32,25 +32,20 @@
 ### **Recommend**
 
 > 下面的文章是经过筛选之后放入，有好的文章可以issus哦
-
+* [**【GitHub】** 前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/)
+* [**【Markdown】** redux原理解析](https://github.com/AttemptWeb/Record/issues/15)
+* [**【Markdown】** TCP的三次握手和四次挥手](https://github.com/AttemptWeb/Record/issues/10)
 * [**【Markdown】** 传输层的TCP和UDP协议](https://github.com/AttemptWeb/Record/issues/6)
 * [**【Markdown】** 图解javascript的this指向](https://github.com/AttemptWeb/Record/issues/12)
 * [**【Markdown】** 图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11)
-* [**【Markdown】** React解析 React.ReactElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
-* [**【Markdown】** React解析 React.Children(二)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
-* [**【Markdown】** React解析 render的FiberRoot(三)](https://github.com/AttemptWeb/Record/issues/9)
-
-* [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
-* [**【Markdown】** js的常见方法](./js/JsMd/js的常见方法.md)
-* [**【Markdown】** 前端面试题持续更新中](https://github.com/HerryLo/Record/blob/master/js/JsMd/%E5%B8%B8%E8%A7%81%E7%9A%84%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+----
 * [**【Markdown】** 康威定律](./other/康威定律.md)
-* [**【文章】** vue 的双向绑定](https://www.cnblogs.com/kidney/p/6052935.html?utm_source=gold_browser_extension)
-* [**【文章】** X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
+* [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
+* [**【Markdown】** 前端面试题链接](https://didiheng.com/interview/)
 * [**【Github】** 饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [**【visualgo】** 数据结构和算法动态可视化](https://visualgo.net/zh)
 * [**【Github】** 现代的Node.js 构建服务利器](https://i5ting.github.io/modern-nodejs/)
 * [**【冴羽博客强推】** JavaScript深入系列、JavaScript专题系列、ES6系列](https://github.com/mqyqingfeng/Blog)
-* [**【Juejin】** [译] JavaScript如何工作：垃圾回收机制 + 常见的4种内存泄漏](https://juejin.im/post/5ca0c8aa518825680c7cb44b)
 * [**【Github】** 当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/skyline75489/what-happens-when-zh_CN)
 
 ## **Project example**

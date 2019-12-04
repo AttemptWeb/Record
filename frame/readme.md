@@ -2,6 +2,7 @@
 * [**【Markdown】** react组件生命周期](./react/react生命周期.md)
 * [**【Markdown】** React面试问题](./react/React问题.md)
 * [**【Markdown】** redux基本使用](./react/redux使用.md)
+* [**【Markdown】** redux原理解析](https://github.com/AttemptWeb/Record/issues/15)
 * [**【Markdown】** [译] 5种方法将React类组件转换为具有React Hooks的功能组件](./react/react_hook.md)
 * [**【文章】** 有关React，你需要知道的一切](https://hateonion.github.io/react-bits-CN/)
 * [**【文章】** 聊一聊我对 React Context 的理解以及应用](https://www.jianshu.com/p/eba2b76b290b)
@@ -12,6 +13,7 @@
 * [**【Markdown】** React解析 React.ReactElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
 * [**【Markdown】** React解析 React.Children(二)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
 * [**【Markdown】** React解析 render的FiberRoot(三)](https://github.com/AttemptWeb/Record/issues/9)
+* [**【Markdown】** React解析 render的FiberRoot(三)](https://github.com/AttemptWeb/Record/issues/14)
 
 ### React插件
 * [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)

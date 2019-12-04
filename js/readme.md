@@ -8,7 +8,7 @@
 * [**【Markdown】** let与const与var的区别](./JsMd/let与const与var.md)
 * [**【Markdown】** javascript闭包的错误使用](./JsMd/闭包.md)
 * [**【Markdown】** 图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11)
-* [**【Markdown】** javascript的this指向问题](./JsMd/js中this的指向问题.md)
+* [**【Markdown】** javascript的this指向问题](https://github.com/AttemptWeb/Record/issues/12)
 * [**【Markdown】** javascript中的forEach和map](./JsMd/js中for和map和forEach.md)
 * [**【倔金】** js:面向对象编程，带你认识封装、继承和多态](https://juejin.im/post/59396c96fe88c2006afc2707)
 * [**【掘金】** [译] this（他喵的）到底是什么 — 理解 JavaScript 中的 this、call、apply 和 bind](https://juejin.im/post/5b9f176b6fb9a05d3827d03f)
@@ -17,6 +17,7 @@
 * [**【文章】** 前端路由发展及原理](https://segmentfault.com/a/1190000011967786)
 
 ### 浏览器渲染机制
+* [**【GitHub】** 前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/)
 * [**【Markdown】** 浏览器页面渲染机制](./JsMd/浏览器页面渲染机制.md)
 
 ### JS运行机制事件循环
