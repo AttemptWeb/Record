@@ -13,7 +13,7 @@
 * [**【Markdown】** React解析 React.ReactElement(一)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:ReactElement.md)
 * [**【Markdown】** React解析 React.Children(二)](https://github.com/AttemptWeb/Record/blob/master/frame/react/react%E8%A7%A3%E6%9E%90:React%20Children.md)
 * [**【Markdown】** React解析 render的FiberRoot(三)](https://github.com/AttemptWeb/Record/issues/9)
-* [**【Markdown】** React解析 render的FiberRoot(三)](https://github.com/AttemptWeb/Record/issues/14)
+* [**【Markdown】** React解析 render的update(四)](https://github.com/AttemptWeb/Record/issues/14)
 
 ### React插件
 * [**【Github】** 基于H5&dnd的拖拽/排序插件react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc)
