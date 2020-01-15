@@ -40,6 +40,7 @@
 * [**【Markdown】** 图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11)
 ----
 * [**【Markdown】** 康威定律](./other/康威定律.md)
+* [**【ZhiHu】** 认识 V8 发动机](https://zhuanlan.zhihu.com/p/27628685)
 * [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
 * [**【Markdown】** 前端面试题链接](https://didiheng.com/interview/)
 * [**【Github】** 饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
