@@ -38,11 +38,16 @@
 * [**【Markdown】** 传输层的TCP和UDP协议](https://github.com/AttemptWeb/Record/issues/6)
 * [**【Markdown】** 图解javascript的this指向](https://github.com/AttemptWeb/Record/issues/12)
 * [**【Markdown】** 图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11)
+
+---
+
+* [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
+* [**【Markdown】** 前端面试资料链接](https://didiheng.com/interview/)
+
 ----
 * [**【Markdown】** 康威定律](./other/康威定律.md)
 * [**【ZhiHu】** 认识 V8 发动机](https://zhuanlan.zhihu.com/p/27628685)
-* [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
-* [**【Markdown】** 前端面试题链接](https://didiheng.com/interview/)
+* [**【JueJin】**  浏览器页面渲染机制](https://juejin.im/post/5ca0c0abe51d4553a942c17d)
 * [**【Github】** 饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [**【visualgo】** 数据结构和算法动态可视化](https://visualgo.net/zh)
 * [**【Github】** 现代的Node.js 构建服务利器](https://i5ting.github.io/modern-nodejs/)
