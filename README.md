@@ -39,11 +39,6 @@
 * [**【Markdown】** 图解javascript的this指向](https://github.com/AttemptWeb/Record/issues/12)
 * [**【Markdown】** 图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11)
 
----
-
-* [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
-* [**【Markdown】** 前端面试资料链接](https://didiheng.com/interview/)
-
 ----
 * [**【Markdown】** 康威定律](./other/康威定律.md)
 * [**【ZhiHu】** 认识 V8 发动机](https://zhuanlan.zhihu.com/p/27628685)
@@ -53,6 +48,10 @@
 * [**【Github】** 现代的Node.js 构建服务利器](https://i5ting.github.io/modern-nodejs/)
 * [**【冴羽博客强推】** JavaScript深入系列、JavaScript专题系列、ES6系列](https://github.com/mqyqingfeng/Blog)
 * [**【Github】** 当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/skyline75489/what-happens-when-zh_CN)
+
+---
+* [**【Github】** 一些面试问题的集合](https://github.com/EastSummer/wheel_marking/blob/master/question.md)
+* [**【Markdown】** 前端面试资料链接](https://didiheng.com/interview/)
 
 ## **Project example**
 
