@@ -1,6 +1,6 @@
 ### 数据结构与算法
 
-* [**【BiliBili】** 数据结构](https://www.bilibili.com/video/av12907870/?p=5&t=1138)
+* [**【BiliBili】** 自学数据结构](https://www.bilibili.com/video/av12907870)
 
 ### JavaScript
 * [**【GitHub】** 你不懂JS（系列丛书）](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN)
