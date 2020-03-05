@@ -33,7 +33,7 @@
 |  19.10.20 | [ ] | [前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/) |
 |  19.12.20 | [ ] | [redux原理解析](https://github.com/AttemptWeb/Record/issues/15) |    
 |  19.12.29 | [ ] | [正交React组件的好处](https://didiheng.com/front/2019-12-29.html) |
-|20.03.05|[ ]|[计算机程序的构造和解释](https://www.bilibili.com/video/av8515129?p=1)|
+|  20.03.05 | [ ] | [计算机程序的构造和解释 UC伯克利python版](http://composingprograms.com/)|
 
 ## 更多
 
