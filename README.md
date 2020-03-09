@@ -33,8 +33,8 @@
 |  19.10.20 | [ ] | [前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/) |
 |  19.12.20 | [ ] | [redux原理解析](https://github.com/AttemptWeb/Record/issues/15) |    
 |  19.12.29 | [ ] | [正交React组件的好处](https://didiheng.com/front/2019-12-29.html) |
-|  20.03.05 | [ ] | [SICP UC伯克利CS61a Python版](http://composingprograms.com/)|
-|  20.03.08 | [ ] | [【译】UCB CS61a SICP Python](https://github.com/wizardforcel/sicp-py-zh)|
+|  20.03.05 | [ ] | [SICP UC伯克利 CS61A Python版](http://composingprograms.com/)|
+|  20.03.08 | [ ] | [译 SICP UC伯克利 CS61A Python版](https://github.com/wizardforcel/sicp-py-zh)|
 
 ## 更多
 
