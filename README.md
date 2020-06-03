@@ -37,6 +37,7 @@
 |  20.03.08 | [ ] | [译 SICP UC伯克利 CS61A Python版](https://github.com/wizardforcel/sicp-py-zh)|
 |  20.05.04 | [ ] | [B站 Dart Flutter入门实战视频教程](https://www.bilibili.com/video/BV1S4411E7LY/?p=01) |
 |  20.05.14 | [ ] | [Flutter 布局](https://flutter.dev/docs/development/ui/layout) |
+|  20.06.01 | [ ] | [你不知道的JavaScript 上劵](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN) |
 
 ## 更多
 
