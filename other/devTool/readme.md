@@ -1,6 +1,7 @@
 ### git
 * [**【Markdown】** git命令行](./git.md)
-* [**【文章】** git pro实践 参考资料](http://iissnan.com/progit/)
+* [**【Book】** Git Pro实践](http://iissnan.com/progit/)
+* [**【Book】** Git Document](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)
 
 ### webpack
 * [**【文档】** webpack 参考资料](https://doc.webpack-china.org/concepts/)
