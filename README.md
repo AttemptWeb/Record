@@ -33,6 +33,7 @@
 |  19.10.20 | [ ] | [前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/) |
 |  19.12.20 | ✅ | [redux原理解析](https://github.com/AttemptWeb/Record/issues/15) |    
 |  19.12.29 | ✅ | [正交React组件的好处](https://didiheng.com/front/2019-12-29.html) |
+|  20.02.02 | ✅ | [C语言数据结构](https://github.com/HerryLo/CStruct) |
 |  20.03.05 | [ ] | [SICP UC伯克利 CS61A Python版](http://composingprograms.com/)|
 |  20.03.08 | [ ] | [译 SICP UC伯克利 CS61A Python版](https://github.com/wizardforcel/sicp-py-zh)|
 |  20.05.04 | [ ] | [B站 Dart Flutter入门实战视频教程](https://www.bilibili.com/video/BV1S4411E7LY/?p=01) |
