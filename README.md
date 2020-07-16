@@ -31,7 +31,8 @@
 |  19.09.05 | ✅ | [图解javascript的this指向](https://github.com/AttemptWeb/Record/issues/12) |
 |  19.09.12 | ✅ | [图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11) |
 |  19.10.20 | [ ] | [前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/) |
-|  19.12.20 | ✅ | [redux原理解析](https://github.com/AttemptWeb/Record/issues/15) |    
+|  19.10.26 | ✅ | [redux原理解析](https://github.com/AttemptWeb/Record/issues/15) |    
+|  19.12.20 | ✅ | [react-redux代码解析](https://github.com/AttemptWeb/Record/issues/20) |    
 |  19.12.29 | ✅ | [正交React组件的好处](https://didiheng.com/front/2019-12-29.html) |
 |  20.02.02 | ✅ | [C语言数据结构](https://github.com/HerryLo/CStruct) |
 |  20.03.05 | [ ] | [SICP UC伯克利 CS61A Python版](http://composingprograms.com/)|
