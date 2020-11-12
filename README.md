@@ -43,6 +43,8 @@
 |  20.06.10 | [] | [**你不知道的JavaScript 下册**](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN) |
 |  20.07.14 | [] | [**Head First 设计模式教程*](https://www.bilibili.com/video/BV13t411e7XT?p=11) |
 |  20.09.01 | [] | [Javascript忍者秘籍（第二版）](https://book.douban.com/subject/30143702/) |
+|  20.11.01 | [] | [Javascript设计模式和开发实践）]() |
+
 
 
 ## 更多
