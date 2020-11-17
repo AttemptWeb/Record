@@ -98,7 +98,7 @@ componentDidMount()
 真实的DOM被渲染出来后调用，在该方法中可通过this.getDOMNode()访问到真实的DOM元素。此时已可以使用其他类库来操作这个DOM。**在服务端中，该方法不会被调用**
 > [生命周期：componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
-### getSnapshotBeforeUpdate()
+### getSnapshotBeforeUpdate() 16.4 New
 ```javascript
 getSnapshotBeforeUpdate(prevProps, prevState)
 ```
