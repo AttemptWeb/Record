@@ -139,5 +139,5 @@ componentWillUnmount() 会在组件卸载及销毁之前直接调用。在此方
 
 ![](https://didiheng.com/Img/react_Update.png)
 
-**react16.3生命周期图👇下面**，目前生命周期在16.4之后再次被，可以点击链接查看对比[React 生命周期图](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+**react16.3生命周期图👇下面**，目前生命周期在16.4时再次修改，可以点击链接查看对比[React 生命周期图](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 ![](https://pic3.zhimg.com/v2-ee102ce9ad7399fc98d56a0b7eb7efc6_r.jpg)
