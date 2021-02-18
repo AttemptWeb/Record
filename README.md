@@ -8,7 +8,7 @@
 
 **不是技术的创造者，只是技术的搬运工**。
 
-[掘金号：深度研究过写的文章](https://juejin.im/user/5b3ec4e9e51d4519162e2779)
+[掘金号：学习过之后写的文章](https://juejin.im/user/5b3ec4e9e51d4519162e2779)
 
 ### Recommend
 
