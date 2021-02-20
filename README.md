@@ -8,7 +8,7 @@
 
 **不是技术的创造者，只是技术的搬运工**。
 
-[掘金号：深度研究过写的文章](https://juejin.im/user/5b3ec4e9e51d4519162e2779)
+[掘金号：学习过之后写的文章](https://juejin.im/user/5b3ec4e9e51d4519162e2779)
 
 ### Recommend
 
@@ -31,12 +31,21 @@
 |  19.09.05 | ✅ | [图解javascript的this指向](https://github.com/AttemptWeb/Record/issues/12) |
 |  19.09.12 | ✅ | [图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11) |
 |  19.10.20 | [ ] | [前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/) |
-|  19.12.20 | ✅ | [redux原理解析](https://github.com/AttemptWeb/Record/issues/15) |    
+|  19.10.26 | ✅ | [redux原理解析](https://github.com/AttemptWeb/Record/issues/15) |    
+|  19.12.20 | ✅ | [react-redux代码解析](https://github.com/AttemptWeb/Record/issues/20) |    
 |  19.12.29 | ✅ | [正交React组件的好处](https://didiheng.com/front/2019-12-29.html) |
+|  20.02.02 | ✅ | [C语言数据结构](https://github.com/HerryLo/CStruct) |
 |  20.03.05 | [ ] | [SICP UC伯克利 CS61A Python版](http://composingprograms.com/)|
 |  20.03.08 | [ ] | [译 SICP UC伯克利 CS61A Python版](https://github.com/wizardforcel/sicp-py-zh)|
 |  20.05.04 | [ ] | [B站 Dart Flutter入门实战视频教程](https://www.bilibili.com/video/BV1S4411E7LY/?p=01) |
 |  20.05.14 | [ ] | [Flutter 布局](https://flutter.dev/docs/development/ui/layout) |
+|  20.06.01 | ✅ | [**你不知道的JavaScript 上册**](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN) |
+|  20.06.10 | [] | [**你不知道的JavaScript 下册**](https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN) |
+|  20.07.14 | [] | [**Head First 设计模式教程*](https://www.bilibili.com/video/BV13t411e7XT?p=11) |
+|  20.09.01 | [] | [Javascript忍者秘籍（第二版）](https://book.douban.com/subject/30143702/) |
+|  20.11.01 | [] | [Javascript设计模式和开发实践）]() |
+
+
 
 ## 更多
 

@@ -98,7 +98,7 @@ componentDidMount()
 真实的DOM被渲染出来后调用，在该方法中可通过this.getDOMNode()访问到真实的DOM元素。此时已可以使用其他类库来操作这个DOM。**在服务端中，该方法不会被调用**
 > [生命周期：componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
-### getSnapshotBeforeUpdate()
+### getSnapshotBeforeUpdate() 16.4 New
 ```javascript
 getSnapshotBeforeUpdate(prevProps, prevState)
 ```
@@ -139,5 +139,5 @@ componentWillUnmount() 会在组件卸载及销毁之前直接调用。在此方
 
 ![](https://didiheng.com/Img/react_Update.png)
 
-**最新的react生命周期图👇下面**
+**react16.3生命周期图👇下面**，目前生命周期在16.4时再次修改，可以点击链接查看对比[React 生命周期图](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 ![](https://pic3.zhimg.com/v2-ee102ce9ad7399fc98d56a0b7eb7efc6_r.jpg)

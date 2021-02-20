@@ -9,7 +9,7 @@
 
 ### React
 * [**【Blog】** React.js 小书](http://huziketang.mangojuice.top/books/react/)
-* [**【GitHub】** React-developer](https://github.com/adam-golab/react-developer-roadmap)
+* [**【GitHub】** React-developer 开发者指南](https://github.com/adam-golab/react-developer-roadmap)
 
 ### Node
 * [**【GitHub】** node简易爬虫源码](https://github.com/HerryLo/JavascriptCode/tree/master/node_reptile)
