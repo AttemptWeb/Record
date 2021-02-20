@@ -1,3 +1,10 @@
+<!--
+ * @Author: HerryLo
+ * @Date: 2021-02-20 11:20:59
+ * @LastEditTime: 2021-02-20 14:07:17
+ * @LastEditors: EastSummer
+ * @Description: 
+-->
 ### git
 * [**【Markdown】** git命令行](./git.md)
 * [**【Book】** Git Pro实践](http://iissnan.com/progit/)
@@ -5,6 +12,7 @@
 
 ### webpack
 * [**【文档】** webpack Document](https://doc.webpack-china.org/concepts/)
+* [**【Markdown】** webpack4学习笔记.md](./webpack4学习笔记.md)
 
 ### chrome插件
 * [**【Github】** json格式化插件(json-formatter)](https://github.com/callumlocke/json-formatter)

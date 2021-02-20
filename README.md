@@ -1,3 +1,10 @@
+<!--
+ * @Author: HerryLo
+ * @Date: 2021-02-20 11:20:59
+ * @LastEditTime: 2021-02-20 14:03:59
+ * @LastEditors: EastSummer
+ * @Description: 
+-->
 
 ![logo](https://didiheng.com/Img/record1.png)
 
@@ -57,13 +64,15 @@
 
 * [**JavaScript**](https://github.com/AttemptWeb/Record/tree/master/js): JS 基础、JS 前端路由、浏览器渲染机制、JS 运行机制事件循环、前端http、Web安全等
 
+* [**JavaScript**](https://github.com/AttemptWeb/Record/tree/master/js): JS 基础、JS 前端路由、浏览器渲染机制、JS 运行机制事件循环、前端http、Web安全等
+
 * [**ReactJs**](https://github.com/AttemptWeb/Record/tree/master/frame): React 基础、React 解析、React Router、React 服务端渲染
 
-* [**DevTool**](https://github.com/AttemptWeb/Record/tree/master/other/devTool): Git、Webpack、Chrome插件、Travis CI、Puppeteer
+* [**DevTool**](./other/devTool/readme.md): Git、Webpack、Chrome插件、Travis CI、Puppeteer
 
-* [**Server**](https://github.com/AttemptWeb/Record/tree/master/server): DB、Node、Nginx、Centos、Docker
+* [**Server**](./server/readme.md): DB、Node、Nginx、Centos、Docker、Rancher
 
 * [**Means 资料**](https://github.com/AttemptWeb/Record/tree/master/other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science、Data Analysis
-  
+
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
