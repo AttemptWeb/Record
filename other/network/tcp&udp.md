@@ -4,7 +4,7 @@
 
 **TCP/IP协议**， 你一定常常听到，其中**TCP（Transmission Control Protocol）称为 传输控制协议，IP（Internet Protocol） 称为网际协议**。
 
-![TCP/IP](https://didiheng.com/Img/tcp%3Aip.png)
+![TCP/IP](https://didiheng.com/Img/tcp_ip.png)
 
 事实上TCP/IP协议，是一个协议族，是一个协议的集合。
 
@@ -14,7 +14,7 @@ TCP/IP协议，定义了一整套规则。**它定义整个互联网如何连接
 
 ### 理解TCP和UDP
 
-![TCP/UDP](https://didiheng.com/Img/udp%3Atcp.png)
+![TCP/UDP](https://didiheng.com/Img/udp_tcp.png)
 既然他们是**传输层**的协议，那么他们的作用当然就是用来负责传输数据了。
 
 我们想象一个场景，网络中随意的两端要通信，会采取什么传输方式呢？
