@@ -30,6 +30,9 @@
 ### puppeteer
 * [**【工具】** puppeteer 生成页面的屏幕截图和PDF](https://pptr.dev/)
 
+### shell
+* [**【文章】** MobaXterm使用记录](https://zph-programmer.github.io/docs/linux/01-mobaXterm%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95.html)
+
 ### 其他
 
 * [**【文章】** VSCode 同步设置及扩展插件 实现设备上设置统一](https://www.cnblogs.com/kenz520/p/7416836.html)
