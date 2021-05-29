@@ -19,6 +19,7 @@
 ### 浏览器渲染机制
 * [**【GitHub】** 前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/)
 * [**【Markdown】** 浏览器页面渲染机制](./JsMd/浏览器页面渲染机制.md)
+* [**【JueJin】** 从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.cn/post/6844903553795014663)
 
 ### JS运行机制事件循环
 * [**【segmentfault】** 深入理解JS引擎的执行机制](https://segmentfault.com/a/1190000012806637)
