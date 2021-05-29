@@ -19,7 +19,7 @@
 
 ### Recommend
 
-将看过和研究输出的链接列出来
+将看过和研究输出的链接列出来，推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
 | 时间  | 完成度  |  事件 |
 |:---|:--|:--|
@@ -55,8 +55,6 @@
 
 
 ## 更多
-
-推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
 下面有整理的更多内容，希望可以帮助到你：
 
