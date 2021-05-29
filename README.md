@@ -34,7 +34,7 @@
 |  19.08.02 | ✅ | [传输层的TCP和UDP协议](https://github.com/AttemptWeb/Record/issues/6)|
 |  19.08.10 | [ ] | [认识 V8 发动机](https://zhuanlan.zhihu.com/p/27628685)|
 |  19.08.17 | ✅ | [TCP的三次握手和四次挥手](https://github.com/AttemptWeb/Record/issues/10) |
-|  19.08.02 | [ ] | [**自学数据结构视频**](https://www.bilibili.com/video/av12907870/?p=12)|
+|  19.08.02 | ✅ | [**自学数据结构视频**](https://www.bilibili.com/video/av12907870/?p=12)|
 |  19.09.05 | ✅ | [图解javascript的this指向](https://github.com/AttemptWeb/Record/issues/12) |
 |  19.09.12 | ✅ | [图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11) |
 |  19.10.20 | [ ] | [前端性能优化之旅](https://alienzhou.github.io/fe-performance-journey/) |
