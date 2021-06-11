@@ -74,3 +74,7 @@
 
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
+
+### vx备注 加群交流
+
+<img width="300" height="300" center src="https://didiheng.com/image/IMG_0574.JPG" />
