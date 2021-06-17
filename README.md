@@ -51,7 +51,7 @@
 |  20.07.14 | [] | [**Head First 设计模式教程*](https://www.bilibili.com/video/BV13t411e7XT?p=11) |
 |  20.09.01 | [] | [Javascript忍者秘籍（第二版）](https://book.douban.com/subject/30143702/) |
 |  20.11.01 | [] | [Javascript设计模式和开发实践）]() |
-|  21.06.08 | ✅ | [拉钩付费课程 修言深入浅出搞定 React）](https://kaiwu.lagou.com/course/courseInfo.htm?courseId=510&sid=20-h5Url-0&lgec_type=website&lgec_sign=86228E00A960E2EB44DCA4027393428B&buyFrom=2&pageId=1pz4#/sale) |
+|  21.06.08 | ✅ | [拉钩课程付费 修言 深入浅出搞定 React）](https://kaiwu.lagou.com/course/courseInfo.htm?courseId=510&sid=20-h5Url-0&lgec_type=website&lgec_sign=86228E00A960E2EB44DCA4027393428B&buyFrom=2&pageId=1pz4#/sale) |
 
 ## 更多
 
