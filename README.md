@@ -49,7 +49,7 @@
 |  20.09.01 | [] | [Javascript忍者秘籍（第二版）](https://book.douban.com/subject/30143702/) |
 |  20.11.01 | [] | [Javascript设计模式和开发实践](https://book.douban.com/subject/26382780/) |
 |  21.06.08 | ✅ | [拉钩课程付费 修言 深入浅出搞定 React](https://kaiwu.lagou.com/course/courseInfo.htm?courseId=510&sid=20-h5Url-0&lgec_type=website&lgec_sign=86228E00A960E2EB44DCA4027393428B&buyFrom=2&pageId=1pz4#/sale) |
-|  22.05.05 | ✅ | [掘金号：学习过之后写的文章](https://juejin.im/user/5b3ec4e9e51d4519162e2779) |
+|  22.05.05 | ✅ | [掘金号：学习过之后写的文章](https://juejin.cn/user/430664289365608/posts) |
 
 ## 更多
 
