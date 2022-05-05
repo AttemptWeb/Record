@@ -15,7 +15,6 @@
 
 **不是技术的创造者，只是技术的搬运工**。
 
-### Recommend
 
 将看过和研究输出的链接列出来，推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
 
