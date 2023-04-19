@@ -11,10 +11,7 @@
 
 **不是技术的创造者，只是技术的搬运工**。
 
-
-将看过和研究输出的链接列出来，推荐 [X-Y Problem 问题](https://coolshell.cn/articles/10804.html)
-
-博客文章移步[issues](https://github.com/AttemptWeb/Record/issues)
+**博客文章移步———>[issues博文](https://github.com/AttemptWeb/Record/issues)**
 
 下面有整理的更多内容，希望可以帮助到你：~~
 * [**Css**](https://github.com/AttemptWeb/Record/tree/master/css): animation动画、css 特性
@@ -23,8 +20,6 @@
 * [**DevTool**](./other/devTool/readme.md): Git、Webpack、Chrome插件、Travis CI、Puppeteer
 * [**Server**](./server/readme.md): DB、Node、Nginx、Centos、Docker、Rancher
 * [**Means 资料**](https://github.com/AttemptWeb/Record/tree/master/other/learn): JavaScript、React、Node、Nginx、Java、Docker、Computer Science、Data Analysis
-
-
 
 
 | 时间  | 完成度  |  事件 |
@@ -61,7 +56,7 @@
 |  22.05.05 | ✅ | [掘金号：学习过之后写的文章](https://juejin.cn/user/430664289365608/posts) |
 |  22.10.25 | ✅ | [2022前端开发知识总结归纳](https://juejin.cn/post/7160491601679089694) |
 |  23.01.25 | ✅ | [你知道，前端工程部署有哪些方式嘛？](https://juejin.cn/post/7187582297124634680) |
-|  23.10.25 | ✅ | [2022前端开发知识总结归纳](https://juejin.cn/post/7160491601679089694) |
+|  23.03.25 | ✅ | [浅读-《深入浅出Nodejs》](https://juejin.cn/post/7216133455296561211) |
 
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
