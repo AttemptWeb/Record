@@ -58,5 +58,12 @@
 |  23.01.25 | ✅ | [你知道，前端工程部署有哪些方式嘛？](https://juejin.cn/post/7187582297124634680) |
 |  23.03.25 | ✅ | [浅读-《深入浅出Nodejs》](https://juejin.cn/post/7216133455296561211) |
 
+
+## Thank
+
+[@EastSummer EastSummer](https://github.com/EastSummer)
+[@HerryLo Herrylo](https://github.com/HerryLo)
+
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
+
