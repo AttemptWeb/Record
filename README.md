@@ -60,10 +60,7 @@
 
 
 ## Thank
-
-[@EastSummer EastSummer](https://github.com/EastSummer)
-
-[@HerryLo Herrylo](https://github.com/HerryLo)
+![@EastSummer EastSummer](https://avatars.githubusercontent.com/EastSummer?size=80)  ![@HerryLo Herrylo](https://avatars.githubusercontent.com/Herrylo?size=80)
 
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
