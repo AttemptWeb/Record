@@ -10,6 +10,8 @@
 ### DB
 * [**【Markdown】** mongodb基本配置与操作](./mongodb基本配置与操作.md)
 * [**【BiliBili】** mongodb基本视频教程](https://www.bilibili.com/video/av21989676?from=search&seid=9180383084307875591)
+* [**【Sqlbolt】** Sqlbolt自学教程](https://sqlbolt.com/)
+* [**【JueJin】** SQL查询基础](https://juejin.cn/post/7063347522835578894)
 
 ### Centos
 * [**【Markdown】** centos 命令行操作](./CentOS6命令行.md)
