@@ -8,6 +8,7 @@
 * [**【Markdown】** let与const与var的区别](./JsMd/let与const与var.md)
 * [**【Markdown】** javascript闭包的错误使用](./JsMd/闭包.md)
 * [**【Markdown】** 图解javascript原型链](https://github.com/AttemptWeb/Record/issues/11)
+* [**【Markdown】** 图解javascript作用域](https://github.com/AttemptWeb/Record/issues/39)
 * [**【Markdown】** javascript的this指向问题](https://github.com/AttemptWeb/Record/issues/12)
 * [**【Markdown】** javascript中的forEach和map](./JsMd/js中for和map和forEach.md)
 * [**【倔金】** js:面向对象编程，带你认识封装、继承和多态](https://juejin.im/post/59396c96fe88c2006afc2707)
