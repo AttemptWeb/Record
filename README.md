@@ -62,6 +62,10 @@
 ## Thank
 ![@EastSummer EastSummer](https://avatars.githubusercontent.com/EastSummer?size=80)  ![@HerryLo Herrylo](https://avatars.githubusercontent.com/Herrylo?size=80)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AttemptWeb/Record&type=Date)](https://star-history.com/#AttemptWeb/Record&Date)
+
 ## License
 [MIT](https://github.com/HerryLo/Record/blob/master/LICENSE)
 
