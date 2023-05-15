@@ -24,6 +24,7 @@
 
 | 时间  | 完成度  |  事件 |
 |:---|:--|:--|
+|  18.01.12 | ✅ | [**X-Y Problem 问题**](https://coolshell.cn/articles/10804.html)|
 |  18.04.13 | ✅ | [康威定律](./other/康威定律.md)|
 |  18.06.06 | ✅ | [浏览器页面渲染机制](https://juejin.im/post/5ca0c0abe51d4553a942c17d) |
 |  18.10.18 | [ ] | [当你在浏览器中输入 google.com 并且按下回车之后发生了什么](https://github.com/skyline75489/what-happens-when-zh_CN) |
